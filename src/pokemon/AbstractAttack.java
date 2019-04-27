@@ -4,8 +4,9 @@ package pokemon;
  * Base class for all the attacks. This contains the methods to access the attack's properties, like
  * it's name and base damage.
  *
- * @author Ignacio Slater Muñoz
+ *  @author Romina Rodríguez
  */
+
 public abstract class AbstractAttack implements IAttack {
 
     private int baseDamage;
@@ -23,11 +24,21 @@ public abstract class AbstractAttack implements IAttack {
     }
 
     //region Properties
+    /**
+     * Getter for the base damage.
+     *
+     * @return Base damage of the attack.
+     */
     @Override
     public int getBaseDamage() {
         return baseDamage;
     }
 
+    /**
+     * Getter for the attack's name.
+     *
+     * @return Name of the attack.
+     */
     @Override
     public String getName() {
         return name;

@@ -8,6 +8,8 @@ import java.util.List;
 
 /**
  * Class that represents a grass type Pokémon.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class GrassPokemon extends AbstractPokemon {
@@ -23,10 +25,23 @@ public class GrassPokemon extends AbstractPokemon {
         super(number, hp, attackList);
     }
 
+    /**
+     * Receives a water type attack.
+     * {@inheritDoc}
+     *
+     * @param attack water type attack received.
+     */
+    @Override
     public void receiveWaterAttack(WaterAttack attack) {
         receiveResistantAttack(attack);
     }
 
+    /**
+     * Receives a fire type attack.
+     * {@inheritDoc}
+     *
+     * @param attack fire type attack received.
+     */
     @Override
     public void receiveFireAttack(FireAttack attack) {
         receiveWeaknessAttack(attack);

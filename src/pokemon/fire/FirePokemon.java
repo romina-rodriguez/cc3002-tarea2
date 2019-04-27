@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * Class that represents a fire type Pokémon.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class FirePokemon extends AbstractPokemon {
@@ -22,6 +24,12 @@ public class FirePokemon extends AbstractPokemon {
         super(number, hp, attackList);
     }
 
+    /**
+     * Receives a water type attack.
+     * {@inheritDoc}
+     *
+     * @param attack water type attack received.
+     */
     @Override
     public void receiveWaterAttack(WaterAttack attack) {
         receiveWeaknessAttack(attack);

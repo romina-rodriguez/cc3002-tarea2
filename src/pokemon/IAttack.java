@@ -3,6 +3,8 @@ package pokemon;
 /**
  * Common interface for all the attacks. Every attack has a name and a base damage, and should be
  * able to damage a Pokémon.
+ *
+ *  @author Romina Rodríguez
  */
 
 public interface IAttack {

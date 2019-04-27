@@ -5,13 +5,16 @@ import pokemon.IPokemon;
 
 /**
  * This class defines the logic of a grass type attack.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class GrassAttack extends AbstractAttack {
 
     /**
      * Creates a new grass type attack.
-     * @param name Attack name
+     *
+     * @param name       Attack name
      * @param baseDamage Base damage of the attack
      */
     public GrassAttack(String name, int baseDamage) {
@@ -29,6 +32,12 @@ public class GrassAttack extends AbstractAttack {
         other.receiveGrassAttack(this);
     }
 
+    /**
+     * Checks if this attack is equal to another.
+     *
+     * @param obj Object to compare this attack.
+     * @return <code>true</code> if the objects are equal, <code>false</code> otherwise.
+     */
     @Override
     public boolean equals(Object obj) {
         return obj instanceof GrassAttack && super.equals(obj);

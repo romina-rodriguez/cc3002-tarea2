@@ -8,6 +8,12 @@ import pokemon.electric.ElectricAttack;
 import pokemon.water.WaterAttack;
 import java.util.List;
 
+/**
+ * Common interface for all the Pokémon. Every Pokémon has a number, hit points and a list of attacks.
+ *
+ *  @author Romina Rodríguez
+ */
+
 public interface IPokemon {
 
     //region Properties

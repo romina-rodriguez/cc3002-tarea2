@@ -5,6 +5,8 @@ import pokemon.IPokemon;
 
 /**
  * This class defines the logic of a fire type attack.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class FireAttack extends AbstractAttack {
@@ -30,6 +32,12 @@ public class FireAttack extends AbstractAttack {
         other.receiveFireAttack(this);
     }
 
+    /**
+     * Checks if this attack is equal to another.
+     *
+     * @param obj Object to compare this attack.
+     * @return <code>true</code> if the objects are equal, <code>false</code> otherwise.
+     */
     @Override
     public boolean equals(Object obj) {
         return obj instanceof FireAttack && super.equals(obj);

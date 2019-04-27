@@ -5,6 +5,8 @@ import pokemon.IPokemon;
 
 /**
  * This class defines the logic of a psychic type attack.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class PsychicAttack extends AbstractAttack {
@@ -29,6 +31,12 @@ public class PsychicAttack extends AbstractAttack {
         other.receivePsychicAttack(this);
     }
 
+    /**
+     * Checks if this attack is equal to another.
+     *
+     * @param obj Object to compare this attack.
+     * @return <code>true</code> if the objects are equal, <code>false</code> otherwise.
+     */
     @Override
     public boolean equals(Object obj) {
         return obj instanceof PsychicAttack && super.equals(obj);

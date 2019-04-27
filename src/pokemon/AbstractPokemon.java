@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * Abstract class that represents a generic Pokémon. This class contains the necessary methods to
- * attack and receive damage, and definitions to get the properties of each Pokémon, like its name
+ * attack and receive damage, and definitions to get the properties of each Pokémon, like its number
  * and hp.
  */
 
@@ -101,24 +101,46 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     //region Properties
+
+    /**
+     * Getter for the Pokémon's number.
+     *
+     * @return Pokémon's number.
+     */
     @Override
     public int getNumber() {
         return number;
     }
 
+    /**
+     * Getter for the Pokémon's HP.
+     *
+     * @return Pokémon's hit points
+     */
     @Override
     public int getHP() {
         return hp;
     }
 
+    /**
+     * Getter for the list of Pokémon attacks.
+     *
+     * @return List with all the Pokémon attacks.
+     */
     @Override
     public List<IAttack> getAttacks() {
         return attackList;
     }
 
+    /**
+     * Getter for the selected Pokémon attack.
+     *
+     * @return The current selected attack.
+     */
     @Override
     public IAttack getSelectedAttack() {
         return selectedAttack;
     }
+
     //endregion
 }

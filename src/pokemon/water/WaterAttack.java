@@ -5,6 +5,8 @@ import pokemon.IPokemon;
 
 /**
  * This class defines the logic of a water type attack.
+ *
+ *  @author Romina Rodríguez
  */
 
 public class WaterAttack extends AbstractAttack {
@@ -25,6 +27,12 @@ public class WaterAttack extends AbstractAttack {
         other.receiveWaterAttack(this);
     }
 
+    /**
+     * Checks if an object is equal to an ElectricAttack
+     * {@inheritDoc}
+     *
+     * @param obj Object to compare
+     */
     @Override
     public boolean equals(Object obj) {
         return obj instanceof WaterAttack && super.equals(obj);
