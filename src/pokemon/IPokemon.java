@@ -40,6 +40,13 @@ public interface IPokemon {
     //endregion
 
     /**
+     * Checks whether the Pokémon is dead or not.
+     *
+     * @return true if the pokemon is dead, false if not.
+     */
+    boolean isDead();
+
+    /**
      * Attacks another Pokémon.
      *
      * @param other Target of the attack.

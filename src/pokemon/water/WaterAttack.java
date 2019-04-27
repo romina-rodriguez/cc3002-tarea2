@@ -1,7 +1,10 @@
 package pokemon.water;
 
 import pokemon.AbstractAttack;
+import pokemon.IAttack;
 import pokemon.IPokemon;
+
+import java.util.List;
 
 /**
  * This class defines the logic of a water type attack.
@@ -15,11 +18,13 @@ public class WaterAttack extends AbstractAttack {
      * Creates a new water type attack.
      * {@inheritDoc}
      *
-     * @param name Attack's name.
-     * @param baseDamage Attack's base damage.
+     * @param name       Attack name
+     * @param baseDamage Base damage of the attack
+     * @param description Description of the attack
+     * @param attackListRequired Cost of the attack
      */
-    public WaterAttack(String name, int baseDamage) {
-        super(name, baseDamage);
+    public WaterAttack(String name, int baseDamage, String description, List<IAttack> attackListRequired) {
+        super(name, baseDamage, description, attackListRequired);
     }
 
     @Override

@@ -75,6 +75,10 @@ public abstract class AbstractPokemon implements IPokemon {
         receiveAttack(attack);
     }
 
+    @Override
+    public boolean isDead() {
+        return hp == 0;
+    }
 
     /**
      * Receives an attack.

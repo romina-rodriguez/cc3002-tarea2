@@ -1,7 +1,10 @@
 package pokemon.psychic;
 
 import pokemon.AbstractAttack;
+import pokemon.IAttack;
 import pokemon.IPokemon;
+
+import java.util.List;
 
 /**
  * This class defines the logic of a psychic type attack.
@@ -13,11 +16,14 @@ public class PsychicAttack extends AbstractAttack {
 
     /**
      * Creates a new psychic type attack.
-     * @param name Attack name
+     *
+     * @param name       Attack name
      * @param baseDamage Base damage of the attack
+     * @param description Description of the attack
+     * @param attackListRequired Cost of the attack
      */
-    public PsychicAttack(String name, int baseDamage) {
-        super(name, baseDamage);
+    public PsychicAttack(String name, int baseDamage, String description, List<IAttack> attackListRequired) {
+        super(name, baseDamage, description, attackListRequired);
     }
 
     /**
