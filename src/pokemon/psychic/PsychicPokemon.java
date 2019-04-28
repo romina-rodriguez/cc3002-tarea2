@@ -2,26 +2,30 @@ package pokemon.psychic;
 
 import pokemon.AbstractPokemon;
 import pokemon.IAttack;
+import pokemon.IEnergy;
 import pokemon.fighting.FightingAttack;
-import java.util.List;
+
+import java.util.ArrayList;
 
 /**
  * Class that represents a psychic type Pokémon.
  *
  *  @author Romina Rodríguez
  */
-
 public class PsychicPokemon extends AbstractPokemon {
 
     /**
      * Creates a new psychic Pokémon.
      *
+     * @param name Pokémon's name.
      * @param number  Pokémon's number.
      * @param hp  Pokémon's hit points.
      * @param attackList  Pokémon's attacks.
+     * @param energyList Pokémon's energies.
      */
-    public PsychicPokemon(int number, int hp, List<IAttack> attackList) {
-        super(number, hp, attackList);
+    public PsychicPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+                          ArrayList<IEnergy> energyList) {
+        super(name, number, hp, attackList, energyList);
     }
 
     /**

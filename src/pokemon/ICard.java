@@ -16,9 +16,10 @@ public interface ICard {
     //endregion
 
     /**
-     * Trainer uses a card in combat.
+     * Trainer uses a card.
      *
-     * @param card Card chosen by trainer.
+     * @param trainer trainer that chose the card.
+     * //@param card Card that was selected.
      */
-    void useCard(ICard card);
+    void useCard(Trainer trainer);
 }

@@ -7,7 +7,7 @@ import pokemon.psychic.PsychicAttack;
 import pokemon.electric.ElectricAttack;
 import pokemon.water.WaterAttack;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Abstract class that represents a generic Pokémon. This class contains the necessary methods to
@@ -18,22 +18,63 @@ import java.util.List;
  */
 public abstract class AbstractPokemon implements IPokemon {
 
+    private String name;
     private int number;
     private int hp;
-    private List<IAttack> attackList;
+    private ArrayList<IAttack> attackList; //max 4 different attacks.
     private IAttack selectedAttack;
+    private ArrayList<IEnergy> energyList;
 
     /**
      * Creates a new Pokémon.
      *
-     * @param number  Pokémon's number.
-     * @param hp  Pokémon's hit points.
-     * @param attackList  Pokémon's attacks.
+     * @param name       Pokémon's name.
+     * @param number     Pokémon's number.
+     * @param hp         Pokémon's hit points.
+     * @param attackList Pokémon's attacks.
+     * @param energyList Pokémon's energies.
      */
-    protected AbstractPokemon(int number, int hp, List<IAttack> attackList) {
+    protected AbstractPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+                              ArrayList<IEnergy> energyList) {
+        this.name = name;
         this.number = number;
         this.hp = hp;
         this.attackList = attackList;
+        this.energyList = energyList;
+    }
+
+    @Override
+    public void useCard(Trainer trainer){
+        usePokemonCard(trainer, this);
+    }
+
+    @Override
+    public void usePokemonCard(Trainer trainer, IPokemon pokemon){
+        ArrayList<IPokemon> pokemonBench = trainer.getPokemonBench();
+        IPokemon activePokemon = trainer.getActivePokemon();
+        if(pokemonBench.size() < 5) {
+            addToBench(trainer, pokemon);
+        }
+        if(activePokemon.isDead()){
+            IPokemon newActivePokemon = pokemonBench.get(0);
+            promoteToActive(trainer, newActivePokemon);
+        }
+    }
+
+    @Override
+    public void addToBench(Trainer trainer, IPokemon pokemon){
+        ArrayList<IPokemon> pokemonBench = trainer.getPokemonBench();
+        pokemonBench.add(pokemon);
+    }
+
+    @Override
+    public void promoteToActive(Trainer trainer, IPokemon pokemon){
+        trainer.setActivePokemon(pokemon);
+    }
+
+    @Override
+    public boolean isDead() {
+        return hp == 0;
     }
 
     @Override
@@ -43,7 +84,10 @@ public abstract class AbstractPokemon implements IPokemon {
 
     @Override
     public void attack(IPokemon other) {
-        selectedAttack.attack(other);
+        ArrayList<IEnergy> cost = selectedAttack.getEnergyListRequired();
+        if(energyList.containsAll(cost)) {
+            selectedAttack.attack(other);
+        }
     }
 
     @Override
@@ -74,11 +118,6 @@ public abstract class AbstractPokemon implements IPokemon {
     @Override
     public void receiveElectricAttack(ElectricAttack attack) {
         receiveAttack(attack);
-    }
-
-    @Override
-    public boolean isDead() {
-        return hp == 0;
     }
 
     /**
@@ -113,7 +152,7 @@ public abstract class AbstractPokemon implements IPokemon {
      */
     @Override
     public String getCardName() {
-        return String.valueOf(number);
+        return name;
     }
 
     /**
@@ -124,6 +163,11 @@ public abstract class AbstractPokemon implements IPokemon {
     @Override
     public int getNumber() {
         return number;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 
     /**
@@ -142,7 +186,7 @@ public abstract class AbstractPokemon implements IPokemon {
      * @return List with all the Pokémon attacks.
      */
     @Override
-    public List<IAttack> getAttacks() {
+    public ArrayList<IAttack> getAttacks() {
         return attackList;
     }
 
@@ -156,5 +200,14 @@ public abstract class AbstractPokemon implements IPokemon {
         return selectedAttack;
     }
 
+    @Override
+    /**
+     * Getter for the list of Pokémon energies.
+     *
+     * @return List with all the Pokémon energies.
+     */
+    public ArrayList<IEnergy> getEnergies(){
+        return energyList;
+    }
     //endregion
 }

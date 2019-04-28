@@ -1,6 +1,6 @@
 package pokemon;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Base class for all the attacks. This contains the methods to access the attack's properties, like
@@ -14,7 +14,7 @@ public abstract class AbstractAttack implements IAttack {
     private int baseDamage;
     private String name;
     private String description;
-    private List<IAttack> attackListRequired;
+    private ArrayList<IEnergy> energyListRequired;
 
     /**
      * Creates a new attack.
@@ -22,13 +22,13 @@ public abstract class AbstractAttack implements IAttack {
      * @param name Attack name
      * @param baseDamage Base damage of the attack
      * @param description Description of the attack
-     * @param attackListRequired Cost of the attack
+     * @param energyListRequired Cost of the attack
      */
-    protected AbstractAttack(String name, int baseDamage, String description, List<IAttack> attackListRequired) {
+    protected AbstractAttack(String name, int baseDamage, String description, ArrayList<IEnergy> energyListRequired) {
         this.baseDamage = baseDamage;
         this.name = name;
         this.description = description;
-        this.attackListRequired = attackListRequired;
+        this.energyListRequired = energyListRequired;
     }
 
     //region Properties
@@ -63,20 +63,20 @@ public abstract class AbstractAttack implements IAttack {
     }
 
     /**
-     * Getter for the list of Pokémon attacks required to use an attack.
+     * Getter for the list of energies required to use an attack.
      *
-     * @return List with all the Pokémon attacks.
+     * @return List with all the energies.
      */
     @Override
-    public List<IAttack> getAttackListRequired() {
-        return attackListRequired;
+    public ArrayList<IEnergy> getEnergyListRequired() {
+        return energyListRequired;
     }
     //endregion
 
     /**
      * Checks if this attack is equal to another.
      *
-     * @param obj Object to compare this attack.
+     * @param obj Object to compare this attack to.
      * @return <code>true</code> if the objects are equal, <code>false</code> otherwise.
      */
     @Override

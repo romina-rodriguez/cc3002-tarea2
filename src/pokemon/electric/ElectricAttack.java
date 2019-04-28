@@ -1,17 +1,16 @@
 package pokemon.electric;
 
 import pokemon.AbstractAttack;
-import pokemon.IAttack;
+import pokemon.IEnergy;
 import pokemon.IPokemon;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * This class defines the logic of an electric type attack.
  *
  *  @author Romina Rodríguez
  */
-
 public class ElectricAttack extends AbstractAttack {
 
     /**
@@ -20,14 +19,14 @@ public class ElectricAttack extends AbstractAttack {
      * @param name       Attack name
      * @param baseDamage Base damage of the attack
      * @param description Description of the attack
-     * @param attackListRequired Cost of the attack
+     * @param energyListRequired Cost of the attack
      */
-    public ElectricAttack(String name, int baseDamage, String description, List<IAttack> attackListRequired) {
-        super(name, baseDamage, description, attackListRequired);
+    public ElectricAttack(String name, int baseDamage, String description, ArrayList<IEnergy> energyListRequired) {
+        super(name, baseDamage, description, energyListRequired);
     }
 
     /**
-     * Performs a electric type attack.
+     * Performs an electric type attack.
      * {@inheritDoc}
      *
      * @param other Pokémon that receives the attack.

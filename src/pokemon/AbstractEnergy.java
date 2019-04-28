@@ -1,5 +1,7 @@
 package pokemon;
 
+import java.util.ArrayList;
+
 /**
  * Abstract class that represents the energies. This class contains the
  * definitions to get the properties of each energy, like its type.
@@ -8,7 +10,7 @@ package pokemon;
  */
 public class AbstractEnergy implements IEnergy {
 
-    private String type;
+    private String type; //doubles as energy name.
 
     /**
      * Creates a new energy.
@@ -17,6 +19,18 @@ public class AbstractEnergy implements IEnergy {
      */
     public AbstractEnergy(String type){
         this.type = type;
+    }
+
+    @Override
+    public void useCard(Trainer trainer){
+        IPokemon activePokemon = trainer.getActivePokemon();
+        useEnergyCard(activePokemon, this);
+    }
+
+    @Override
+    public void useEnergyCard(IPokemon activePokemon, IEnergy energy){
+        ArrayList<IEnergy> activePokemonEnergyList = activePokemon.getEnergies();
+        activePokemonEnergyList.add(energy);
     }
 
     //region Properties

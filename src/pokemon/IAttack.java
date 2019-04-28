@@ -1,9 +1,9 @@
 package pokemon;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
- * Common interface for all the attacks. Every attack has a name and a base damage, and should be
+ * Common interface for all the attacks (abilities). Every attack has a name and a base damage, and should be
  * able to damage a Pokémon.
  *
  *  @author Romina Rodríguez
@@ -35,8 +35,8 @@ public interface IAttack {
     String getDescription();
 
     /**
-     * @return List with all the Pokémon attacks.
+     * @return List with all the energies required to do an attack.
      */
-    List<IAttack> getAttackListRequired();
+    ArrayList<IEnergy> getEnergyListRequired();
     //endregion
 }

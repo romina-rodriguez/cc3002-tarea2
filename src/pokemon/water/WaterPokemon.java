@@ -2,28 +2,32 @@ package pokemon.water;
 
 import pokemon.AbstractPokemon;
 import pokemon.IAttack;
+import pokemon.IEnergy;
 import pokemon.fighting.FightingAttack;
 import pokemon.electric.ElectricAttack;
 import pokemon.grass.GrassAttack;
-import java.util.List;
+
+import java.util.ArrayList;
 
 /**
  * Class that represents a water type Pokémon.
  *
  *  @author Romina Rodríguez
  */
-
 public class WaterPokemon extends AbstractPokemon {
 
     /**
      * Creates a new water Pokémon.
      *
+     * @param name Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
      * @param attackList Pokémon's attacks.
+     * @param energyList Pokémon's energies.
      */
-    public WaterPokemon(int number, int hp, List<IAttack> attackList) {
-        super(number, hp, attackList);
+    public WaterPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+                        ArrayList<IEnergy> energyList) {
+        super(name, number, hp, attackList, energyList;
     }
 
     /**

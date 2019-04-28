@@ -6,7 +6,7 @@ import pokemon.grass.GrassAttack;
 import pokemon.psychic.PsychicAttack;
 import pokemon.electric.ElectricAttack;
 import pokemon.water.WaterAttack;
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Common interface for all the Pokémon. Every Pokémon has a number, hit points and a list of attacks.
@@ -15,27 +15,29 @@ import java.util.List;
  */
 public interface IPokemon extends ICard {
 
-    //region Properties
     /**
-     * @return Pokémon's number.
+     * Trainer uses a Pokemon Card in combat.
+     *
+     * @param trainer trainer that chose the card.
+     * @param pokemonCard Pokémon card selected.
      */
-    int getNumber();
+    void usePokemonCard(Trainer trainer, IPokemon pokemonCard);
 
     /**
-     * @return Pokémon's hit points
+     * Adds a Pokémon to the trainer's bench if a spot is available.
+     *
+     * @param trainer trainer that chose the card.
+     * @param pokemonCard Pokémon card selected.
      */
-    int getHP();
+    void addToBench(Trainer trainer, IPokemon pokemonCard);
 
     /**
-     * @return List with all the Pokémon attacks.
+     * Once the current active Pokémon dies, another one must be promoted from the bench if available.
+     *
+     * @param trainer trainer that chose the card.
+     * @param pokemonCard Pokémon card selected.
      */
-    List<IAttack> getAttacks();
-
-    /**
-     * @return The current selected attack.
-     */
-    IAttack getSelectedAttack();
-    //endregion
+    void promoteToActive(Trainer trainer, IPokemon pokemonCard);
 
     /**
      * Checks whether the Pokémon is dead or not.
@@ -99,4 +101,36 @@ public interface IPokemon extends ICard {
      * @param attack Received attack.
      */
     void receivePsychicAttack(PsychicAttack attack);
+
+    //region Properties
+    /**
+     * @return Pokémon's number.
+     */
+    int getNumber();
+
+    /**
+     * @return Pokémon's name.
+     */
+    String getName();
+
+    /**
+     * @return Pokémon's hit points
+     */
+    int getHP();
+
+    /**
+     * @return List with all the Pokémon attacks.
+     */
+    ArrayList<IAttack> getAttacks();
+
+    /**
+     * @return The current selected attack.
+     */
+    IAttack getSelectedAttack();
+
+    /**
+     * @return List with all the Pokémon energies.
+     */
+    ArrayList<IEnergy> getEnergies();
+    //endregion
 }

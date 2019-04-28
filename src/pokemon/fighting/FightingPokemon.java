@@ -2,27 +2,31 @@ package pokemon.fighting;
 
 import pokemon.AbstractPokemon;
 import pokemon.IAttack;
+import pokemon.IEnergy;
 import pokemon.grass.GrassAttack;
 import pokemon.psychic.PsychicAttack;
-import java.util.List;
+
+import java.util.ArrayList;
 
 /**
  * Class that represents a fighting type Pokémon.
  *
  *  @author Romina Rodríguez
  */
-
 public class FightingPokemon extends AbstractPokemon {
 
     /**
      * Creates a new fighting Pokémon.
      *
+     * @param name Pokémon's name.
      * @param number  Pokémon's number.
      * @param hp  Pokémon's hit points.
      * @param attackList  Pokémon's attacks.
+     * @param energyList Pokémon's energies.
      */
-    public FightingPokemon(int number, int hp, List<IAttack> attackList) {
-        super(number, hp, attackList);
+    public FightingPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+                           ArrayList<IEnergy> energyList){
+        super(name, number, hp, attackList, energyList);
     }
 
     /**
