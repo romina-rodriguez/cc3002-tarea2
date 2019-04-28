@@ -13,8 +13,9 @@ import java.util.List;
  * Abstract class that represents a generic Pokémon. This class contains the necessary methods to
  * attack and receive damage, and definitions to get the properties of each Pokémon, like its number
  * and hp.
+ *
+ * @author Romina Rodríguez
  */
-
 public abstract class AbstractPokemon implements IPokemon {
 
     private int number;
@@ -105,6 +106,15 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     //region Properties
+    /**
+     * Getter for the Pokémon Card's name.
+     *
+     * @return Card's name.
+     */
+    @Override
+    public String getCardName() {
+        return String.valueOf(number);
+    }
 
     /**
      * Getter for the Pokémon's number.

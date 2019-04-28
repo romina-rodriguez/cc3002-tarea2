@@ -9,7 +9,6 @@ import java.util.List;
  *  @author Romina Rodríguez
  *
  */
-
 public abstract class AbstractAttack implements IAttack {
 
     private int baseDamage;

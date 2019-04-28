@@ -13,11 +13,9 @@ import java.util.List;
  *
  *  @author Romina Rodríguez
  */
-
-public interface IPokemon {
+public interface IPokemon extends ICard {
 
     //region Properties
-
     /**
      * @return Pokémon's number.
      */
