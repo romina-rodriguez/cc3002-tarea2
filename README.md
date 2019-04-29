@@ -7,7 +7,7 @@ The Trainer must be able to use said cards in a fight by drawing them from their
 
 As previoustly mentioned, a card can be an instance of a Pokémon Card, and there also exists Enery Cards (6 types for both cards: electric, fighting, psychic, fire, water, grass).
 
-A Pokémon card's main purpose is to keep track of its health point and store the different energies that the trainer obtains from de the deck (by drawing Energy Cards) to unlock different attacks (each attack has an enery cost), that will behave differently depending on whether the Pokémon that recieves it is weak or resistant against said attack, as shown in the table below.
+A Pokémon card's main purpose is to keep track of its health points and store the different energies that the trainer obtains from de the deck (by drawing Energy Cards) to unlock different attacks (each attack has an enery cost), that will behave differently depending on whether the Pokémon that recieves it is weak or resistant against said attack, as shown in the table below.
 
 | Type          | Weakness              | Resistance  |
 | ------------- |:---------------------:| -----------:|
@@ -18,7 +18,7 @@ A Pokémon card's main purpose is to keep track of its health point and store th
 | Fighting      | Psychic, Grass        |             |
 | Psychic       | Psychic               | Fighting    |
 
-For this instance, when the active Pokémon dies (its health point equal zero), the trainer's active Pokémon should be replaced by the first one on the trainer's bench, and we don't concern ourselves with the case in wich the trainer doesn't have any Pokémon to promote to active, wich is of course when said trainer loses the game.
+For this instance, when the active Pokémon dies (its health points equal zero), the trainer's active Pokémon should be replaced by the first one on the trainer's bench, and we don't concern ourselves with the case in wich the trainer doesn't have any Pokémon to promote to active, wich is of course when said trainer loses the game.
 When working with multiple classes that share several methods, an efective design uses Interfaces and Abstract Classes, which is what was done here. The interfaces, abstract classes and classes are as follows:
 
 * ICard
