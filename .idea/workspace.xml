@@ -19,18 +19,19 @@
     <session id="-446391600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JAVA/" value="2" />
-          <entry key="JAVA/pokemon" value="1" />
+          <entry key="JAVA/pokemon" value="2" />
           <entry key="Things to do" value="2" />
           <entry key="groovy" value="1" />
           <entry key="java" value="549" />
@@ -41,7 +42,7 @@
           <entry key="JAVA" value="549" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
-          <entry key="UML" value="3" />
+          <entry key="UML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,167 +71,169 @@
               <ID>JAVA</ID>
               <OriginalElement>pokemon</OriginalElement>
               <nodes>
-                <node x="5.625" y="763.0">pokemon.AbstractAttack</node>
-                <node x="137.0" y="1257.0">pokemon.electric</node>
-                <node x="324.625" y="123.0">pokemon.IPokemon</node>
-                <node x="816.5096153846154" y="1257.0">pokemon.fire</node>
-                <node x="562.5096153846154" y="1257.0">pokemon.grass</node>
-                <node x="262.0" y="1331.0">pokemon.TrainerTest</node>
-                <node x="688.5096153846154" y="1257.0">pokemon.water</node>
-                <node x="638.625" y="299.0">pokemon.IEnergy</node>
-                <node x="961.625" y="0.0">pokemon.Trainer</node>
-                <node x="0.0" y="1331.0">pokemon.pokemonTest</node>
-                <node x="274.0" y="1257.0">pokemon.fighting</node>
-                <node x="5.625" y="266.0">pokemon.IAttack</node>
-                <node x="638.625" y="762.5">pokemon.AbstractEnergy</node>
-                <node x="0.0" y="1257.0">pokemon.psychic</node>
-                <node x="532.125" y="0.0">pokemon.ICard</node>
-                <node x="324.625" y="598.0">pokemon.AbstractPokemon</node>
+                <node x="0.0" y="818.0">pokemon.AbstractAttack</node>
+                <node x="736.9166666666667" y="1489.0">pokemon.electric</node>
+                <node x="748.5" y="123.0">pokemon.IPokemon</node>
+                <node x="873.9166666666667" y="1489.0">pokemon.fire</node>
+                <node x="172.87179487179492" y="1489.0">pokemon.grass</node>
+                <node x="0.0" y="1563.0">pokemon.TrainerTest</node>
+                <node x="608.9166666666667" y="1489.0">pokemon.water</node>
+                <node x="371.0" y="299.0">pokemon.IEnergy</node>
+                <node x="668.666666666667" y="1559.999999999999">pokemon.Trainer</node>
+                <node x="370.3333333333337" y="1566.6666666666658">pokemon.pokemonTest</node>
+                <node x="298.8717948717949" y="1489.0">pokemon.fighting</node>
+                <node x="26.0" y="266.0">pokemon.IAttack</node>
+                <node x="371.0" y="862.0">pokemon.AbstractEnergy</node>
+                <node x="35.87179487179492" y="1489.0">pokemon.psychic</node>
+                <node x="606.7403846153846" y="0.0">pokemon.ICard</node>
+                <node x="669.0" y="598.0">pokemon.AbstractPokemon</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
-                  <point x="0.0" y="-69.5" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
-                  <point x="0.0" y="-70.0" />
-                  <point x="0.0" y="36.5" />
+                <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
+                  <point x="0.0" y="-14.5" />
+                  <point x="94.37179487179492" y="1389.0" />
+                  <point x="394.1666666666667" y="1389.0" />
+                  <point x="-115.83333333333334" y="81.5" />
                 </edge>
                 <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
-                  <point x="40.0" y="-14.5" />
-                  <point x="374.0" y="1217.0" />
-                  <point x="754.4583333333333" y="1217.0" />
-                  <point x="-23.166666666666657" y="70.0" />
-                </edge>
-                <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
                   <point x="0.0" y="-14.5" />
-                  <point x="864.5096153846154" y="1087.0" />
-                  <point x="594.125" y="1087.0" />
-                  <point x="122.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.IEnergy" target="pokemon.ICard">
-                  <point x="0.0" y="-36.5" />
-                  <point x="777.625" y="98.0" />
-                  <point x="670.875" y="98.0" />
-                  <point x="46.25" y="36.5" />
-                </edge>
-                <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="615.5096153846154" y="1127.0" />
-                  <point x="496.125" y="1127.0" />
-                  <point x="24.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="58.5" y="1167.0" />
-                  <point x="349.125" y="1167.0" />
-                  <point x="-122.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="334.0" y="1187.0" />
-                  <point x="447.125" y="1187.0" />
-                  <point x="-24.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="195.5" y="1177.0" />
-                  <point x="398.125" y="1177.0" />
-                  <point x="-73.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.water" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="742.5096153846154" y="1107.0" />
-                  <point x="545.125" y="1107.0" />
-                  <point x="73.5" y="234.5" />
-                </edge>
-                <edge source="pokemon.water" target="pokemon.AbstractEnergy">
-                  <point x="36.0" y="-14.5" />
-                  <point x="778.5096153846154" y="1237.0" />
-                  <point x="847.125" y="1237.0" />
-                  <point x="69.50000000000003" y="70.0" />
-                </edge>
-                <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
-                  <point x="35.33333333333337" y="-14.5" />
-                  <point x="650.8429487179487" y="1227.0" />
-                  <point x="800.7916666666666" y="1227.0" />
-                  <point x="23.166666666666686" y="70.0" />
-                </edge>
-                <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
-                  <point x="0.0" y="-234.5" />
-                  <point x="0.0" y="212.5" />
-                </edge>
-                <edge source="pokemon.grass" target="pokemon.AbstractAttack">
-                  <point x="-35.33333333333337" y="-14.5" />
-                  <point x="580.176282051282" y="1137.0" />
-                  <point x="180.04166666666674" y="1137.0" />
-                  <point x="24.916666666666742" y="69.5" />
-                </edge>
-                <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
-                  <point x="39.0" y="-14.5" />
-                  <point x="97.5" y="1197.0" />
-                  <point x="661.7916666666666" y="1197.0" />
-                  <point x="-115.83333333333334" y="70.0" />
+                  <point x="358.8717948717949" y="1409.0" />
+                  <point x="486.83333333333337" y="1409.0" />
+                  <point x="-23.166666666666657" y="81.5" />
                 </edge>
                 <edge source="pokemon.electric" target="pokemon.AbstractAttack">
                   <point x="-39.0" y="-14.5" />
-                  <point x="156.5" y="1157.0" />
-                  <point x="80.375" y="1157.0" />
-                  <point x="-74.75" y="69.5" />
+                  <point x="756.4166666666667" y="1339.0" />
+                  <point x="263.25" y="1339.0" />
+                  <point x="87.75" y="125.5" />
                 </edge>
-                <edge source="pokemon.fire" target="pokemon.AbstractAttack">
-                  <point x="-32.0" y="-14.5" />
-                  <point x="832.5096153846154" y="1097.0" />
-                  <point x="279.70833333333337" y="1097.0" />
-                  <point x="124.58333333333337" y="69.5" />
-                </edge>
-                <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
-                  <point x="-40.0" y="-14.5" />
-                  <point x="294.0" y="1147.0" />
-                  <point x="130.20833333333337" y="1147.0" />
-                  <point x="-24.91666666666663" y="69.5" />
+                <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
+                  <point x="39.0" y="-14.5" />
+                  <point x="133.37179487179492" y="1419.0" />
+                  <point x="706.75" y="1419.0" />
+                  <point x="-188.75" y="345.5" />
                 </edge>
                 <edge source="pokemon.IPokemon" target="pokemon.ICard">
                   <point x="0.0" y="-212.5" />
-                  <point x="471.625" y="98.0" />
-                  <point x="578.375" y="98.0" />
-                  <point x="-46.25" y="36.5" />
+                  <point x="895.5" y="98.0" />
+                  <point x="745.4903846153846" y="98.0" />
+                  <point x="46.25" y="36.5" />
+                </edge>
+                <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
+                  <point x="0.0" y="-125.5" />
+                  <point x="0.0" y="69.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractAttack">
+                  <point x="-35.33333333333337" y="-14.5" />
+                  <point x="190.53846153846155" y="1379.0" />
+                  <point x="87.75" y="1379.0" />
+                  <point x="-87.75" y="125.5" />
                 </edge>
                 <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
+                  <point x="0.0" y="-14.5" />
+                  <point x="795.4166666666667" y="1329.0" />
+                  <point x="579.5" y="1329.0" />
+                  <point x="69.50000000000003" y="81.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+                  <point x="40.0" y="-14.5" />
+                  <point x="398.8717948717949" y="1439.0" />
+                  <point x="857.75" y="1439.0" />
+                  <point x="-37.75" y="345.5" />
+                </edge>
+                <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
+                  <point x="0.0" y="-81.5" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
                   <point x="39.0" y="-14.5" />
-                  <point x="234.5" y="1207.0" />
-                  <point x="708.125" y="1207.0" />
-                  <point x="-69.5" y="70.0" />
+                  <point x="834.4166666666667" y="1459.0" />
+                  <point x="1008.75" y="1459.0" />
+                  <point x="113.25" y="345.5" />
                 </edge>
                 <edge source="pokemon.water" target="pokemon.AbstractAttack">
                   <point x="-36.0" y="-14.5" />
-                  <point x="706.5096153846154" y="1117.0" />
-                  <point x="229.875" y="1117.0" />
-                  <point x="74.75" y="69.5" />
+                  <point x="626.9166666666667" y="1359.0" />
+                  <point x="204.75" y="1359.0" />
+                  <point x="29.25" y="125.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
+                  <point x="32.0" y="-14.5" />
+                  <point x="953.9166666666667" y="1469.0" />
+                  <point x="1084.25" y="1469.0" />
+                  <point x="188.75" y="345.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+                  <point x="36.0" y="-14.5" />
+                  <point x="698.9166666666667" y="1449.0" />
+                  <point x="933.25" y="1449.0" />
+                  <point x="37.75" y="345.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
+                  <point x="0.0" y="-14.5" />
+                  <point x="225.87179487179492" y="1399.0" />
+                  <point x="440.5" y="1399.0" />
+                  <point x="-69.5" y="81.5" />
                 </edge>
                 <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
-                  <point x="32.0" y="-14.5" />
-                  <point x="896.5096153846154" y="1237.0" />
-                  <point x="893.4583333333333" y="1237.0" />
-                  <point x="115.83333333333337" y="70.0" />
+                  <point x="0.0" y="-14.5" />
+                  <point x="921.9166666666667" y="1309.0" />
+                  <point x="625.8333333333334" y="1309.0" />
+                  <point x="115.83333333333337" y="81.5" />
+                </edge>
+                <edge source="pokemon.IEnergy" target="pokemon.ICard">
+                  <point x="0.0" y="-36.5" />
+                  <point x="510.0" y="98.0" />
+                  <point x="652.9903846153846" y="98.0" />
+                  <point x="-46.25" y="36.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractEnergy">
+                  <point x="0.0" y="-14.5" />
+                  <point x="662.9166666666667" y="1349.0" />
+                  <point x="533.1666666666667" y="1349.0" />
+                  <point x="23.166666666666686" y="81.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+                  <point x="-40.0" y="-14.5" />
+                  <point x="318.8717948717949" y="1369.0" />
+                  <point x="146.25" y="1369.0" />
+                  <point x="-29.25" y="125.5" />
                 </edge>
                 <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
                   <point x="-39.0" y="-14.5" />
-                  <point x="19.5" y="1237.0" />
-                  <point x="30.54166666666663" y="1237.0" />
-                  <point x="-124.58333333333337" y="69.5" />
+                  <point x="55.37179487179492" y="1469.0" />
+                  <point x="29.25" y="1469.0" />
+                  <point x="-146.25" y="125.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.AbstractAttack">
+                  <point x="-32.0" y="-14.5" />
+                  <point x="889.9166666666667" y="1319.0" />
+                  <point x="321.75" y="1319.0" />
+                  <point x="146.25" y="125.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
+                  <point x="35.33333333333337" y="-14.5" />
+                  <point x="261.2051282051283" y="1429.0" />
+                  <point x="782.25" y="1429.0" />
+                  <point x="-113.25" y="345.5" />
+                </edge>
+                <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
+                  <point x="0.0" y="-345.5" />
+                  <point x="0.0" y="212.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.8" x="517.0" y="463.75" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="384.0" y="1210.9999999999995" />
+              <SelectedNodes>
+                <node>pokemon.pokemonTest</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
-                <Category>Methods</Category>
                 <Category>Constructors</Category>
+                <Category>Methods</Category>
               </Categories>
               <SCOPE>All</SCOPE>
-              <VISIBILITY>packageLocal</VISIBILITY>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -249,6 +252,7 @@
   <component name="FindInProjectRecents">
     <dirStrings>
       <dir>C:\Users\Romina Rodríguez\Documents\GitHub\cc3002-tarea1\src\pokemon\fire</dir>
+      <dir>C:\Users\Romina Rodríguez\Documents\GitHub\cc3002-tarea1\src\pokemon</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -341,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,8 +367,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,6 +510,7 @@
       <workItem from="1556338886869" duration="29668000" />
       <workItem from="1556494141912" duration="17703000" />
       <workItem from="1556512135668" duration="894000" />
+      <workItem from="1556513166772" duration="109000" />
     </task>
     <servers />
   </component>
@@ -542,12 +547,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68399000" />
+    <option name="totallyTimeSpent" value="68508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.27919462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -620,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="24" column="108" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="82" column="5" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="83" column="5" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="78" column="44" lean-forward="true" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,11 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,11 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,11 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,11 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,11 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,11 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,17 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-            <element signature="e#2353#2354#0" expanded="true" />
-            <element signature="e#3497#3498#0" expanded="true" />
-            <element signature="e#3546#3547#0" expanded="true" />
-            <element signature="e#3718#3719#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-            <element signature="e#3949#3950#0" expanded="true" />
-            <element signature="e#4003#4004#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,9 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,10 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,9 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,7 +977,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="213.5" y="236.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="214.0" y="237.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1108,167 +996,169 @@
           <ID>JAVA</ID>
           <OriginalElement>pokemon</OriginalElement>
           <nodes>
-            <node x="5.625" y="763.0">pokemon.AbstractAttack</node>
-            <node x="137.0" y="1257.0">pokemon.electric</node>
-            <node x="324.625" y="123.0">pokemon.IPokemon</node>
-            <node x="816.5096153846154" y="1257.0">pokemon.fire</node>
-            <node x="562.5096153846154" y="1257.0">pokemon.grass</node>
-            <node x="262.0" y="1331.0">pokemon.TrainerTest</node>
-            <node x="688.5096153846154" y="1257.0">pokemon.water</node>
-            <node x="638.625" y="299.0">pokemon.IEnergy</node>
-            <node x="961.625" y="0.0">pokemon.Trainer</node>
-            <node x="0.0" y="1331.0">pokemon.pokemonTest</node>
-            <node x="274.0" y="1257.0">pokemon.fighting</node>
-            <node x="5.625" y="266.0">pokemon.IAttack</node>
-            <node x="638.625" y="762.5">pokemon.AbstractEnergy</node>
-            <node x="0.0" y="1257.0">pokemon.psychic</node>
-            <node x="532.125" y="0.0">pokemon.ICard</node>
-            <node x="324.625" y="598.0">pokemon.AbstractPokemon</node>
+            <node x="0.0" y="818.0">pokemon.AbstractAttack</node>
+            <node x="736.9166666666667" y="1489.0">pokemon.electric</node>
+            <node x="748.5" y="123.0">pokemon.IPokemon</node>
+            <node x="873.9166666666667" y="1489.0">pokemon.fire</node>
+            <node x="172.87179487179492" y="1489.0">pokemon.grass</node>
+            <node x="0.0" y="1563.0">pokemon.TrainerTest</node>
+            <node x="608.9166666666667" y="1489.0">pokemon.water</node>
+            <node x="371.0" y="299.0">pokemon.IEnergy</node>
+            <node x="668.666666666667" y="1559.999999999999">pokemon.Trainer</node>
+            <node x="370.3333333333337" y="1566.6666666666658">pokemon.pokemonTest</node>
+            <node x="298.8717948717949" y="1489.0">pokemon.fighting</node>
+            <node x="26.0" y="266.0">pokemon.IAttack</node>
+            <node x="371.0" y="862.0">pokemon.AbstractEnergy</node>
+            <node x="35.87179487179492" y="1489.0">pokemon.psychic</node>
+            <node x="606.7403846153846" y="0.0">pokemon.ICard</node>
+            <node x="669.0" y="598.0">pokemon.AbstractPokemon</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
-              <point x="0.0" y="-69.5" />
-              <point x="0.0" y="69.5" />
-            </edge>
-            <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
-              <point x="0.0" y="-70.0" />
-              <point x="0.0" y="36.5" />
+            <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
+              <point x="0.0" y="-14.5" />
+              <point x="94.37179487179492" y="1389.0" />
+              <point x="394.1666666666667" y="1389.0" />
+              <point x="-115.83333333333334" y="81.5" />
             </edge>
             <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
-              <point x="40.0" y="-14.5" />
-              <point x="374.0" y="1217.0" />
-              <point x="754.4583333333333" y="1217.0" />
-              <point x="-23.166666666666657" y="70.0" />
-            </edge>
-            <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
               <point x="0.0" y="-14.5" />
-              <point x="864.5096153846154" y="1087.0" />
-              <point x="594.125" y="1087.0" />
-              <point x="122.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.IEnergy" target="pokemon.ICard">
-              <point x="0.0" y="-36.5" />
-              <point x="777.625" y="98.0" />
-              <point x="670.875" y="98.0" />
-              <point x="46.25" y="36.5" />
-            </edge>
-            <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="615.5096153846154" y="1127.0" />
-              <point x="496.125" y="1127.0" />
-              <point x="24.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="58.5" y="1167.0" />
-              <point x="349.125" y="1167.0" />
-              <point x="-122.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="334.0" y="1187.0" />
-              <point x="447.125" y="1187.0" />
-              <point x="-24.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="195.5" y="1177.0" />
-              <point x="398.125" y="1177.0" />
-              <point x="-73.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.water" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="742.5096153846154" y="1107.0" />
-              <point x="545.125" y="1107.0" />
-              <point x="73.5" y="234.5" />
-            </edge>
-            <edge source="pokemon.water" target="pokemon.AbstractEnergy">
-              <point x="36.0" y="-14.5" />
-              <point x="778.5096153846154" y="1237.0" />
-              <point x="847.125" y="1237.0" />
-              <point x="69.50000000000003" y="70.0" />
-            </edge>
-            <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
-              <point x="35.33333333333337" y="-14.5" />
-              <point x="650.8429487179487" y="1227.0" />
-              <point x="800.7916666666666" y="1227.0" />
-              <point x="23.166666666666686" y="70.0" />
-            </edge>
-            <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
-              <point x="0.0" y="-234.5" />
-              <point x="0.0" y="212.5" />
-            </edge>
-            <edge source="pokemon.grass" target="pokemon.AbstractAttack">
-              <point x="-35.33333333333337" y="-14.5" />
-              <point x="580.176282051282" y="1137.0" />
-              <point x="180.04166666666674" y="1137.0" />
-              <point x="24.916666666666742" y="69.5" />
-            </edge>
-            <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
-              <point x="39.0" y="-14.5" />
-              <point x="97.5" y="1197.0" />
-              <point x="661.7916666666666" y="1197.0" />
-              <point x="-115.83333333333334" y="70.0" />
+              <point x="358.8717948717949" y="1409.0" />
+              <point x="486.83333333333337" y="1409.0" />
+              <point x="-23.166666666666657" y="81.5" />
             </edge>
             <edge source="pokemon.electric" target="pokemon.AbstractAttack">
               <point x="-39.0" y="-14.5" />
-              <point x="156.5" y="1157.0" />
-              <point x="80.375" y="1157.0" />
-              <point x="-74.75" y="69.5" />
+              <point x="756.4166666666667" y="1339.0" />
+              <point x="263.25" y="1339.0" />
+              <point x="87.75" y="125.5" />
             </edge>
-            <edge source="pokemon.fire" target="pokemon.AbstractAttack">
-              <point x="-32.0" y="-14.5" />
-              <point x="832.5096153846154" y="1097.0" />
-              <point x="279.70833333333337" y="1097.0" />
-              <point x="124.58333333333337" y="69.5" />
-            </edge>
-            <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
-              <point x="-40.0" y="-14.5" />
-              <point x="294.0" y="1147.0" />
-              <point x="130.20833333333337" y="1147.0" />
-              <point x="-24.91666666666663" y="69.5" />
+            <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
+              <point x="39.0" y="-14.5" />
+              <point x="133.37179487179492" y="1419.0" />
+              <point x="706.75" y="1419.0" />
+              <point x="-188.75" y="345.5" />
             </edge>
             <edge source="pokemon.IPokemon" target="pokemon.ICard">
               <point x="0.0" y="-212.5" />
-              <point x="471.625" y="98.0" />
-              <point x="578.375" y="98.0" />
-              <point x="-46.25" y="36.5" />
+              <point x="895.5" y="98.0" />
+              <point x="745.4903846153846" y="98.0" />
+              <point x="46.25" y="36.5" />
+            </edge>
+            <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractAttack">
+              <point x="-35.33333333333337" y="-14.5" />
+              <point x="190.53846153846155" y="1379.0" />
+              <point x="87.75" y="1379.0" />
+              <point x="-87.75" y="125.5" />
             </edge>
             <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
+              <point x="0.0" y="-14.5" />
+              <point x="795.4166666666667" y="1329.0" />
+              <point x="579.5" y="1329.0" />
+              <point x="69.50000000000003" y="81.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+              <point x="40.0" y="-14.5" />
+              <point x="398.8717948717949" y="1439.0" />
+              <point x="857.75" y="1439.0" />
+              <point x="-37.75" y="345.5" />
+            </edge>
+            <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
+              <point x="0.0" y="-81.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
               <point x="39.0" y="-14.5" />
-              <point x="234.5" y="1207.0" />
-              <point x="708.125" y="1207.0" />
-              <point x="-69.5" y="70.0" />
+              <point x="834.4166666666667" y="1459.0" />
+              <point x="1008.75" y="1459.0" />
+              <point x="113.25" y="345.5" />
             </edge>
             <edge source="pokemon.water" target="pokemon.AbstractAttack">
               <point x="-36.0" y="-14.5" />
-              <point x="706.5096153846154" y="1117.0" />
-              <point x="229.875" y="1117.0" />
-              <point x="74.75" y="69.5" />
+              <point x="626.9166666666667" y="1359.0" />
+              <point x="204.75" y="1359.0" />
+              <point x="29.25" y="125.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
+              <point x="32.0" y="-14.5" />
+              <point x="953.9166666666667" y="1469.0" />
+              <point x="1084.25" y="1469.0" />
+              <point x="188.75" y="345.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+              <point x="36.0" y="-14.5" />
+              <point x="698.9166666666667" y="1449.0" />
+              <point x="933.25" y="1449.0" />
+              <point x="37.75" y="345.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
+              <point x="0.0" y="-14.5" />
+              <point x="225.87179487179492" y="1399.0" />
+              <point x="440.5" y="1399.0" />
+              <point x="-69.5" y="81.5" />
             </edge>
             <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
-              <point x="32.0" y="-14.5" />
-              <point x="896.5096153846154" y="1237.0" />
-              <point x="893.4583333333333" y="1237.0" />
-              <point x="115.83333333333337" y="70.0" />
+              <point x="0.0" y="-14.5" />
+              <point x="921.9166666666667" y="1309.0" />
+              <point x="625.8333333333334" y="1309.0" />
+              <point x="115.83333333333337" y="81.5" />
+            </edge>
+            <edge source="pokemon.IEnergy" target="pokemon.ICard">
+              <point x="0.0" y="-36.5" />
+              <point x="510.0" y="98.0" />
+              <point x="652.9903846153846" y="98.0" />
+              <point x="-46.25" y="36.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractEnergy">
+              <point x="0.0" y="-14.5" />
+              <point x="662.9166666666667" y="1349.0" />
+              <point x="533.1666666666667" y="1349.0" />
+              <point x="23.166666666666686" y="81.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+              <point x="-40.0" y="-14.5" />
+              <point x="318.8717948717949" y="1369.0" />
+              <point x="146.25" y="1369.0" />
+              <point x="-29.25" y="125.5" />
             </edge>
             <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
               <point x="-39.0" y="-14.5" />
-              <point x="19.5" y="1237.0" />
-              <point x="30.54166666666663" y="1237.0" />
-              <point x="-124.58333333333337" y="69.5" />
+              <point x="55.37179487179492" y="1469.0" />
+              <point x="29.25" y="1469.0" />
+              <point x="-146.25" y="125.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.AbstractAttack">
+              <point x="-32.0" y="-14.5" />
+              <point x="889.9166666666667" y="1319.0" />
+              <point x="321.75" y="1319.0" />
+              <point x="146.25" y="125.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
+              <point x="35.33333333333337" y="-14.5" />
+              <point x="261.2051282051283" y="1429.0" />
+              <point x="782.25" y="1429.0" />
+              <point x="-113.25" y="345.5" />
+            </edge>
+            <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
+              <point x="0.0" y="-345.5" />
+              <point x="0.0" y="212.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8" x="517.0" y="463.75" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="384.0" y="1210.9999999999995" />
+          <SelectedNodes>
+            <node>pokemon.pokemonTest</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
-            <Category>Methods</Category>
             <Category>Constructors</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
-          <VISIBILITY>packageLocal</VISIBILITY>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
