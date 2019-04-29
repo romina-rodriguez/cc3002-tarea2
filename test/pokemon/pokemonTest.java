@@ -69,6 +69,19 @@ public class pokemonTest {
     }
 
     @Test
+    public void usePokemonCardTest() {
+        trainer.setActivePokemon(bulbasaur);
+        assertEquals(bulbasaur, trainer.getActivePokemon());
+        assertFalse(trainer.getPokemonBench().size() > 5);
+        trainer.getPokemonBench().add(pikachu);
+        assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getPokemonBench());
+        pikachu.selectAttack(0);
+        pikachu.attack(squirtle);
+        assertTrue(squirtle.isDead());
+        assertFalse(pikachu.isDead());
+    }
+
+    @Test
     public void addToBenchTest() {
         trainer.getPokemonBench().add(pikachu);
         assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getPokemonBench());

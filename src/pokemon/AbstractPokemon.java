@@ -11,8 +11,8 @@ import java.util.ArrayList;
 
 /**
  * Abstract class that represents a generic Pokémon. This class contains the necessary methods to
- * attack and receive damage, and definitions to get the properties of each Pokémon, like its number
- * and hp.
+ * attack and receive damage, and definitions to get the properties of each Pokémon, like its number,
+ * hp, name, list of attacks, and list of energies.
  *
  * @author Romina Rodríguez
  */
@@ -44,16 +44,11 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     @Override
-    public void useCard(Trainer trainer){
-        usePokemonCard(trainer, this);
-    }
-
-    @Override
-    public void usePokemonCard(Trainer trainer, IPokemon pokemon){
+    public void useCard(Trainer trainer) {
         ArrayList<IPokemon> pokemonBench = trainer.getPokemonBench();
         IPokemon activePokemon = trainer.getActivePokemon();
         if(pokemonBench.size() < 5) {
-            addToBench(trainer, pokemon);
+            addToBench(trainer, this);
         }
         if(activePokemon.isDead()){
             IPokemon newActivePokemon = pokemonBench.get(0);
@@ -62,7 +57,7 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     @Override
-    public void addToBench(Trainer trainer, IPokemon pokemon){
+    public void addToBench(Trainer trainer, IPokemon pokemon) {
         ArrayList<IPokemon> pokemonBench = trainer.getPokemonBench();
         pokemonBench.add(pokemon);
     }

@@ -5,7 +5,7 @@ import pokemon.AbstractEnergy;
 /**
  * This class defines the logic of an electric type energy.
  *
- *  @author Romina Rodrígue
+ *  @author Romina Rodríguez
  */
 public class ElectricEnergy extends AbstractEnergy{
 

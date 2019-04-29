@@ -5,7 +5,7 @@ import pokemon.AbstractEnergy;
 /**
  * This class defines the logic of a grass type energy.
  *
- *  @author Romina Rodrígue
+ *  @author Romina Rodríguez
  */
 public class GrassEnergy extends AbstractEnergy{
 

@@ -5,7 +5,7 @@ import pokemon.AbstractEnergy;
 /**
  * This class defines the logic of a water type energy.
  *
- *  @author Romina Rodrígue
+ *  @author Romina Rodríguez
  */
 public class WaterEnergy extends AbstractEnergy{
 

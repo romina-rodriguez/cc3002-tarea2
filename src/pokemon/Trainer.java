@@ -14,6 +14,7 @@ public class Trainer {
     private IPokemon activePokemon;
     private ArrayList<IPokemon> pokemonBench;
     private ArrayList<ICard> deck;
+    private ICard selectedCard;
 
     /**
      * Creates a new trainer.
@@ -35,9 +36,10 @@ public class Trainer {
      *
      * @param card Card used.
      */
-    public void useCardFromDeck(ICard card){
-        card.useCard(this);
-        deck.remove(card);
+    public void useCardFromDeck(){
+        selectedCard = deck.get(0);
+        selectedCard.useCard(this);
+        deck.remove(selectedCard);
     }
 
     /**

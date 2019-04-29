@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Tests set for the Trainer class.
@@ -62,5 +64,15 @@ public class TrainerTest {
         assertEquals(grassAttack, trainer.getActivePokemon().getSelectedAttack());
         trainer.getActivePokemon().attack(pikachu); //attacks enemy's active Pokémon
         assertEquals(60, pikachu.getHP());
+    }
+
+    @Test
+    public void useCardFromDeckTest() {
+        assertEquals(new ArrayList<>(Arrays.asList(squirtle, waterEnergy)), trainer.getDeck());
+        assertEquals(squirtle, trainer.getDeck().get(0));
+        squirtle.useCard(trainer);
+        trainer.getDeck().remove(squirtle);
+        assertEquals(new ArrayList<>(Arrays.asList(waterEnergy)), trainer.getDeck());
+        assertEquals(waterEnergy, trainer.getDeck().get(0));
     }
 }

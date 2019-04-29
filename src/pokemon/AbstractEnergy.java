@@ -24,13 +24,8 @@ public class AbstractEnergy implements IEnergy {
     @Override
     public void useCard(Trainer trainer){
         IPokemon activePokemon = trainer.getActivePokemon();
-        useEnergyCard(activePokemon, this);
-    }
-
-    @Override
-    public void useEnergyCard(IPokemon activePokemon, IEnergy energy){
         ArrayList<IEnergy> activePokemonEnergyList = activePokemon.getEnergies();
-        activePokemonEnergyList.add(energy);
+        activePokemonEnergyList.add(this);
     }
 
     //region Properties

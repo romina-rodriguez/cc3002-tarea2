@@ -11,7 +11,6 @@ import java.util.ArrayList;
  *
  *  @author Romina Rodríguez
  */
-
 public class PsychicAttack extends AbstractAttack {
 
     /**

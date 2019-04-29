@@ -5,7 +5,7 @@ import pokemon.AbstractEnergy;
 /**
  * This class defines the logic of a fighting type energy.
  *
- *  @author Romina Rodrígue
+ *  @author Romina Rodríguez
  */
 public class FightingEnergy extends AbstractEnergy{
 

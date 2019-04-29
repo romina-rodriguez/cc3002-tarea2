@@ -58,6 +58,8 @@ public class PsychicPokemonTest {
         assertEquals(psychicAttack, abra.getAttacks().get(0));
         assertNull(abra.getSelectedAttack());
         assertEquals(0, abra.getEnergies().size());
+        assertEquals("Abra", abra.getCardName());
+        assertEquals(63, abra.getNumber());
     }
 
     @Test

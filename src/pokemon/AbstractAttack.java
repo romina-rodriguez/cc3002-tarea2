@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Base class for all the attacks. This contains the methods to access the attack's properties, like
- * it's name and base damage.
+ * it's name, base damage, description and cost.
  *
  *  @author Romina Rodríguez
  *

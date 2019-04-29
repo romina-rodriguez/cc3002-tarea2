@@ -57,6 +57,8 @@ public class ElectricPokemonTest {
         assertNull(pikachu.getSelectedAttack());
         assertEquals(1, pikachu.getEnergies().size());
         assertEquals(electricEnergy, pikachu.getEnergies().get(0));
+        assertEquals("Pikachu", pikachu.getCardName());
+        assertEquals(25, pikachu.getNumber());
 
     }
 

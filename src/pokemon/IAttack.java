@@ -3,8 +3,8 @@ package pokemon;
 import java.util.ArrayList;
 
 /**
- * Common interface for all the attacks (abilities). Every attack has a name and a base damage, and should be
- * able to damage a Pokémon.
+ * Common interface for all the attacks (abilities). Every attack has a name, a base damage, a description
+ * and a cost, and should be able to damage a Pokémon.
  *
  *  @author Romina Rodríguez
  */

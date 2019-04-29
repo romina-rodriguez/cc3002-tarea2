@@ -2,7 +2,7 @@ package pokemon;
 
 /**
  * Common interface for all the cards: Pokémon and Energy. Every card has a name, and should be
- * used by a trainer in combat.
+ * used by a trainer.
  *
  *  @author Romina Rodríguez
  */

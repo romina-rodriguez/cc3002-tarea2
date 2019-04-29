@@ -63,6 +63,8 @@ public class WaterPokemonTest {
         assertNull(squirtle.getSelectedAttack());
         assertEquals(1, squirtle.getEnergies().size());
         assertEquals(waterEnergy, squirtle.getEnergies().get(0));
+        assertEquals("Squirtle", squirtle.getCardName());
+        assertEquals(7, squirtle.getNumber());
 
     }
 

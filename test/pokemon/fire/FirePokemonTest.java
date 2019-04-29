@@ -57,6 +57,8 @@ public class FirePokemonTest {
         assertNull(charmander.getSelectedAttack());
         assertEquals(1, charmander.getEnergies().size());
         assertEquals(fireEnergy, charmander.getEnergies().get(0));
+        assertEquals("Charmander", charmander.getCardName());
+        assertEquals(4, charmander.getNumber());
     }
 
     @Test

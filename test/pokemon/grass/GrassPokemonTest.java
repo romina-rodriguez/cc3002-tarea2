@@ -68,6 +68,8 @@ public class GrassPokemonTest {
         assertNull(bulbasaur.getSelectedAttack());
         assertEquals(1, bulbasaur.getEnergies().size());
         assertEquals(grassEnergy, bulbasaur.getEnergies().get(0));
+        assertEquals("Bulbasaur", bulbasaur.getCardName());
+        assertEquals(1, bulbasaur.getNumber());
     }
 
     @Test

@@ -64,6 +64,8 @@ public class FightingPokemonTest {
         assertEquals(2, mankey.getEnergies().size());
         assertEquals(fightingEnergy, mankey.getEnergies().get(0));
         assertEquals(waterEnergy, mankey.getEnergies().get(1));
+        assertEquals("Mankey", mankey.getCardName());
+        assertEquals(56, mankey.getNumber());
     }
 
     @Test

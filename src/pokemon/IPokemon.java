@@ -9,19 +9,12 @@ import pokemon.water.WaterAttack;
 import java.util.ArrayList;
 
 /**
- * Common interface for all the Pokémon. Every Pokémon has a number, hit points and a list of attacks.
+ * Common interface for all the Pokémon. Every Pokémon has a number, a name, hit points,
+ * a list of energies and a list of attacks.
  *
  *  @author Romina Rodríguez
  */
 public interface IPokemon extends ICard {
-
-    /**
-     * Trainer uses a Pokemon Card in combat.
-     *
-     * @param trainer trainer that chose the card.
-     * @param pokemonCard Pokémon card selected.
-     */
-    void usePokemonCard(Trainer trainer, IPokemon pokemonCard);
 
     /**
      * Adds a Pokémon to the trainer's bench if a spot is available.
