@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94424c66-871a-48a4-a135-891781febbe8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/diagrama uml.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pokemon.uml" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon.uml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,19 +22,19 @@
     <session id="-446391600">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JAVA/" value="2" />
-          <entry key="JAVA/pokemon" value="3" />
+          <entry key="JAVA/pokemon" value="4" />
           <entry key="Things to do" value="2" />
           <entry key="groovy" value="1" />
           <entry key="java" value="616" />
@@ -44,7 +45,7 @@
           <entry key="JAVA" value="616" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
-          <entry key="UML" value="5" />
+          <entry key="UML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,7 +66,7 @@
     <favorites_list name="T1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="uml://JAVA/pokemon">
           <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -73,166 +74,162 @@
               <ID>JAVA</ID>
               <OriginalElement>pokemon</OriginalElement>
               <nodes>
-                <node x="709.9038461538462" y="785.0">pokemon.AbstractAttack</node>
-                <node x="664.3269230769231" y="1445.0">pokemon.electric</node>
-                <node x="316.40384615384613" y="123.0">pokemon.IPokemon</node>
-                <node x="548.326923076923" y="1445.0">pokemon.fire</node>
-                <node x="801.3269230769231" y="1445.0">pokemon.grass</node>
-                <node x="0.0" y="1519.0">pokemon.TrainerTest</node>
-                <node x="137.0" y="1445.0">pokemon.water</node>
-                <node x="44.40384615384613" y="299.0">pokemon.IEnergy</node>
-                <node x="1370.9038461538462" y="0.0">pokemon.Trainer</node>
-                <node x="1105.9038461538462" y="0.0">pokemon.pokemonTest</node>
-                <node x="265.0" y="1445.0">pokemon.fighting</node>
-                <node x="735.903846153846" y="255.0">pokemon.IAttack</node>
-                <node x="25.903846153846132" y="840.0">pokemon.AbstractEnergy</node>
+                <node x="703.3846153846155" y="785.0">pokemon.AbstractAttack</node>
+                <node x="785.3846153846155" y="1445.0">pokemon.electric</node>
+                <node x="309.88461538461536" y="123.0">pokemon.IPokemon</node>
+                <node x="669.3846153846155" y="1445.0">pokemon.fire</node>
+                <node x="137.0" y="1445.0">pokemon.grass</node>
+                <node x="263.0" y="1445.0">pokemon.water</node>
+                <node x="37.884615384615415" y="299.0">pokemon.IEnergy</node>
+                <node x="1099.3846153846155" y="0.0">pokemon.Trainer</node>
+                <node x="529.3846153846154" y="1445.0">pokemon.fighting</node>
+                <node x="729.3846153846155" y="255.0">pokemon.IAttack</node>
+                <node x="19.384615384615415" y="840.0">pokemon.AbstractEnergy</node>
                 <node x="0.0" y="1445.0">pokemon.psychic</node>
-                <node x="190.17307692307685" y="0.0">pokemon.ICard</node>
-                <node x="236.90384615384613" y="576.0">pokemon.AbstractPokemon</node>
+                <node x="183.99999999999994" y="0.0">pokemon.ICard</node>
+                <node x="230.3846153846154" y="576.0">pokemon.AbstractPokemon</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
                   <point x="-39.0" y="-14.5" />
                   <point x="19.5" y="1425.0" />
-                  <point x="41.82051282051282" y="1425.0" />
-                  <point x="-79.58333333333333" y="70.5" />
+                  <point x="35.3012820512821" y="1425.0" />
+                  <point x="-79.58333333333331" y="70.5" />
                 </edge>
                 <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
                   <point x="-40.0" y="-14.5" />
-                  <point x="285.0" y="1325.0" />
-                  <point x="105.48717948717945" y="1325.0" />
-                  <point x="-15.916666666666671" y="70.5" />
+                  <point x="549.3846153846154" y="1315.0" />
+                  <point x="130.80128205128204" y="1315.0" />
+                  <point x="15.916666666666629" y="70.5" />
                 </edge>
                 <edge source="pokemon.electric" target="pokemon.AbstractAttack">
                   <point x="39.0" y="-14.5" />
-                  <point x="761.8269230769231" y="1415.0" />
-                  <point x="973.1538461538462" y="1415.0" />
-                  <point x="87.75" y="125.5" />
+                  <point x="882.8846153846155" y="1425.0" />
+                  <point x="1025.1346153846155" y="1425.0" />
+                  <point x="146.25" y="125.5" />
                 </edge>
                 <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
                   <point x="0.0" y="-14.5" />
                   <point x="58.5" y="1345.0" />
-                  <point x="274.65384615384613" y="1345.0" />
+                  <point x="268.13461538461536" y="1345.0" />
                   <point x="-188.75" y="334.5" />
                 </edge>
-                <edge source="pokemon.IPokemon" target="pokemon.ICard">
-                  <point x="5.6843418860808015E-14" y="-201.5" />
-                  <point x="463.4038461538462" y="98.0" />
-                  <point x="328.92307692307685" y="98.0" />
-                  <point x="46.25" y="36.5" />
-                </edge>
                 <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
-                  <point x="-1.1368683772161603E-13" y="-125.5" />
+                  <point x="0.0" y="-125.5" />
                   <point x="0.0" y="69.5" />
                 </edge>
+                <edge source="pokemon.IPokemon" target="pokemon.ICard">
+                  <point x="0.0" y="-201.5" />
+                  <point x="456.88461538461536" y="98.0" />
+                  <point x="322.74999999999994" y="98.0" />
+                  <point x="46.25" y="36.5" />
+                </edge>
                 <edge source="pokemon.grass" target="pokemon.AbstractAttack">
-                  <point x="35.333333333333314" y="-14.5" />
-                  <point x="889.6602564102564" y="1425.0" />
-                  <point x="1031.653846153846" y="1425.0" />
-                  <point x="146.2499999999999" y="125.5" />
+                  <point x="35.33333333333334" y="-14.5" />
+                  <point x="225.33333333333334" y="1385.0" />
+                  <point x="791.1346153846155" y="1385.0" />
+                  <point x="-87.75" y="125.5" />
                 </edge>
                 <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
                   <point x="-39.0" y="-14.5" />
-                  <point x="683.8269230769231" y="1295.0" />
-                  <point x="169.15384615384613" y="1295.0" />
-                  <point x="47.74999999999997" y="70.5" />
+                  <point x="804.8846153846155" y="1275.0" />
+                  <point x="194.46794871794867" y="1275.0" />
+                  <point x="79.58333333333326" y="70.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+                  <point x="0.0" y="-14.5" />
+                  <point x="589.3846153846154" y="1305.0" />
+                  <point x="494.63461538461536" y="1305.0" />
+                  <point x="37.75" y="334.5" />
                 </edge>
                 <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
                   <point x="0.0" y="-70.5" />
                   <point x="0.0" y="25.5" />
                 </edge>
-                <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="325.0" y="1365.0" />
-                  <point x="425.65384615384613" y="1365.0" />
-                  <point x="-37.75" y="334.5" />
-                </edge>
                 <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
                   <point x="0.0" y="-14.5" />
-                  <point x="722.8269230769231" y="1285.0" />
-                  <point x="576.6538461538462" y="1285.0" />
-                  <point x="113.25" y="334.5" />
+                  <point x="843.8846153846155" y="1265.0" />
+                  <point x="645.6346153846154" y="1265.0" />
+                  <point x="188.75" y="334.5" />
                 </edge>
                 <edge source="pokemon.water" target="pokemon.AbstractAttack">
                   <point x="36.0" y="-14.5" />
-                  <point x="227.0" y="1385.0" />
-                  <point x="797.6538461538462" y="1385.0" />
-                  <point x="-87.75" y="125.5" />
-                </edge>
-                <edge source="pokemon.water" target="pokemon.AbstractPokemon">
-                  <point x="0.0" y="-14.5" />
-                  <point x="191.0" y="1355.0" />
-                  <point x="350.15384615384613" y="1355.0" />
-                  <point x="-113.25" y="334.5" />
+                  <point x="353.0" y="1395.0" />
+                  <point x="849.6346153846155" y="1395.0" />
+                  <point x="-29.25" y="125.5" />
                 </edge>
                 <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
                   <point x="0.0" y="-14.5" />
-                  <point x="596.326923076923" y="1305.0" />
-                  <point x="501.15384615384613" y="1305.0" />
-                  <point x="37.75" y="334.5" />
+                  <point x="717.3846153846155" y="1285.0" />
+                  <point x="570.1346153846154" y="1285.0" />
+                  <point x="113.25" y="334.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+                  <point x="0.0" y="-14.5" />
+                  <point x="317.0" y="1365.0" />
+                  <point x="419.13461538461536" y="1365.0" />
+                  <point x="-37.75" y="334.5" />
                 </edge>
                 <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
-                  <point x="-35.33333333333337" y="-14.5" />
-                  <point x="818.9935897435896" y="1275.0" />
-                  <point x="200.9871794871794" y="1275.0" />
-                  <point x="79.58333333333329" y="70.5" />
+                  <point x="-35.33333333333334" y="-14.5" />
+                  <point x="154.66666666666669" y="1335.0" />
+                  <point x="67.13461538461542" y="1335.0" />
+                  <point x="-47.75" y="70.5" />
                 </edge>
                 <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
                   <point x="-32.0" y="-14.5" />
-                  <point x="564.326923076923" y="1315.0" />
-                  <point x="137.32051282051276" y="1315.0" />
-                  <point x="15.916666666666657" y="70.5" />
+                  <point x="685.3846153846155" y="1295.0" />
+                  <point x="162.63461538461542" y="1295.0" />
+                  <point x="47.75" y="70.5" />
                 </edge>
                 <edge source="pokemon.IEnergy" target="pokemon.ICard">
                   <point x="0.0" y="-25.5" />
-                  <point x="121.40384615384613" y="98.0" />
-                  <point x="236.42307692307685" y="98.0" />
+                  <point x="114.88461538461542" y="98.0" />
+                  <point x="230.24999999999994" y="98.0" />
                   <point x="-46.25" y="36.5" />
                 </edge>
                 <edge source="pokemon.water" target="pokemon.AbstractEnergy">
                   <point x="-36.0" y="-14.5" />
-                  <point x="155.0" y="1335.0" />
-                  <point x="73.65384615384613" y="1335.0" />
-                  <point x="-47.75" y="70.5" />
-                </edge>
-                <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
-                  <point x="40.0" y="-14.5" />
-                  <point x="365.0" y="1395.0" />
-                  <point x="856.1538461538462" y="1395.0" />
-                  <point x="-29.25" y="125.5" />
+                  <point x="281.0" y="1325.0" />
+                  <point x="98.96794871794873" y="1325.0" />
+                  <point x="-15.916666666666686" y="70.5" />
                 </edge>
                 <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
                   <point x="39.0" y="-14.5" />
                   <point x="97.5" y="1375.0" />
-                  <point x="739.1538461538462" y="1375.0" />
+                  <point x="732.6346153846155" y="1375.0" />
                   <point x="-146.25" y="125.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+                  <point x="40.0" y="-14.5" />
+                  <point x="629.3846153846154" y="1405.0" />
+                  <point x="908.1346153846155" y="1405.0" />
+                  <point x="29.25" y="125.5" />
                 </edge>
                 <edge source="pokemon.fire" target="pokemon.AbstractAttack">
                   <point x="32.0" y="-14.5" />
-                  <point x="628.326923076923" y="1405.0" />
-                  <point x="914.6538461538462" y="1405.0" />
-                  <point x="29.25" y="125.5" />
+                  <point x="749.3846153846155" y="1415.0" />
+                  <point x="966.6346153846155" y="1415.0" />
+                  <point x="87.75" y="125.5" />
                 </edge>
                 <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
                   <point x="0.0" y="-14.5" />
-                  <point x="854.3269230769231" y="1265.0" />
-                  <point x="652.1538461538462" y="1265.0" />
-                  <point x="188.75" y="334.5" />
+                  <point x="190.0" y="1355.0" />
+                  <point x="343.63461538461536" y="1355.0" />
+                  <point x="-113.25" y="334.5" />
                 </edge>
                 <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
                   <point x="0.0" y="-334.5" />
                   <point x="0.0" y="201.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="388.5" y="1003.0" />
-              <SelectedNodes>
-                <node>pokemon.AbstractPokemon</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="384.5" y="633.9999999999999" />
+              <SelectedNodes />
               <Categories>
-                <Category>Methods</Category>
                 <Category>Constructors</Category>
                 <Category>Fields</Category>
+                <Category>Methods</Category>
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
@@ -347,8 +344,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,11 +357,23 @@
               <item name="cc3002-tarea1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="T1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,6 +517,7 @@
       <workItem from="1556513166772" duration="109000" />
       <workItem from="1556553633668" duration="3220000" />
       <workItem from="1556556936358" duration="46000" />
+      <workItem from="1556557161340" duration="76000" />
     </task>
     <servers />
   </component>
@@ -545,12 +554,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71774000" />
+    <option name="totallyTimeSpent" value="71850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.29127517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1006,166 +1015,162 @@
           <ID>JAVA</ID>
           <OriginalElement>pokemon</OriginalElement>
           <nodes>
-            <node x="709.9038461538462" y="785.0">pokemon.AbstractAttack</node>
-            <node x="664.3269230769231" y="1445.0">pokemon.electric</node>
-            <node x="316.40384615384613" y="123.0">pokemon.IPokemon</node>
-            <node x="548.326923076923" y="1445.0">pokemon.fire</node>
-            <node x="801.3269230769231" y="1445.0">pokemon.grass</node>
-            <node x="0.0" y="1519.0">pokemon.TrainerTest</node>
-            <node x="137.0" y="1445.0">pokemon.water</node>
-            <node x="44.40384615384613" y="299.0">pokemon.IEnergy</node>
-            <node x="1370.9038461538462" y="0.0">pokemon.Trainer</node>
-            <node x="1105.9038461538462" y="0.0">pokemon.pokemonTest</node>
-            <node x="265.0" y="1445.0">pokemon.fighting</node>
-            <node x="735.903846153846" y="255.0">pokemon.IAttack</node>
-            <node x="25.903846153846132" y="840.0">pokemon.AbstractEnergy</node>
+            <node x="703.3846153846155" y="785.0">pokemon.AbstractAttack</node>
+            <node x="785.3846153846155" y="1445.0">pokemon.electric</node>
+            <node x="309.88461538461536" y="123.0">pokemon.IPokemon</node>
+            <node x="669.3846153846155" y="1445.0">pokemon.fire</node>
+            <node x="137.0" y="1445.0">pokemon.grass</node>
+            <node x="263.0" y="1445.0">pokemon.water</node>
+            <node x="37.884615384615415" y="299.0">pokemon.IEnergy</node>
+            <node x="1099.3846153846155" y="0.0">pokemon.Trainer</node>
+            <node x="529.3846153846154" y="1445.0">pokemon.fighting</node>
+            <node x="729.3846153846155" y="255.0">pokemon.IAttack</node>
+            <node x="19.384615384615415" y="840.0">pokemon.AbstractEnergy</node>
             <node x="0.0" y="1445.0">pokemon.psychic</node>
-            <node x="190.17307692307685" y="0.0">pokemon.ICard</node>
-            <node x="236.90384615384613" y="576.0">pokemon.AbstractPokemon</node>
+            <node x="183.99999999999994" y="0.0">pokemon.ICard</node>
+            <node x="230.3846153846154" y="576.0">pokemon.AbstractPokemon</node>
           </nodes>
           <notes />
           <edges>
             <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
               <point x="-39.0" y="-14.5" />
               <point x="19.5" y="1425.0" />
-              <point x="41.82051282051282" y="1425.0" />
-              <point x="-79.58333333333333" y="70.5" />
+              <point x="35.3012820512821" y="1425.0" />
+              <point x="-79.58333333333331" y="70.5" />
             </edge>
             <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
               <point x="-40.0" y="-14.5" />
-              <point x="285.0" y="1325.0" />
-              <point x="105.48717948717945" y="1325.0" />
-              <point x="-15.916666666666671" y="70.5" />
+              <point x="549.3846153846154" y="1315.0" />
+              <point x="130.80128205128204" y="1315.0" />
+              <point x="15.916666666666629" y="70.5" />
             </edge>
             <edge source="pokemon.electric" target="pokemon.AbstractAttack">
               <point x="39.0" y="-14.5" />
-              <point x="761.8269230769231" y="1415.0" />
-              <point x="973.1538461538462" y="1415.0" />
-              <point x="87.75" y="125.5" />
+              <point x="882.8846153846155" y="1425.0" />
+              <point x="1025.1346153846155" y="1425.0" />
+              <point x="146.25" y="125.5" />
             </edge>
             <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
               <point x="0.0" y="-14.5" />
               <point x="58.5" y="1345.0" />
-              <point x="274.65384615384613" y="1345.0" />
+              <point x="268.13461538461536" y="1345.0" />
               <point x="-188.75" y="334.5" />
             </edge>
-            <edge source="pokemon.IPokemon" target="pokemon.ICard">
-              <point x="5.6843418860808015E-14" y="-201.5" />
-              <point x="463.4038461538462" y="98.0" />
-              <point x="328.92307692307685" y="98.0" />
-              <point x="46.25" y="36.5" />
-            </edge>
             <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
-              <point x="-1.1368683772161603E-13" y="-125.5" />
+              <point x="0.0" y="-125.5" />
               <point x="0.0" y="69.5" />
             </edge>
+            <edge source="pokemon.IPokemon" target="pokemon.ICard">
+              <point x="0.0" y="-201.5" />
+              <point x="456.88461538461536" y="98.0" />
+              <point x="322.74999999999994" y="98.0" />
+              <point x="46.25" y="36.5" />
+            </edge>
             <edge source="pokemon.grass" target="pokemon.AbstractAttack">
-              <point x="35.333333333333314" y="-14.5" />
-              <point x="889.6602564102564" y="1425.0" />
-              <point x="1031.653846153846" y="1425.0" />
-              <point x="146.2499999999999" y="125.5" />
+              <point x="35.33333333333334" y="-14.5" />
+              <point x="225.33333333333334" y="1385.0" />
+              <point x="791.1346153846155" y="1385.0" />
+              <point x="-87.75" y="125.5" />
             </edge>
             <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
               <point x="-39.0" y="-14.5" />
-              <point x="683.8269230769231" y="1295.0" />
-              <point x="169.15384615384613" y="1295.0" />
-              <point x="47.74999999999997" y="70.5" />
+              <point x="804.8846153846155" y="1275.0" />
+              <point x="194.46794871794867" y="1275.0" />
+              <point x="79.58333333333326" y="70.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+              <point x="0.0" y="-14.5" />
+              <point x="589.3846153846154" y="1305.0" />
+              <point x="494.63461538461536" y="1305.0" />
+              <point x="37.75" y="334.5" />
             </edge>
             <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
               <point x="0.0" y="-70.5" />
               <point x="0.0" y="25.5" />
             </edge>
-            <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="325.0" y="1365.0" />
-              <point x="425.65384615384613" y="1365.0" />
-              <point x="-37.75" y="334.5" />
-            </edge>
             <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
               <point x="0.0" y="-14.5" />
-              <point x="722.8269230769231" y="1285.0" />
-              <point x="576.6538461538462" y="1285.0" />
-              <point x="113.25" y="334.5" />
+              <point x="843.8846153846155" y="1265.0" />
+              <point x="645.6346153846154" y="1265.0" />
+              <point x="188.75" y="334.5" />
             </edge>
             <edge source="pokemon.water" target="pokemon.AbstractAttack">
               <point x="36.0" y="-14.5" />
-              <point x="227.0" y="1385.0" />
-              <point x="797.6538461538462" y="1385.0" />
-              <point x="-87.75" y="125.5" />
-            </edge>
-            <edge source="pokemon.water" target="pokemon.AbstractPokemon">
-              <point x="0.0" y="-14.5" />
-              <point x="191.0" y="1355.0" />
-              <point x="350.15384615384613" y="1355.0" />
-              <point x="-113.25" y="334.5" />
+              <point x="353.0" y="1395.0" />
+              <point x="849.6346153846155" y="1395.0" />
+              <point x="-29.25" y="125.5" />
             </edge>
             <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
               <point x="0.0" y="-14.5" />
-              <point x="596.326923076923" y="1305.0" />
-              <point x="501.15384615384613" y="1305.0" />
-              <point x="37.75" y="334.5" />
+              <point x="717.3846153846155" y="1285.0" />
+              <point x="570.1346153846154" y="1285.0" />
+              <point x="113.25" y="334.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+              <point x="0.0" y="-14.5" />
+              <point x="317.0" y="1365.0" />
+              <point x="419.13461538461536" y="1365.0" />
+              <point x="-37.75" y="334.5" />
             </edge>
             <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
-              <point x="-35.33333333333337" y="-14.5" />
-              <point x="818.9935897435896" y="1275.0" />
-              <point x="200.9871794871794" y="1275.0" />
-              <point x="79.58333333333329" y="70.5" />
+              <point x="-35.33333333333334" y="-14.5" />
+              <point x="154.66666666666669" y="1335.0" />
+              <point x="67.13461538461542" y="1335.0" />
+              <point x="-47.75" y="70.5" />
             </edge>
             <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
               <point x="-32.0" y="-14.5" />
-              <point x="564.326923076923" y="1315.0" />
-              <point x="137.32051282051276" y="1315.0" />
-              <point x="15.916666666666657" y="70.5" />
+              <point x="685.3846153846155" y="1295.0" />
+              <point x="162.63461538461542" y="1295.0" />
+              <point x="47.75" y="70.5" />
             </edge>
             <edge source="pokemon.IEnergy" target="pokemon.ICard">
               <point x="0.0" y="-25.5" />
-              <point x="121.40384615384613" y="98.0" />
-              <point x="236.42307692307685" y="98.0" />
+              <point x="114.88461538461542" y="98.0" />
+              <point x="230.24999999999994" y="98.0" />
               <point x="-46.25" y="36.5" />
             </edge>
             <edge source="pokemon.water" target="pokemon.AbstractEnergy">
               <point x="-36.0" y="-14.5" />
-              <point x="155.0" y="1335.0" />
-              <point x="73.65384615384613" y="1335.0" />
-              <point x="-47.75" y="70.5" />
-            </edge>
-            <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
-              <point x="40.0" y="-14.5" />
-              <point x="365.0" y="1395.0" />
-              <point x="856.1538461538462" y="1395.0" />
-              <point x="-29.25" y="125.5" />
+              <point x="281.0" y="1325.0" />
+              <point x="98.96794871794873" y="1325.0" />
+              <point x="-15.916666666666686" y="70.5" />
             </edge>
             <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
               <point x="39.0" y="-14.5" />
               <point x="97.5" y="1375.0" />
-              <point x="739.1538461538462" y="1375.0" />
+              <point x="732.6346153846155" y="1375.0" />
               <point x="-146.25" y="125.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+              <point x="40.0" y="-14.5" />
+              <point x="629.3846153846154" y="1405.0" />
+              <point x="908.1346153846155" y="1405.0" />
+              <point x="29.25" y="125.5" />
             </edge>
             <edge source="pokemon.fire" target="pokemon.AbstractAttack">
               <point x="32.0" y="-14.5" />
-              <point x="628.326923076923" y="1405.0" />
-              <point x="914.6538461538462" y="1405.0" />
-              <point x="29.25" y="125.5" />
+              <point x="749.3846153846155" y="1415.0" />
+              <point x="966.6346153846155" y="1415.0" />
+              <point x="87.75" y="125.5" />
             </edge>
             <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
               <point x="0.0" y="-14.5" />
-              <point x="854.3269230769231" y="1265.0" />
-              <point x="652.1538461538462" y="1265.0" />
-              <point x="188.75" y="334.5" />
+              <point x="190.0" y="1355.0" />
+              <point x="343.63461538461536" y="1355.0" />
+              <point x="-113.25" y="334.5" />
             </edge>
             <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
               <point x="0.0" y="-334.5" />
               <point x="0.0" y="201.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="388.5" y="1003.0" />
-          <SelectedNodes>
-            <node>pokemon.AbstractPokemon</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="384.5" y="633.9999999999999" />
+          <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
             <Category>Constructors</Category>
             <Category>Fields</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
