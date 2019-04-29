@@ -82,6 +82,8 @@ public abstract class AbstractAttack implements IAttack {
     @Override
     public boolean equals(Object obj) {
         return obj instanceof IAttack && ((IAttack) obj).getBaseDamage() == baseDamage
-                && ((IAttack) obj).getName().equals(name);
+                && ((IAttack) obj).getName().equals(name)
+                && ((IAttack) obj).getDescription().equals(description)
+                && ((IAttack) obj).getEnergyListRequired().equals(energyListRequired);
     }
 }

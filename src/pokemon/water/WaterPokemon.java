@@ -27,7 +27,7 @@ public class WaterPokemon extends AbstractPokemon {
      */
     public WaterPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
                         ArrayList<IEnergy> energyList) {
-        super(name, number, hp, attackList, energyList;
+        super(name, number, hp, attackList, energyList);
     }
 
     /**

@@ -41,7 +41,7 @@ public class Trainer {
     }
 
     /**
-     * Selects an attack from its active Pokémon and uses it to hurt its opponent.
+     * Selects an attack from its active Pokémon and uses it to hurt its opponent's current active Pokémon.
      *
      * @param other Target of the attack.
      * @param index Index of the attack to be selected.
