@@ -1,4 +1,4 @@
-# CC3002-TAREA1: Pokémon TCG
+# CC3002-TAREA2: Pokémon TCG
 The goal of this project is to implement a clone of the Pokémon trading card game, using the Double Dispatch technique. 
 
 ## Rough Project Description
