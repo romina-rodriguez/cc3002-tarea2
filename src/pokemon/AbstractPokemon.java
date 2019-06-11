@@ -116,11 +116,20 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     /**
+     * Sets a Pokémon's hp.
+     * @param newHP Pokémon's new hit points
+     */
+    @Override
+    public void setHP(int newHP){
+        this.hp = newHP < 0 ? 0 : newHP;
+    }
+
+    /**
      * Receives an attack.
      * @param attack  Received attack.
      */
     protected void receiveAttack(IAttack attack) {
-        this.hp -= attack.getBaseDamage();
+        setHP(this.hp -= attack.getBaseDamage());
     }
 
     /**
@@ -128,7 +137,7 @@ public abstract class AbstractPokemon implements IPokemon {
      * @param attack  Received attack.
      */
     protected void receiveWeaknessAttack(IAttack attack) {
-        this.hp -= attack.getBaseDamage() * 2;
+        setHP(this.hp -= attack.getBaseDamage() * 2);
     }
 
     /**
@@ -136,7 +145,7 @@ public abstract class AbstractPokemon implements IPokemon {
      * @param attack  Received attack.
      */
     protected void receiveResistantAttack(IAttack attack) {
-        this.hp -= attack.getBaseDamage() - 30;
+        setHP(this.hp -= attack.getBaseDamage() - 30);
     }
 
     //region Properties

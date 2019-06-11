@@ -72,6 +72,8 @@ public class FirePokemonTest {
         charmander.selectAttack(0);
         charmander.attack(bulbasaur);
         assertEquals(20, bulbasaur.getHP());
+        charmander.attack(bulbasaur);
+        assertEquals(0, bulbasaur.getHP());
     }
 
     @Test

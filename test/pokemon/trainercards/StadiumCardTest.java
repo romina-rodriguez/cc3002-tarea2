@@ -7,22 +7,22 @@ import pokemon.ITrainerCard;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Tests set for the SupporterCard class.
+ * Tests set for the StadiumCard class.
  *
  * @author Romina Rodríguez
  */
-public class SupporterCardTest {
+public class StadiumCardTest {
 
     private ITrainerCard
-            copycat;
+            ecogym;
     @Before
     public void setUp() {
-        copycat = new ItemCard("Copycat", "This is a supporter card");
+        ecogym = new ItemCard("Ecogym", "This is a stadium card");
     }
 
     @Test
     public void constructorTest() {
-        assertEquals("Copycat", copycat.getCardName());
-        assertEquals("This is a supporter card", copycat.getTrainerCardDescription());
+        assertEquals("Ecogym", ecogym.getCardName());
+        assertEquals("This is a stadium card", ecogym.getTrainerCardDescription());
     }
 }

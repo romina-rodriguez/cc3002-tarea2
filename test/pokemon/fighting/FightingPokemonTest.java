@@ -79,6 +79,10 @@ public class FightingPokemonTest {
         mankey.selectAttack(0);
         mankey.attack(bulbasaur);
         assertEquals(70, bulbasaur.getHP());
+        mankey.attack(bulbasaur);
+        mankey.attack(bulbasaur);
+        mankey.attack(bulbasaur);
+        assertEquals(0, bulbasaur.getHP());
     }
 
     @Test

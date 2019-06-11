@@ -83,6 +83,9 @@ public class GrassPokemonTest {
         bulbasaur.selectAttack(0);
         bulbasaur.attack(mewtwo);
         assertEquals(60, mewtwo.getHP());
+        bulbasaur.attack(mewtwo);
+        bulbasaur.attack(mewtwo);
+        assertEquals(0, mewtwo.getHP());
     }
 
     @Test

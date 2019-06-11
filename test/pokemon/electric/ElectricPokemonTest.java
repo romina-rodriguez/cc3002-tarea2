@@ -52,6 +52,10 @@ public class ElectricPokemonTest {
     public void constructorTest() {
         assertEquals("Pikachu", pikachu.getName());
         assertEquals(100, pikachu.getHP());
+        pikachu.setHP(0);
+        assertEquals(0, pikachu.getHP());
+        pikachu.setHP(100);
+        assertEquals(100, pikachu.getHP());
         assertEquals(1, pikachu.getAttacks().size());
         assertEquals(electricAttack, pikachu.getAttacks().get(0));
         assertNull(pikachu.getSelectedAttack());
@@ -71,6 +75,8 @@ public class ElectricPokemonTest {
     @Test
     public void attackTest() {
         pikachu.selectAttack(0);
+        pikachu.attack(squirtle);
+        assertEquals(0, squirtle.getHP());
         pikachu.attack(squirtle);
         assertEquals(0, squirtle.getHP());
     }

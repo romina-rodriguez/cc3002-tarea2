@@ -95,6 +95,13 @@ public interface IPokemon extends ICard {
      */
     void receivePsychicAttack(PsychicAttack attack);
 
+    /**
+     * Sets a Pokémon's hp
+     *
+     * @param newHP Pokémon's new hit points
+     */
+    void setHP(int newHP);
+
     //region Properties
     /**
      * @return Pokémon's number.

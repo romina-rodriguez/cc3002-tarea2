@@ -33,8 +33,6 @@ public class Trainer {
 
     /**
      * Trainer uses a card to play.
-     *
-     * @param card Card used.
      */
     public void useCardFromDeck(){
         selectedCard = deck.get(0);
