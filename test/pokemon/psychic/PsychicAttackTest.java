@@ -5,7 +5,7 @@ import org.junit.Test;
 import pokemon.IAttack;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
-import pokemon.fighting.FightingPokemon;
+import pokemon.fighting.BasicFightingPokemon;
 import pokemon.water.WaterAttack;
 
 import java.util.ArrayList;
@@ -35,10 +35,10 @@ public class PsychicAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(psychicEnergy));
         psychicAttack = new PsychicAttack( "Calm mind", 30, "This is a psychic attack",
                 attackCost);
-        mewtwo = new PsychicPokemon("Mewtwo", 150,100,
+        mewtwo = new BasicPsychicPokemon("Mewtwo", 150,100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        mankey = new FightingPokemon("Mankey", 56, 100,
+        mankey = new BasicFightingPokemon("Mankey", 56, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
     }

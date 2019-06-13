@@ -5,9 +5,9 @@ import org.junit.Test;
 import pokemon.electric.BasicElectricPokemon;
 import pokemon.grass.GrassAttack;
 import pokemon.grass.GrassEnergy;
-import pokemon.grass.GrassPokemon;
+import pokemon.grass.BasicGrassPokemon;
+import pokemon.water.BasicWaterPokemon;
 import pokemon.water.WaterEnergy;
-import pokemon.water.WaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,10 +33,10 @@ public class TrainerTest {
     public void setUp() {
         grassAttack = new GrassAttack("Growl", 40, "This is a grass attack",
                 new ArrayList<>(Arrays.asList(grassEnergy)));
-        bulbasaur = new GrassPokemon("Bulbasaur", 1, 100,
+        bulbasaur = new BasicGrassPokemon("Bulbasaur", 1, 100,
                 new ArrayList<>(Arrays.asList(grassAttack)),
                 new ArrayList<>(Arrays.asList(grassEnergy)));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(grassAttack)),
                 new ArrayList<>(Arrays.asList()));
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,

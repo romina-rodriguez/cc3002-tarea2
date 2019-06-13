@@ -6,8 +6,8 @@ import pokemon.IEnergy;
 import pokemon.IPokemon;
 import pokemon.IAttack;
 import pokemon.fire.FireAttack;
-import pokemon.fire.FirePokemon;
-import pokemon.grass.GrassPokemon;
+import pokemon.fire.BasicFirePokemon;
+import pokemon.grass.BasicGrassPokemon;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -36,13 +36,13 @@ public class WaterAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(waterEnergy));
         waterAttack = new WaterAttack("Bubble", 40, "This is a water attack",
                 attackCost);
-        charmander = new FirePokemon("Charmander",4,100,
+        charmander = new BasicFirePokemon("Charmander",4,100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        bulbasaur = new GrassPokemon("Bulbasaur", 1, 100,
+        bulbasaur = new BasicGrassPokemon("Bulbasaur", 1, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(waterAttack)),
                 new ArrayList<>(Arrays.asList(waterEnergy)));
     }

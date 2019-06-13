@@ -3,11 +3,10 @@ package pokemon.electric;
 import pokemon.IAttack;
 import pokemon.IBasicPokemon;
 import pokemon.IEnergy;
-import pokemon.fighting.FightingAttack;
 import java.util.ArrayList;
 
 /**
- * Class that represents an electric type Pokémon.
+ * Class that represents a basic electric type Pokémon.
  *
  *  @author Romina Rodríguez
  */
@@ -25,16 +24,5 @@ public class BasicElectricPokemon extends AbstractElectricPokemon implements IBa
     public BasicElectricPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
                                 ArrayList<IEnergy> energyList) {
         super(name, number, hp, attackList, energyList);
-    }
-
-    /**
-     * Receives a fighting type attack.
-     * {@inheritDoc}
-     *
-     * @param attack fighting type attack received.
-     */
-    @Override
-    public void receiveFightingAttack(FightingAttack attack) {
-        receiveWeaknessAttack(attack);
     }
 }

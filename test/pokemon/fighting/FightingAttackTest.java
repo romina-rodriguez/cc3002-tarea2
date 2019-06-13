@@ -6,9 +6,9 @@ import pokemon.IAttack;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
 import pokemon.electric.BasicElectricPokemon;
-import pokemon.psychic.PsychicPokemon;
+import pokemon.psychic.BasicPsychicPokemon;
 import pokemon.water.WaterAttack;
-import pokemon.water.WaterPokemon;
+import pokemon.water.BasicWaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,13 +42,13 @@ public class FightingAttackTest {
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        mewtwo = new PsychicPokemon("Mewtwo", 150,100,
+        mewtwo = new BasicPsychicPokemon("Mewtwo", 150,100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        mankey = new FightingPokemon("Mankey", 56, 100,
+        mankey = new BasicFightingPokemon("Mankey", 56, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
     }

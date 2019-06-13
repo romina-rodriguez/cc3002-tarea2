@@ -3,22 +3,61 @@
   <component name="ChangeListManager">
     <list default="true" id="4c402428-e73b-45b7-a943-cd1227fd7e5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractEnergy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractEnergy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractPokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/IPokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/Trainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IFirstEvoPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/ISecondEvoPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/AbstractElectricPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/electric/AbstractElectricPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/BasicElectricPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/electric/BasicElectricPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/FirstEvoElectricPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/electric/FirstEvoElectricPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/SecondEvoElectricPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/electric/SecondEvoElectricPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/FightingPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/FirePokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/GrassPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/PsychicPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/WaterPokemon.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/pokemon/TrainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/TrainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/BasicElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/BasicElectricPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/ElectricAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/ElectricAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/FirstEvoElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/FirstEvoElectricPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/SecondEvoElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/SecondEvoElectricPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fighting/FightingAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fighting/FightingAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fighting/FightingPokemonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fire/FireAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fire/FireAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fire/FirePokemonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/grass/GrassAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/grass/GrassAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/grass/GrassPokemonTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/pokemon/pokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/pokemonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractEnergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractEnergy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/IPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/ElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/psychic/PsychicAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/psychic/PsychicAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/psychic/PsychicPokemonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/water/WaterAttackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/water/WaterAttackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/water/WaterPokemonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/IFirstEvoPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IEvoPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/ISecondEvoPokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/IElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/IElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/FightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/fire/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/grass/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/grass/BasicGrassPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/psychic/PsychicPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/water/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/TrainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/TrainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pokemon/electric/ElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/fighting/FightingAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/fighting/FightingAttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/fighting/FightingPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/fighting/BasicFightingPokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/fire/FireAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/fire/FireAttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/fire/FirePokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/fire/BasicFirePokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/grass/GrassAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/grass/GrassAttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/grass/GrassPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/grass/BasicGrassPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/pokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/pokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/psychic/PsychicAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/psychic/PsychicAttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/psychic/PsychicPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/psychic/BasicPsychicPokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/water/WaterAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/water/WaterAttackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/water/WaterPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/water/BasicWaterPokemonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +75,29 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/pokemon/fire/SecondEvoFirePokemonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,34 +114,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/pokemon/fighting/FightingPokemonTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/fire/FirePokemonTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/grass/GrassPokemonTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/ElectricPokemonTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/trainercards/ItemCardTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/trainercards/StadiumCardTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/trainercards/SupporterCardTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/trainercards/ItemCard.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/AbstractEnergy.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/Trainer.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/TrainerTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/pokemonTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/ElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/fighting/FightingAttackTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/IElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IBasicPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IEvoPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/AbstractEvoPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fighting/FirstEvoFightingPokemonTest.java" />
         <option value="$PROJECT_DIR$/src/pokemon/IFirstEvoPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/ISecondEvoPokemon.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/IEvoPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/IFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/FirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fighting/FirstEvoFightingPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fire/FirePokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fire/BasicFirePokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fire/FirstEvoFirePokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fighting/SecondEvoFightingPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/IGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/GrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/BasicGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/AbstractGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/FirstEvoGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/SecondEvoGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/IPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/PsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/AbstractEvoPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/IWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/WaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/AbstractPsychicPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/grass/FirstEvoGrassPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/grass/SecondEvoGrassPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/psychic/FirstEvoPsychicPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/water/FirstEvoWaterPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/water/SecondEvoWaterPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/psychic/SecondEvoPsychicPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/fire/SecondEvoFirePokemonTest.java" />
       </list>
     </option>
   </component>
@@ -99,6 +183,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,11 +191,15 @@
               <item name="cc3002-tarea2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cc3002-tarea2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cc3002-tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-tarea2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,10 +222,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="pokemon.electric" />
+      <recent name="pokemon.water" />
+      <recent name="pokemon.psychic" />
+      <recent name="pokemon.grass" />
+      <recent name="pokemon.fire" />
+      <recent name="pokemon.fighting" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pokemon.water" />
+      <recent name="pokemon.psychic" />
+      <recent name="pokemon.grass" />
+      <recent name="pokemon.fighting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -176,22 +275,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirePokemonTest.attackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cc3002-tarea2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pokemon.fire.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pokemon.fire" />
-      <option name="MAIN_CLASS_NAME" value="pokemon.fire.FirePokemonTest" />
-      <option name="METHOD_NAME" value="attackTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstEvoElectricPokemonTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc3002-tarea2" />
       <extension name="coverage">
@@ -224,13 +307,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pokemon.fighting in cc3002-tarea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cc3002-tarea2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokemon.fighting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokemon.fighting" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in cc3002-tarea2" />
+        <item itemvalue="JUnit.pokemon.fighting in cc3002-tarea2" />
         <item itemvalue="JUnit.SecondEvoElectricPokemonTest.constructorTest" />
         <item itemvalue="JUnit.FirstEvoElectricPokemonTest.constructorTest" />
         <item itemvalue="JUnit.BasicElectricPokemonTest.constructorTest" />
-        <item itemvalue="JUnit.FirePokemonTest.attackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,28 +349,12 @@
       <workItem from="1560290524998" duration="1857000" />
       <workItem from="1560361672225" duration="5005000" />
       <workItem from="1560381197203" duration="6029000" />
+      <workItem from="1560440738270" duration="320000" />
+      <workItem from="1560447006929" duration="8854000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 15h 08m 05s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 16h 15m 31s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 20h 23m 32s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 20h 38m 42s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 21h 28m 18s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstEvoElectricPokemonTest_constructorTest - 2019.06.12 at 21h 38m 41s.xml">
-      <configuration name="FirstEvoElectricPokemonTest.constructorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstEvoElectricPokemonTest_constructorTest - 2019.06.12 at 21h 40m 55s.xml">
       <configuration name="FirstEvoElectricPokemonTest.constructorTest" configurationId="JUnit" />
     </history-entry>
@@ -286,14 +367,32 @@
     <history-entry file="All_in_cc3002-tarea2 - 2019.06.12 at 21h 51m 22s.xml">
       <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_cc3002-tarea2 - 2019.06.13 at 11h 49m 09s.xml">
+      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="pokemon_fighting_in_cc3002-tarea2 - 2019.06.13 at 14h 08m 46s.xml">
+      <configuration name="pokemon.fighting in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="pokemon_fighting_in_cc3002-tarea2 - 2019.06.13 at 14h 09m 35s.xml">
+      <configuration name="pokemon.fighting in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_cc3002-tarea2 - 2019.06.13 at 14h 58m 04s.xml">
+      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_cc3002-tarea2 - 2019.06.13 at 19h 12m 34s.xml">
+      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_cc3002-tarea2 - 2019.06.13 at 19h 13m 13s.xml">
+      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16827000" />
+    <option name="totallyTimeSpent" value="26001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,8 +422,41 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -333,290 +465,36 @@
     <SUITE FILE_PATH="coverage/cc3002_tarea2$pokemon_in_cc3002_tarea2.ic" NAME="pokemon in cc3002-tarea2 Coverage Results" MODIFIED="1560233590577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pokemon.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/cc3002_tarea2$All_in_cc3002_tarea2.ic" NAME="All in cc3002-tarea2 Coverage Results" MODIFIED="1560390679980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cc3002_tarea2$All_in_cc3002_tarea2.ic" NAME="All in cc3002-tarea2 Coverage Results" MODIFIED="1560467590442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/ElectricEnergy.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/fire/FirePokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/fighting/FightingPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/PsychicPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/PsychicEnergyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="4" selection-start-line="7" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/GrassPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="16" selection-start-line="16" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/GrassEnergyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/trainercards/StadiumCardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/trainercards/SupporterCardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/trainercards/SupporterCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/trainercards/StadiumCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/trainercards/ItemCard.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/trainercards/ItemCardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/GrassEnergy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractBasicPokemon.java" />
-    <entry file="file://$PROJECT_DIR$/src/pokemon/ICard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IEnergy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractTrainerCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractEnergy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/pokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/fighting/FightingAttackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/TrainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/ITrainerCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IEvoPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractEvoPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-end-line="96" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IBasicPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/IElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/ISecondEvoPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="92" column="54" lean-forward="true" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="161" column="33" lean-forward="true" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="11" selection-start-line="11" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="e#3957#3958#0" expanded="true" />
             <element signature="e#4017#4018#0" expanded="true" />
             <element signature="e#4195#4196#0" expanded="true" />
             <element signature="e#4256#4257#0" expanded="true" />
+            <element signature="e#4423#4424#0" expanded="true" />
             <element signature="e#4450#4451#0" expanded="true" />
             <element signature="e#4590#4591#0" expanded="true" />
             <element signature="e#4619#4620#0" expanded="true" />
@@ -632,30 +510,438 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/BasicFightingPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IFirstEvoPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/fire/BasicFirePokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="30" selection-start-line="28" selection-start-column="14" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/fighting/SecondEvoFightingPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/ElectricAttack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/ElectricEnergy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/BasicGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/IGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/IEvoPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/IElectricPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/IPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/AbstractGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/IWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/AbstractPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/AbstractEvoPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/FirstEvoGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/SecondEvoGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/BasicGrassPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/BasicPsychicPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" selection-start-line="24" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/water/BasicWaterPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" selection-start-line="26" selection-end-line="109" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/water/FirstEvoWaterPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/water/SecondEvoWaterPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/FirstEvoPsychicPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/SecondEvoPsychicPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/FirstEvoGrassPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/SecondEvoGrassPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/fire/FirstEvoFirePokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/fire/SecondEvoFirePokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
         </state>
       </provider>
     </entry>

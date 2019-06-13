@@ -5,8 +5,8 @@ import org.junit.Test;
 import pokemon.IAttack;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
+import pokemon.water.BasicWaterPokemon;
 import pokemon.water.WaterAttack;
-import pokemon.water.WaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -38,7 +38,7 @@ public class ElectricAttackTest {
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
     }

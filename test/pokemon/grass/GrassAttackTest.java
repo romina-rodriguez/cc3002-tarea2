@@ -5,9 +5,9 @@ import org.junit.Test;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
 import pokemon.IAttack;
-import pokemon.fighting.FightingPokemon;
+import pokemon.fighting.BasicFightingPokemon;
+import pokemon.water.BasicWaterPokemon;
 import pokemon.water.WaterAttack;
-import pokemon.water.WaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,13 +37,13 @@ public class GrassAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(grassEnergy));
         grassAttack = new GrassAttack("Growl", 40, "This is a grass attack",
                 new ArrayList<>(Arrays.asList(grassEnergy)));
-        bulbasaur = new GrassPokemon("Bulbasaur", 1, 100,
+        bulbasaur = new BasicGrassPokemon("Bulbasaur", 1, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        mankey = new FightingPokemon("Mankey", 56, 100,
+        mankey = new BasicFightingPokemon("Mankey", 56, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
     }

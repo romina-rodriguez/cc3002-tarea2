@@ -5,9 +5,9 @@ import org.junit.Test;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
 import pokemon.IAttack;
-import pokemon.grass.GrassPokemon;
+import pokemon.grass.BasicGrassPokemon;
 import pokemon.water.WaterAttack;
-import pokemon.water.WaterPokemon;
+import pokemon.water.BasicWaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,13 +37,13 @@ public class FireAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(fireEnergy));
         fireAttack = new FireAttack("Ember", 40, "This is a fire attack",
                 attackCost);
-        charmander = new FirePokemon("Charmander",4,100,
+        charmander = new BasicFirePokemon("Charmander",4,100,
                 new ArrayList<>(Arrays.asList(fireAttack)),
                 new ArrayList<>(Arrays.asList(fireEnergy)));
-        bulbasaur = new GrassPokemon("Bulbasaur", 1, 100,
+        bulbasaur = new BasicGrassPokemon("Bulbasaur", 1, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
     }

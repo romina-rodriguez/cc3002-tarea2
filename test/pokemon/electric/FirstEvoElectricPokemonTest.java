@@ -2,13 +2,13 @@ package pokemon.electric;
 
 import org.junit.Before;
 import org.junit.Test;
-import pokemon.IFirstEvoPokemon;
+import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
+import pokemon.water.BasicWaterPokemon;
 import pokemon.water.WaterAttack;
 import pokemon.water.WaterEnergy;
-import pokemon.water.WaterPokemon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,7 +26,7 @@ public class FirstEvoElectricPokemonTest {
     private IPokemon
             pikachu,
             squirtle;
-    private IFirstEvoPokemon raichu;
+    private IEvoPokemon raichu;
     private WaterAttack waterAttack;
     private ElectricAttack electricAttack;
     private ElectricEnergy electricEnergy;
@@ -42,7 +42,7 @@ public class FirstEvoElectricPokemonTest {
                 new ArrayList<>(Arrays.asList(electricEnergy)));
         waterAttack = new WaterAttack("Bubble", 40, "This is a water attack",
                 new ArrayList<>(Arrays.asList(waterEnergy)));
-        squirtle = new WaterPokemon("Squirtle", 7, 100,
+        squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(waterAttack)),
                 new ArrayList<>(Arrays.asList(waterEnergy)));
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
