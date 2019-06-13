@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.electric.ElectricAttack;
 import pokemon.electric.ElectricEnergy;
-import pokemon.electric.ElectricPokemon;
+import pokemon.electric.BasicElectricPokemon;
 import pokemon.grass.GrassAttack;
 import pokemon.grass.GrassEnergy;
 import pokemon.grass.GrassPokemon;
@@ -52,12 +52,14 @@ public class pokemonTest {
         squirtle = new WaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(waterAttack)),
                 new ArrayList<>(Arrays.asList(waterEnergy)));
-        pikachu = new ElectricPokemon("Pikachu", 25, 100,
+        pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)));
         trainer = new Trainer("Misty", null,
                 new ArrayList<>(Arrays.asList()),
-                new ArrayList<>(Arrays.asList(squirtle, waterEnergy)));
+                new ArrayList<>(Arrays.asList(squirtle, waterEnergy)),
+                new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test

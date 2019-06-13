@@ -12,9 +12,10 @@ public class Trainer {
 
     private String name;
     private IPokemon activePokemon;
-    private ArrayList<IPokemon> pokemonBench;
-    private ArrayList<ICard> deck;
-    private ICard selectedCard;
+    private ArrayList<IPokemon> pokemonBench = new ArrayList<>(5); //max 5 different pokemon.
+    private ArrayList<ICard> deck = new ArrayList<>(60);
+    private ArrayList<ICard> discardPile;
+    private ArrayList<ICard> priceCards= new ArrayList<>(6);
 
     /**
      * Creates a new trainer.
@@ -24,18 +25,21 @@ public class Trainer {
      * @param pokemonBench list of Pokémon available to fight
      * @param deck list of available cards to use (energies and Pokémon)
      */
-    public Trainer(String name, IPokemon activePokemon, ArrayList<IPokemon> pokemonBench, ArrayList<ICard> deck){
+    public Trainer(String name, IPokemon activePokemon, ArrayList<IPokemon> pokemonBench, ArrayList<ICard> deck,
+                   ArrayList<ICard> discardPile, ArrayList<ICard> priceCards){
         this.name = name;
         this.activePokemon = activePokemon;
         this.pokemonBench = pokemonBench;
         this.deck = deck;
+        this.discardPile = discardPile;
+        this.priceCards = priceCards;
     }
 
     /**
      * Trainer uses a card to play.
      */
     public void useCardFromDeck(){
-        selectedCard = deck.get(0);
+        ICard selectedCard = deck.get(0);
         selectedCard.useCard(this);
         deck.remove(selectedCard);
     }
@@ -93,8 +97,17 @@ public class Trainer {
      *
      * @return trainer's deck.
      */
-    public ArrayList<ICard> getDeck() {
-        return deck;
+    //public ArrayList<ICard> getDeck() {
+     //   return deck;
+    //}
+
+    /**
+     * Getter for the list of discarded cards.
+     *
+     * @return trainer's discarded pile.
+     */
+    public ArrayList<ICard> getDiscardPile() {
+        return discardPile;
     }
     //endregion
 

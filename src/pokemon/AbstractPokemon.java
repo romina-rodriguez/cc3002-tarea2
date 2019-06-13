@@ -21,7 +21,7 @@ public abstract class AbstractPokemon implements IPokemon {
     private String name;
     private int number;
     private int hp;
-    private ArrayList<IAttack> attackList; //max 4 different attacks.
+    private ArrayList<IAttack> attackList = new ArrayList<>(4); //max 4 different attacks.
     private IAttack selectedAttack;
     private ArrayList<IEnergy> energyList;
 
@@ -51,8 +51,7 @@ public abstract class AbstractPokemon implements IPokemon {
             addToBench(trainer, this);
         }
         if(activePokemon.isDead()){
-            IPokemon newActivePokemon = pokemonBench.get(0);
-            promoteToActive(trainer, newActivePokemon);
+            promoteToActive(trainer);
         }
     }
 
@@ -63,8 +62,10 @@ public abstract class AbstractPokemon implements IPokemon {
     }
 
     @Override
-    public void promoteToActive(Trainer trainer, IPokemon pokemon){
-        trainer.setActivePokemon(pokemon);
+    public void promoteToActive(Trainer trainer) {
+        ArrayList<IPokemon> pokemonBench = trainer.getPokemonBench();
+        IPokemon newActivePokemon = pokemonBench.get(0);
+        trainer.setActivePokemon(newActivePokemon);
     }
 
     @Override
@@ -130,6 +131,9 @@ public abstract class AbstractPokemon implements IPokemon {
      */
     protected void receiveAttack(IAttack attack) {
         setHP(this.hp -= attack.getBaseDamage());
+        /*if(this.isDead()){
+            promoteToActive();
+        }*/
     }
 
     /**

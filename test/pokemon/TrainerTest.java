@@ -2,7 +2,7 @@ package pokemon;
 
 import org.junit.Before;
 import org.junit.Test;
-import pokemon.electric.ElectricPokemon;
+import pokemon.electric.BasicElectricPokemon;
 import pokemon.grass.GrassAttack;
 import pokemon.grass.GrassEnergy;
 import pokemon.grass.GrassPokemon;
@@ -39,12 +39,14 @@ public class TrainerTest {
         squirtle = new WaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(grassAttack)),
                 new ArrayList<>(Arrays.asList()));
-        pikachu = new ElectricPokemon("Pikachu", 25, 100,
+        pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
         trainer = new Trainer("Misty", bulbasaur,
                 new ArrayList<>(Arrays.asList()),
-                new ArrayList<>(Arrays.asList(squirtle, waterEnergy)));
+                new ArrayList<>(Arrays.asList(squirtle, waterEnergy)),
+                new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -52,7 +54,7 @@ public class TrainerTest {
         assertEquals("Misty", trainer.getTrainersName());
         assertEquals(bulbasaur, trainer.getActivePokemon());
         assertEquals(new ArrayList<>(Arrays.asList()), trainer.getPokemonBench());
-        assertEquals(new ArrayList<>(Arrays.asList(squirtle, waterEnergy)), trainer.getDeck());
+        assertEquals(new ArrayList<>(), trainer.getDiscardPile());
     }
 
     @Test
@@ -63,7 +65,7 @@ public class TrainerTest {
         assertEquals(60, pikachu.getHP());
     }
 
-    @Test
+    /*@Test
     public void useCardFromDeckTest() {
         assertEquals(new ArrayList<>(Arrays.asList(squirtle, waterEnergy)), trainer.getDeck());
         assertEquals(squirtle, trainer.getDeck().get(0));
@@ -71,5 +73,6 @@ public class TrainerTest {
         trainer.getDeck().remove(squirtle);
         assertEquals(new ArrayList<>(Arrays.asList(waterEnergy)), trainer.getDeck());
         assertEquals(waterEnergy, trainer.getDeck().get(0));
-    }
+    }*/
+
 }

@@ -8,7 +8,7 @@ import java.util.ArrayList;
  *
  * @author Romina Rodríguez
  */
-public class AbstractEnergy implements IEnergy {
+public abstract class AbstractEnergy implements IEnergy {
 
     private String type; //doubles as energy name.
 

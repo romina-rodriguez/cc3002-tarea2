@@ -35,7 +35,7 @@ public class ElectricAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(electricEnergy));
         electricAttack = new ElectricAttack( "Thundershock", 50, "This is an electric attack",
                 attackCost);
-        pikachu = new ElectricPokemon("Pikachu", 25, 100,
+        pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)));
         squirtle = new WaterPokemon("Squirtle", 7, 100,

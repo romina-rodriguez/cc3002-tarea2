@@ -28,9 +28,8 @@ public interface IPokemon extends ICard {
      * Once the current active Pokémon dies, another one must be promoted from the bench if available.
      *
      * @param trainer trainer that chose the card.
-     * @param pokemonCard Pokémon card selected.
      */
-    void promoteToActive(Trainer trainer, IPokemon pokemonCard);
+    void promoteToActive(Trainer trainer);
 
     /**
      * Checks whether the Pokémon is dead or not.

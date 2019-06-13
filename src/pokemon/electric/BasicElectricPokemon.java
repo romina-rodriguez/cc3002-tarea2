@@ -1,7 +1,7 @@
 package pokemon.electric;
 
-import pokemon.AbstractPokemon;
 import pokemon.IAttack;
+import pokemon.IBasicPokemon;
 import pokemon.IEnergy;
 import pokemon.fighting.FightingAttack;
 import java.util.ArrayList;
@@ -11,11 +11,10 @@ import java.util.ArrayList;
  *
  *  @author Romina Rodríguez
  */
-
-public class ElectricPokemon extends AbstractPokemon {
+public class BasicElectricPokemon extends AbstractElectricPokemon implements IBasicPokemon {
 
     /**
-     * Creates a new electric Pokémon.
+     * Creates a new Basic Electric Pokémon.
      *
      * @param name Pokémon's name.
      * @param number Pokémon's number.
@@ -23,8 +22,8 @@ public class ElectricPokemon extends AbstractPokemon {
      * @param attackList Pokémon's attacks.
      * @param energyList Pokémon's energies.
      */
-    public ElectricPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
-                           ArrayList<IEnergy> energyList) {
+    public BasicElectricPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+                                ArrayList<IEnergy> energyList) {
         super(name, number, hp, attackList, energyList);
     }
 

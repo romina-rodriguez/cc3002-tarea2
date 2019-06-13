@@ -5,7 +5,7 @@ import org.junit.Test;
 import pokemon.IAttack;
 import pokemon.IEnergy;
 import pokemon.IPokemon;
-import pokemon.electric.ElectricPokemon;
+import pokemon.electric.BasicElectricPokemon;
 import pokemon.psychic.PsychicPokemon;
 import pokemon.water.WaterAttack;
 import pokemon.water.WaterPokemon;
@@ -39,7 +39,7 @@ public class FightingAttackTest {
         attackCost = new ArrayList<>(Arrays.asList(fightingEnergy));
         fightingAttack = new FightingAttack( "Low kick", 30, "This is a fighting attack",
                 attackCost);
-        pikachu = new ElectricPokemon("Pikachu", 25, 100,
+        pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
         squirtle = new WaterPokemon("Squirtle", 7, 100,
