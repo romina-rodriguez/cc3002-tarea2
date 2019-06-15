@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
+import pokemon.abilities.ElectricShock;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.water.WaterAttack;
@@ -13,8 +14,7 @@ import pokemon.water.BasicWaterPokemon;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 /**
  * Tests set for the FirstEvoElectricPokemon class.
@@ -33,12 +33,15 @@ public class SecondEvoElectricPokemonTest {
     private FightingAttack fightingAttack;
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
+    private ElectricShock electricShock;
 
     @Before
     public void setUp() {
         fightingAttack = new FightingAttack( "Low kick", 30, "This is a fighting attack",
                 new ArrayList<>(Arrays.asList(fightingEnergy)));
         electricAttack = new ElectricAttack( "Thundershock", 50, "This is an electric attack",
+                new ArrayList<>(Arrays.asList(electricEnergy)));
+        electricShock = new ElectricShock("Electric Shock", 50, "This is an electric shock attack",
                 new ArrayList<>(Arrays.asList(electricEnergy)));
         waterAttack = new WaterAttack("Bubble", 40, "This is a water attack",
                 new ArrayList<>(Arrays.asList(waterEnergy)));
@@ -49,7 +52,7 @@ public class SecondEvoElectricPokemonTest {
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)));
         electivire = new SecondEvoElectricPokemon("Electivire", 466, 100,
-                new ArrayList<>(Arrays.asList(electricAttack)),
+                new ArrayList<>(Arrays.asList(electricAttack, electricShock)),
                 new ArrayList<>(Arrays.asList(electricEnergy)), 125);
     }
 
@@ -61,30 +64,27 @@ public class SecondEvoElectricPokemonTest {
         assertEquals(0, electivire.getHP());
         electivire.setHP(100);
         assertEquals(100, electivire.getHP());
-        assertEquals(1, electivire.getAttacks().size());
-        assertEquals(electricAttack, electivire.getAttacks().get(0));
-        assertNull(electivire.getSelectedAttack());
+        assertEquals(2, electivire.getAbilities().size());
+        assertEquals(electricAttack, electivire.getAbilities().get(0));
+        assertNull(electivire.getSelectedAbility());
         assertEquals(1, electivire.getEnergies().size());
         assertEquals(electricEnergy, electivire.getEnergies().get(0));
         assertEquals("Electivire", electivire.getCardName());
         assertEquals(466, electivire.getNumber());
         assertEquals(125, electivire.getPreEvolution());
-
     }
 
     @Test
     public void selectAttackTest() {
-        pikachu.selectAttack(0);
-        assertEquals(electricAttack, pikachu.getSelectedAttack());
+        electivire.selectAbility(0);
+        assertEquals(electricAttack, electivire.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        pikachu.selectAttack(0);
-        pikachu.attack(squirtle);
-        assertEquals(0, squirtle.getHP());
-        pikachu.attack(squirtle);
-        assertEquals(0, squirtle.getHP());
+        electivire.selectAbility(1);
+        electivire.attack(squirtle);
+        assertTrue(squirtle.getHP() == 100 || squirtle.getHP() == 50);
     }
 
     @Test

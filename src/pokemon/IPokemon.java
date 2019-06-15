@@ -1,5 +1,8 @@
 package pokemon;
 
+import pokemon.abilities.ElectricShock;
+import pokemon.abilities.EnergyBurn;
+import pokemon.abilities.Potion;
 import pokemon.fighting.FightingAttack;
 import pokemon.fire.FireAttack;
 import pokemon.grass.GrassAttack;
@@ -15,6 +18,38 @@ import java.util.ArrayList;
  *  @author Romina Rodríguez
  */
 public interface IPokemon extends ICard {
+
+    //region Properties
+    /**
+     * @return Pokémon's number.
+     */
+    int getNumber();
+
+    /**
+     * @return Pokémon's name.
+     */
+    String getName();
+
+    /**
+     * @return Pokémon's hit points
+     */
+    int getHP();
+
+    /**
+     * @return List with all the Pokémon abilities.
+     */
+    ArrayList<IAbility> getAbilities();
+
+    /**
+     * @return The current selected ability.
+     */
+    IAbility getSelectedAbility();
+
+    /**
+     * @return List with all the Pokémon energies.
+     */
+    ArrayList<IEnergy> getEnergies();
+    //endregion
 
     /**
      * Adds a Pokémon to the trainer's bench if a spot is available.
@@ -50,7 +85,7 @@ public interface IPokemon extends ICard {
      *
      * @param index Index of the attack to be selected.
      */
-    void selectAttack(int index);
+    void selectAbility(int index);
 
     /**
      * Receives damage from a water attack.
@@ -95,41 +130,30 @@ public interface IPokemon extends ICard {
     void receivePsychicAttack(PsychicAttack attack);
 
     /**
+     * Receives damage from an electric shock.
+     *
+     * @param attack Received attack.
+     */
+    void receiveElectricShock(ElectricShock attack);
+
+    /**
+     * Receives effect from an energy burn.
+     *
+     * @param ability Received ability.
+     */
+    void receiveEnergyBurn(EnergyBurn ability);
+
+    /**
+     * Receives effect from a potion.
+     *
+     * @param ability Received ability.
+     */
+    void receivePotion(Potion ability);
+
+    /**
      * Sets a Pokémon's hp
      *
      * @param newHP Pokémon's new hit points
      */
     void setHP(int newHP);
-
-    //region Properties
-    /**
-     * @return Pokémon's number.
-     */
-    int getNumber();
-
-    /**
-     * @return Pokémon's name.
-     */
-    String getName();
-
-    /**
-     * @return Pokémon's hit points
-     */
-    int getHP();
-
-    /**
-     * @return List with all the Pokémon attacks.
-     */
-    ArrayList<IAttack> getAttacks();
-
-    /**
-     * @return The current selected attack.
-     */
-    IAttack getSelectedAttack();
-
-    /**
-     * @return List with all the Pokémon energies.
-     */
-    ArrayList<IEnergy> getEnergies();
-    //endregion
 }

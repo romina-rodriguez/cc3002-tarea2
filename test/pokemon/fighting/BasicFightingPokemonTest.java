@@ -57,9 +57,9 @@ public class BasicFightingPokemonTest {
     public void constructorTest() {
         assertEquals("Mankey", mankey.getName());
         assertEquals(100, mankey.getHP());
-        assertEquals(1, mankey.getAttacks().size());
-        assertEquals(fightingAttack, mankey.getAttacks().get(0));
-        assertNull(mankey.getSelectedAttack());
+        assertEquals(1, mankey.getAbilities().size());
+        assertEquals(fightingAttack, mankey.getAbilities().get(0));
+        assertNull(mankey.getSelectedAbility());
         assertEquals(2, mankey.getEnergies().size());
         assertEquals(fightingEnergy, mankey.getEnergies().get(0));
         assertEquals(waterEnergy, mankey.getEnergies().get(1));
@@ -69,13 +69,13 @@ public class BasicFightingPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        mankey.selectAttack(0);
-        assertEquals(fightingAttack, mankey.getSelectedAttack());
+        mankey.selectAbility(0);
+        assertEquals(fightingAttack, mankey.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        mankey.selectAttack(0);
+        mankey.selectAbility(0);
         mankey.attack(bulbasaur);
         assertEquals(70, bulbasaur.getHP());
         mankey.attack(bulbasaur);

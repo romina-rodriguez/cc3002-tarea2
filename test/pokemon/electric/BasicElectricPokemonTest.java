@@ -56,9 +56,9 @@ public class BasicElectricPokemonTest {
         assertEquals(0, pikachu.getHP());
         pikachu.setHP(100);
         assertEquals(100, pikachu.getHP());
-        assertEquals(1, pikachu.getAttacks().size());
-        assertEquals(electricAttack, pikachu.getAttacks().get(0));
-        assertNull(pikachu.getSelectedAttack());
+        assertEquals(1, pikachu.getAbilities().size());
+        assertEquals(electricAttack, pikachu.getAbilities().get(0));
+        assertNull(pikachu.getSelectedAbility());
         assertEquals(1, pikachu.getEnergies().size());
         assertEquals(electricEnergy, pikachu.getEnergies().get(0));
         assertEquals("Pikachu", pikachu.getCardName());
@@ -68,13 +68,13 @@ public class BasicElectricPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        pikachu.selectAttack(0);
-        assertEquals(electricAttack, pikachu.getSelectedAttack());
+        pikachu.selectAbility(0);
+        assertEquals(electricAttack, pikachu.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        pikachu.selectAttack(0);
+        pikachu.selectAbility(0);
         pikachu.attack(squirtle);
         assertEquals(0, squirtle.getHP());
         pikachu.attack(squirtle);

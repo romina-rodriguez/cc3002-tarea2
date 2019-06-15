@@ -58,9 +58,9 @@ public class FirstEvoWaterPokemonTest {
     public void constructorTest() {
         assertEquals("Wartortle", wartortle.getName());
         assertEquals(100, wartortle.getHP());
-        assertEquals(1, wartortle.getAttacks().size());
-        assertEquals(waterAttack, wartortle.getAttacks().get(0));
-        assertNull(wartortle.getSelectedAttack());
+        assertEquals(1, wartortle.getAbilities().size());
+        assertEquals(waterAttack, wartortle.getAbilities().get(0));
+        assertNull(wartortle.getSelectedAbility());
         assertEquals(1, wartortle.getEnergies().size());
         assertEquals(waterEnergy, wartortle.getEnergies().get(0));
         assertEquals("Wartortle", wartortle.getCardName());
@@ -71,13 +71,13 @@ public class FirstEvoWaterPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        wartortle.selectAttack(0);
-        assertEquals(waterAttack, wartortle.getSelectedAttack());
+        wartortle.selectAbility(0);
+        assertEquals(waterAttack, wartortle.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        wartortle.selectAttack(0);
+        wartortle.selectAbility(0);
         wartortle.attack(bulbasaur);
         assertEquals(90, bulbasaur.getHP());
     }

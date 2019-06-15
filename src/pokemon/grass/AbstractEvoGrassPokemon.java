@@ -1,6 +1,6 @@
 package pokemon.grass;
 
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IEnergy;
 import pokemon.IEvoPokemon;
 
@@ -21,13 +21,13 @@ public abstract class AbstractEvoGrassPokemon extends AbstractGrassPokemon imple
      * @param name       Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
-     * @param attackList Pokémon's attacks.
+     * @param abilityList Pokémon's abilities.
      * @param energyList Pokémon's energies.
      * @param preEvolution Pokémon's pre-evolution.
      */
-    protected AbstractEvoGrassPokemon(String name, int number, int hp, ArrayList<IAttack> attackList, ArrayList<IEnergy> energyList,
+    protected AbstractEvoGrassPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList,
                                       int preEvolution) {
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
         this.preEvolution = preEvolution;
     }
 

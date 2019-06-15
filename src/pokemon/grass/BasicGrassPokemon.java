@@ -1,11 +1,8 @@
 package pokemon.grass;
 
-import pokemon.AbstractPokemon;
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IBasicPokemon;
 import pokemon.IEnergy;
-import pokemon.fire.FireAttack;
-import pokemon.water.WaterAttack;
 
 import java.util.ArrayList;
 
@@ -22,11 +19,11 @@ public class BasicGrassPokemon extends AbstractGrassPokemon implements IBasicPok
      * @param name Pokémon's name.
      * @param number  Pokémon's number.
      * @param hp  Pokémon's hit points.
-     * @param attackList  Pokémon's attacks.
+     * @param abilityList  Pokémon's abilities.
      * @param energyList Pokémon's energies.
      */
-    public BasicGrassPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+    public BasicGrassPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList,
                              ArrayList<IEnergy> energyList) {
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
     }
 }

@@ -58,9 +58,9 @@ public class SecondEvoFightingPokemonTest {
     public void constructorTest() {
         assertEquals("Machamp", machamp.getName());
         assertEquals(100, machamp.getHP());
-        assertEquals(1, machamp.getAttacks().size());
-        assertEquals(fightingAttack, machamp.getAttacks().get(0));
-        assertNull(machamp.getSelectedAttack());
+        assertEquals(1, machamp.getAbilities().size());
+        assertEquals(fightingAttack, machamp.getAbilities().get(0));
+        assertNull(machamp.getSelectedAbility());
         assertEquals(2, machamp.getEnergies().size());
         assertEquals(fightingEnergy, machamp.getEnergies().get(0));
         assertEquals(waterEnergy, machamp.getEnergies().get(1));
@@ -71,13 +71,13 @@ public class SecondEvoFightingPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        machamp.selectAttack(0);
-        assertEquals(fightingAttack, machamp.getSelectedAttack());
+        machamp.selectAbility(0);
+        assertEquals(fightingAttack, machamp.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        machamp.selectAttack(0);
+        machamp.selectAbility(0);
         machamp.attack(bulbasaur);
         assertEquals(70, bulbasaur.getHP());
         machamp.attack(bulbasaur);

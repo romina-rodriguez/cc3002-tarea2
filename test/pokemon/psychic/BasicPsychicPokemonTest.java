@@ -54,9 +54,9 @@ public class BasicPsychicPokemonTest {
     public void constructorTest() {
         assertEquals("Abra", abra.getName());
         assertEquals(100, abra.getHP());
-        assertEquals(1, abra.getAttacks().size());
-        assertEquals(psychicAttack, abra.getAttacks().get(0));
-        assertNull(abra.getSelectedAttack());
+        assertEquals(1, abra.getAbilities().size());
+        assertEquals(psychicAttack, abra.getAbilities().get(0));
+        assertNull(abra.getSelectedAbility());
         assertEquals(0, abra.getEnergies().size());
         assertEquals("Abra", abra.getCardName());
         assertEquals(63, abra.getNumber());
@@ -64,13 +64,13 @@ public class BasicPsychicPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        abra.selectAttack(0);
-        assertEquals(psychicAttack, abra.getSelectedAttack());
+        abra.selectAbility(0);
+        assertEquals(psychicAttack, abra.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        abra.selectAttack(0);
+        abra.selectAbility(0);
         abra.attack(bulbasaur);
         assertEquals(100, bulbasaur.getHP());
     }

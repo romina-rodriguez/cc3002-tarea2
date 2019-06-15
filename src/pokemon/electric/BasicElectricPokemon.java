@@ -1,6 +1,6 @@
 package pokemon.electric;
 
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IBasicPokemon;
 import pokemon.IEnergy;
 import java.util.ArrayList;
@@ -18,11 +18,11 @@ public class BasicElectricPokemon extends AbstractElectricPokemon implements IBa
      * @param name Pokémon's name.
      * @param number Pokémon's number.
      * @param hp Pokémon's hit points.
-     * @param attackList Pokémon's attacks.
+     * @param abilityList Pokémon's attacks.
      * @param energyList Pokémon's energies.
      */
-    public BasicElectricPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+    public BasicElectricPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList,
                                 ArrayList<IEnergy> energyList) {
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
     }
 }

@@ -64,9 +64,9 @@ public class SecondEvoGrassPokemonTest {
     public void constructorTest() {
         assertEquals("Venusaur", venusaur.getName());
         assertEquals(100, venusaur.getHP());
-        assertEquals(1, venusaur.getAttacks().size());
-        assertEquals(grassAttack, venusaur.getAttacks().get(0));
-        assertNull(venusaur.getSelectedAttack());
+        assertEquals(1, venusaur.getAbilities().size());
+        assertEquals(grassAttack, venusaur.getAbilities().get(0));
+        assertNull(venusaur.getSelectedAbility());
         assertEquals(1, venusaur.getEnergies().size());
         assertEquals(grassEnergy, venusaur.getEnergies().get(0));
         assertEquals("Venusaur", venusaur.getCardName());
@@ -76,13 +76,13 @@ public class SecondEvoGrassPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        venusaur.selectAttack(0);
-        assertEquals(grassAttack, venusaur.getSelectedAttack());
+        venusaur.selectAbility(0);
+        assertEquals(grassAttack, venusaur.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        venusaur.selectAttack(0);
+        venusaur.selectAbility(0);
         venusaur.attack(mewtwo);
         assertEquals(60, mewtwo.getHP());
         venusaur.attack(mewtwo);

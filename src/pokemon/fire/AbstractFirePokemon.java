@@ -1,7 +1,7 @@
 package pokemon.fire;
 
 import pokemon.AbstractPokemon;
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IEnergy;
 import pokemon.water.WaterAttack;
 
@@ -20,11 +20,11 @@ public abstract class AbstractFirePokemon extends AbstractPokemon implements IFi
      * @param name       Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
-     * @param attackList Pokémon's attacks.
+     * @param abilityList Pokémon's abilities.
      * @param energyList Pokémon's energies.
      */
-    protected AbstractFirePokemon(String name, int number, int hp, ArrayList<IAttack> attackList, ArrayList<IEnergy> energyList) {
-        super(name, number, hp, attackList, energyList);
+    protected AbstractFirePokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList) {
+        super(name, number, hp, abilityList, energyList);
     }
 
     /**

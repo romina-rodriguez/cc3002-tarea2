@@ -58,9 +58,9 @@ public class SecondEvoWaterPokemonTest {
     public void constructorTest() {
         assertEquals("Blastoise", blastoise.getName());
         assertEquals(100, blastoise.getHP());
-        assertEquals(1, blastoise.getAttacks().size());
-        assertEquals(waterAttack, blastoise.getAttacks().get(0));
-        assertNull(blastoise.getSelectedAttack());
+        assertEquals(1, blastoise.getAbilities().size());
+        assertEquals(waterAttack, blastoise.getAbilities().get(0));
+        assertNull(blastoise.getSelectedAbility());
         assertEquals(1, blastoise.getEnergies().size());
         assertEquals(waterEnergy, blastoise.getEnergies().get(0));
         assertEquals("Blastoise", blastoise.getCardName());
@@ -71,13 +71,13 @@ public class SecondEvoWaterPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        blastoise.selectAttack(0);
-        assertEquals(waterAttack, blastoise.getSelectedAttack());
+        blastoise.selectAbility(0);
+        assertEquals(waterAttack, blastoise.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        blastoise.selectAttack(0);
+        blastoise.selectAbility(0);
         blastoise.attack(bulbasaur);
         assertEquals(90, bulbasaur.getHP());
     }

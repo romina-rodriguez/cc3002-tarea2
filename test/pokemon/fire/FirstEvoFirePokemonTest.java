@@ -53,9 +53,9 @@ public class FirstEvoFirePokemonTest {
     public void constructorTest() {
         assertEquals("Charmeleon", charmeleon.getName());
         assertEquals(100, charmeleon.getHP());
-        assertEquals(1, charmeleon.getAttacks().size());
-        assertEquals(fireAttack, charmeleon.getAttacks().get(0));
-        assertNull(charmeleon.getSelectedAttack());
+        assertEquals(1, charmeleon.getAbilities().size());
+        assertEquals(fireAttack, charmeleon.getAbilities().get(0));
+        assertNull(charmeleon.getSelectedAbility());
         assertEquals(1, charmeleon.getEnergies().size());
         assertEquals(fireEnergy, charmeleon.getEnergies().get(0));
         assertEquals("Charmeleon", charmeleon.getCardName());
@@ -65,13 +65,13 @@ public class FirstEvoFirePokemonTest {
 
     @Test
     public void selectAttackTest() {
-        charmeleon.selectAttack(0);
-        assertEquals(fireAttack, charmeleon.getSelectedAttack());
+        charmeleon.selectAbility(0);
+        assertEquals(fireAttack, charmeleon.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        charmeleon.selectAttack(0);
+        charmeleon.selectAbility(0);
         charmeleon.attack(bulbasaur);
         assertEquals(20, bulbasaur.getHP());
         charmeleon.attack(bulbasaur);

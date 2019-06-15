@@ -54,9 +54,9 @@ public class SecondEvoPsychicPokemonTest {
     public void constructorTest() {
         assertEquals("Alakazam", alakazam.getName());
         assertEquals(100, alakazam.getHP());
-        assertEquals(1, alakazam.getAttacks().size());
-        assertEquals(psychicAttack, alakazam.getAttacks().get(0));
-        assertNull(alakazam.getSelectedAttack());
+        assertEquals(1, alakazam.getAbilities().size());
+        assertEquals(psychicAttack, alakazam.getAbilities().get(0));
+        assertNull(alakazam.getSelectedAbility());
         assertEquals(0, alakazam.getEnergies().size());
         assertEquals("Alakazam", alakazam.getCardName());
         assertEquals(65, alakazam.getNumber());
@@ -65,13 +65,13 @@ public class SecondEvoPsychicPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        alakazam.selectAttack(0);
-        assertEquals(psychicAttack, alakazam.getSelectedAttack());
+        alakazam.selectAbility(0);
+        assertEquals(psychicAttack, alakazam.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        alakazam.selectAttack(0);
+        alakazam.selectAbility(0);
         alakazam.attack(bulbasaur);
         assertEquals(100, bulbasaur.getHP());
     }

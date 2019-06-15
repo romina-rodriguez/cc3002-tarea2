@@ -58,9 +58,9 @@ public class BasicWaterPokemonTest {
     public void constructorTest() {
         assertEquals("Squirtle", squirtle.getName());
         assertEquals(100, squirtle.getHP());
-        assertEquals(1, squirtle.getAttacks().size());
-        assertEquals(waterAttack, squirtle.getAttacks().get(0));
-        assertNull(squirtle.getSelectedAttack());
+        assertEquals(1, squirtle.getAbilities().size());
+        assertEquals(waterAttack, squirtle.getAbilities().get(0));
+        assertNull(squirtle.getSelectedAbility());
         assertEquals(1, squirtle.getEnergies().size());
         assertEquals(waterEnergy, squirtle.getEnergies().get(0));
         assertEquals("Squirtle", squirtle.getCardName());
@@ -70,13 +70,13 @@ public class BasicWaterPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        squirtle.selectAttack(0);
-        assertEquals(waterAttack, squirtle.getSelectedAttack());
+        squirtle.selectAbility(0);
+        assertEquals(waterAttack, squirtle.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        squirtle.selectAttack(0);
+        squirtle.selectAbility(0);
         squirtle.attack(bulbasaur);
         assertEquals(90, bulbasaur.getHP());
     }

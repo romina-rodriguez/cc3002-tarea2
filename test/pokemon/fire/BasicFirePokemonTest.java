@@ -52,9 +52,9 @@ public class BasicFirePokemonTest {
     public void constructorTest() {
         assertEquals("Charmander", charmander.getName());
         assertEquals(100, charmander.getHP());
-        assertEquals(1, charmander.getAttacks().size());
-        assertEquals(fireAttack, charmander.getAttacks().get(0));
-        assertNull(charmander.getSelectedAttack());
+        assertEquals(1, charmander.getAbilities().size());
+        assertEquals(fireAttack, charmander.getAbilities().get(0));
+        assertNull(charmander.getSelectedAbility());
         assertEquals(1, charmander.getEnergies().size());
         assertEquals(fireEnergy, charmander.getEnergies().get(0));
         assertEquals("Charmander", charmander.getCardName());
@@ -63,13 +63,13 @@ public class BasicFirePokemonTest {
 
     @Test
     public void selectAttackTest() {
-        charmander.selectAttack(0);
-        assertEquals(fireAttack, charmander.getSelectedAttack());
+        charmander.selectAbility(0);
+        assertEquals(fireAttack, charmander.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        charmander.selectAttack(0);
+        charmander.selectAbility(0);
         charmander.attack(bulbasaur);
         assertEquals(20, bulbasaur.getHP());
         charmander.attack(bulbasaur);

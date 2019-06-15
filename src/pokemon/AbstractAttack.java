@@ -9,26 +9,26 @@ import java.util.ArrayList;
  *  @author Romina Rodríguez
  *
  */
-public abstract class AbstractAttack implements IAttack {
+public abstract class AbstractAttack extends AbstractAbility implements IAttack {
 
     private int baseDamage;
-    private String name;
-    private String description;
-    private ArrayList<IEnergy> energyListRequired;
 
     /**
      * Creates a new attack.
      *
      * @param name Attack name
-     * @param baseDamage Base damage of the attack
+     * @param baseDamage Base Damage of the attack
      * @param description Description of the attack
      * @param energyListRequired Cost of the attack
      */
     protected AbstractAttack(String name, int baseDamage, String description, ArrayList<IEnergy> energyListRequired) {
+        super(name, description, energyListRequired);
         this.baseDamage = baseDamage;
-        this.name = name;
-        this.description = description;
-        this.energyListRequired = energyListRequired;
+    }
+
+    @Override
+    public void useAbility(IPokemon pokemon){
+        attack(pokemon);
     }
 
     //region Properties
@@ -41,36 +41,6 @@ public abstract class AbstractAttack implements IAttack {
     public int getBaseDamage() {
         return baseDamage;
     }
-
-    /**
-     * Getter for the attack's name.
-     *
-     * @return Name of the attack.
-     */
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * Getter for the attack's description.
-     *
-     * @return Description of the attack.
-     */
-    @Override
-    public String getDescription() {
-        return description;
-    }
-
-    /**
-     * Getter for the list of energies required to use an attack.
-     *
-     * @return List with all the energies.
-     */
-    @Override
-    public ArrayList<IEnergy> getEnergyListRequired() {
-        return energyListRequired;
-    }
     //endregion
 
     /**
@@ -82,8 +52,6 @@ public abstract class AbstractAttack implements IAttack {
     @Override
     public boolean equals(Object obj) {
         return obj instanceof IAttack && ((IAttack) obj).getBaseDamage() == baseDamage
-                && ((IAttack) obj).getName().equals(name)
-                && ((IAttack) obj).getDescription().equals(description)
-                && ((IAttack) obj).getEnergyListRequired().equals(energyListRequired);
+                && super.equals(obj);
     }
 }

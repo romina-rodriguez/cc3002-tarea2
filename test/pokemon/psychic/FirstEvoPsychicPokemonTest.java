@@ -54,9 +54,9 @@ public class FirstEvoPsychicPokemonTest {
     public void constructorTest() {
         assertEquals("Kadabra", kadabra.getName());
         assertEquals(100, kadabra.getHP());
-        assertEquals(1, kadabra.getAttacks().size());
-        assertEquals(psychicAttack, kadabra.getAttacks().get(0));
-        assertNull(kadabra.getSelectedAttack());
+        assertEquals(1, kadabra.getAbilities().size());
+        assertEquals(psychicAttack, kadabra.getAbilities().get(0));
+        assertNull(kadabra.getSelectedAbility());
         assertEquals(0, kadabra.getEnergies().size());
         assertEquals("Kadabra", kadabra.getCardName());
         assertEquals(64, kadabra.getNumber());
@@ -65,13 +65,13 @@ public class FirstEvoPsychicPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        kadabra.selectAttack(0);
-        assertEquals(psychicAttack, kadabra.getSelectedAttack());
+        kadabra.selectAbility(0);
+        assertEquals(psychicAttack, kadabra.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        kadabra.selectAttack(0);
+        kadabra.selectAbility(0);
         kadabra.attack(bulbasaur);
         assertEquals(100, bulbasaur.getHP());
     }

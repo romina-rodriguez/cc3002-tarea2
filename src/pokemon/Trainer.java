@@ -17,6 +17,7 @@ public class Trainer {
     private ArrayList<ICard> discardPile;
     private ArrayList<ICard> priceCards= new ArrayList<>(6);
 
+    //List<X> list = Arrays.asList(new X[desiredSize]);
     /**
      * Creates a new trainer.
      *
@@ -51,8 +52,12 @@ public class Trainer {
      * @param index Index of the attack to be selected.
      */
     public void selectAttackAndAttackOpponent(int index, IPokemon other){
-        activePokemon.selectAttack(index);
+        activePokemon.selectAbility(index);
         activePokemon.attack(other);
+    }
+
+    public void discard(ICard card){
+        discardPile.add(card);
     }
 
     //region Properties
@@ -91,15 +96,6 @@ public class Trainer {
     public ArrayList<IPokemon> getPokemonBench() {
         return pokemonBench;
     }
-
-    /**
-     * Getter for the list of available cards.
-     *
-     * @return trainer's deck.
-     */
-    //public ArrayList<ICard> getDeck() {
-     //   return deck;
-    //}
 
     /**
      * Getter for the list of discarded cards.

@@ -7,7 +7,7 @@ import pokemon.AbstractEnergy;
  *
  *  @author Romina Rodríguez
  */
-public class WaterEnergy extends AbstractEnergy{
+public class WaterEnergy extends AbstractEnergy {
 
     /**
      * Creates a new water energy type.

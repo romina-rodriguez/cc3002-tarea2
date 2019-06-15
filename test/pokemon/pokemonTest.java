@@ -77,7 +77,7 @@ public class pokemonTest {
         assertFalse(trainer.getPokemonBench().size() > 5);
         trainer.getPokemonBench().add(pikachu);
         assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getPokemonBench());
-        pikachu.selectAttack(0);
+        pikachu.selectAbility(0);
         pikachu.attack(squirtle);
         assertTrue(squirtle.isDead());
         assertFalse(pikachu.isDead());
@@ -97,7 +97,7 @@ public class pokemonTest {
 
     @Test
     public void isDeadTest(){
-        pikachu.selectAttack(0);
+        pikachu.selectAbility(0);
         pikachu.attack(squirtle);
         assertTrue(squirtle.isDead());
         assertFalse(pikachu.isDead());

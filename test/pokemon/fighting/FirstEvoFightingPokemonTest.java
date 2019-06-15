@@ -58,9 +58,9 @@ public class FirstEvoFightingPokemonTest {
     public void constructorTest() {
         assertEquals("Primeape", primeape.getName());
         assertEquals(100, primeape.getHP());
-        assertEquals(1, primeape.getAttacks().size());
-        assertEquals(fightingAttack, primeape.getAttacks().get(0));
-        assertNull(primeape.getSelectedAttack());
+        assertEquals(1, primeape.getAbilities().size());
+        assertEquals(fightingAttack, primeape.getAbilities().get(0));
+        assertNull(primeape.getSelectedAbility());
         assertEquals(2, primeape.getEnergies().size());
         assertEquals(fightingEnergy, primeape.getEnergies().get(0));
         assertEquals(waterEnergy, primeape.getEnergies().get(1));
@@ -71,13 +71,13 @@ public class FirstEvoFightingPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        primeape.selectAttack(0);
-        assertEquals(fightingAttack, primeape.getSelectedAttack());
+        primeape.selectAbility(0);
+        assertEquals(fightingAttack, primeape.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        primeape.selectAttack(0);
+        primeape.selectAbility(0);
         primeape.attack(bulbasaur);
         assertEquals(70, bulbasaur.getHP());
         primeape.attack(bulbasaur);

@@ -54,17 +54,22 @@ public class TrainerTest {
         assertEquals("Misty", trainer.getTrainersName());
         assertEquals(bulbasaur, trainer.getActivePokemon());
         assertEquals(new ArrayList<>(Arrays.asList()), trainer.getPokemonBench());
-        assertEquals(new ArrayList<>(), trainer.getDiscardPile());
+        assertEquals(new ArrayList<>(Arrays.asList()), trainer.getDiscardPile());
     }
 
     @Test
     public void selectAttackAndAttackOpponentTest() {
-        trainer.getActivePokemon().selectAttack(0);
-        assertEquals(grassAttack, trainer.getActivePokemon().getSelectedAttack());
+        trainer.getActivePokemon().selectAbility(0);
+        assertEquals(grassAttack, trainer.getActivePokemon().getSelectedAbility());
         trainer.getActivePokemon().attack(pikachu); //attacks enemy's active Pokémon
         assertEquals(60, pikachu.getHP());
     }
 
+    @Test
+    public void discardTest() {
+        trainer.discard(pikachu);
+        assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getDiscardPile());
+    }
     /*@Test
     public void useCardFromDeckTest() {
         assertEquals(new ArrayList<>(Arrays.asList(squirtle, waterEnergy)), trainer.getDeck());

@@ -61,9 +61,9 @@ public class FirstEvoElectricPokemonTest {
         assertEquals(0, raichu.getHP());
         raichu.setHP(100);
         assertEquals(100, raichu.getHP());
-        assertEquals(1, raichu.getAttacks().size());
-        assertEquals(electricAttack, raichu.getAttacks().get(0));
-        assertNull(raichu.getSelectedAttack());
+        assertEquals(1, raichu.getAbilities().size());
+        assertEquals(electricAttack, raichu.getAbilities().get(0));
+        assertNull(raichu.getSelectedAbility());
         assertEquals(1, raichu.getEnergies().size());
         assertEquals(electricEnergy, raichu.getEnergies().get(0));
         assertEquals("Raichu", raichu.getCardName());
@@ -74,30 +74,30 @@ public class FirstEvoElectricPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        pikachu.selectAttack(0);
-        assertEquals(electricAttack, pikachu.getSelectedAttack());
+        raichu.selectAbility(0);
+        assertEquals(electricAttack, raichu.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        pikachu.selectAttack(0);
-        pikachu.attack(squirtle);
+        raichu.selectAbility(0);
+        raichu.attack(squirtle);
         assertEquals(0, squirtle.getHP());
-        pikachu.attack(squirtle);
+        raichu.attack(squirtle);
         assertEquals(0, squirtle.getHP());
     }
 
     @Test
     public void receiveFightingAttack() {
-        assertEquals(100, pikachu.getHP());
-        pikachu.receiveFightingAttack(fightingAttack);
-        assertEquals(40, pikachu.getHP());
+        assertEquals(100, raichu.getHP());
+        raichu.receiveFightingAttack(fightingAttack);
+        assertEquals(40, raichu.getHP());
     }
 
     @Test
     public void receiveAttack() {
-        assertEquals(100, pikachu.getHP());
-        pikachu.receiveWaterAttack(waterAttack);
-        assertEquals(60, pikachu.getHP());
+        assertEquals(100, raichu.getHP());
+        raichu.receiveWaterAttack(waterAttack);
+        assertEquals(60, raichu.getHP());
     }
 }

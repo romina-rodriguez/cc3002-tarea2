@@ -22,6 +22,6 @@ public class SupporterCard extends AbstractTrainerCard {
 
     @Override
     public void useCard(Trainer trainer){
-
+        //trainer.discard(this);
     }
 }

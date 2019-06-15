@@ -1,6 +1,6 @@
 package pokemon.water;
 
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IEnergy;
 
 import java.util.ArrayList;
@@ -18,11 +18,11 @@ public class BasicWaterPokemon extends AbstractWaterPokemon {
      * @param name Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
-     * @param attackList Pokémon's attacks.
+     * @param abilityList Pokémon's abilities.
      * @param energyList Pokémon's energies.
      */
-    public BasicWaterPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+    public BasicWaterPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList,
                              ArrayList<IEnergy> energyList) {
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
     }
 }

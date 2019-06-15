@@ -1,6 +1,7 @@
 package pokemon.fighting;
 
 import pokemon.AbstractPokemon;
+import pokemon.IAbility;
 import pokemon.IAttack;
 import pokemon.IEnergy;
 import pokemon.grass.GrassAttack;
@@ -22,12 +23,12 @@ public abstract class AbstractFightingPokemon extends AbstractPokemon implements
      * @param name Pokémon's name.
      * @param number  Pokémon's number.
      * @param hp  Pokémon's hit points.
-     * @param attackList  Pokémon's attacks.
+     * @param abilityList  Pokémon's abilites.
      * @param energyList Pokémon's energies.
      */
-    public AbstractFightingPokemon(String name, int number, int hp, ArrayList<IAttack> attackList,
+    public AbstractFightingPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList,
                            ArrayList<IEnergy> energyList){
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
     }
 
     /**

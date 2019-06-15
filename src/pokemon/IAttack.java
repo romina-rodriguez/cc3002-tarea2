@@ -1,14 +1,12 @@
 package pokemon;
 
-import java.util.ArrayList;
-
 /**
- * Common interface for all the attacks (abilities). Every attack has a name, a base damage, a description
+ * Common interface for all the attacks. Every attack has a name, a base damage, a description
  * and a cost, and should be able to damage a Pokémon.
  *
  *  @author Romina Rodríguez
  */
-public interface IAttack {
+public interface IAttack extends IAbility {
 
     /**
      * An attack damages a Pokémon based on the attack's base damage, it's type and the type of the
@@ -23,20 +21,5 @@ public interface IAttack {
      * @return Base damage of the attack.
      */
     int getBaseDamage();
-
-    /**
-     * @return Name of the attack.
-     */
-    String getName();
-
-    /**
-     * @return Description of the attack.
-     */
-    String getDescription();
-
-    /**
-     * @return List with all the energies required to do an attack.
-     */
-    ArrayList<IEnergy> getEnergyListRequired();
     //endregion
 }

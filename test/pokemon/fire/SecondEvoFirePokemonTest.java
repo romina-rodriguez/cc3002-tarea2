@@ -53,9 +53,9 @@ public class SecondEvoFirePokemonTest {
     public void constructorTest() {
         assertEquals("Charizard", charizard.getName());
         assertEquals(100, charizard.getHP());
-        assertEquals(1, charizard.getAttacks().size());
-        assertEquals(fireAttack, charizard.getAttacks().get(0));
-        assertNull(charizard.getSelectedAttack());
+        assertEquals(1, charizard.getAbilities().size());
+        assertEquals(fireAttack, charizard.getAbilities().get(0));
+        assertNull(charizard.getSelectedAbility());
         assertEquals(1, charizard.getEnergies().size());
         assertEquals(fireEnergy, charizard.getEnergies().get(0));
         assertEquals("Charizard", charizard.getCardName());
@@ -65,13 +65,13 @@ public class SecondEvoFirePokemonTest {
 
     @Test
     public void selectAttackTest() {
-        charizard.selectAttack(0);
-        assertEquals(fireAttack, charizard.getSelectedAttack());
+        charizard.selectAbility(0);
+        assertEquals(fireAttack, charizard.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        charizard.selectAttack(0);
+        charizard.selectAbility(0);
         charizard.attack(bulbasaur);
         assertEquals(20, bulbasaur.getHP());
         charizard.attack(bulbasaur);

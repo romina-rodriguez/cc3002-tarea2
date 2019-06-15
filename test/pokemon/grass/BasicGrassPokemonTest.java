@@ -63,9 +63,9 @@ public class BasicGrassPokemonTest {
     public void constructorTest() {
         assertEquals("Bulbasaur", bulbasaur.getName());
         assertEquals(100, bulbasaur.getHP());
-        assertEquals(1, bulbasaur.getAttacks().size());
-        assertEquals(grassAttack, bulbasaur.getAttacks().get(0));
-        assertNull(bulbasaur.getSelectedAttack());
+        assertEquals(1, bulbasaur.getAbilities().size());
+        assertEquals(grassAttack, bulbasaur.getAbilities().get(0));
+        assertNull(bulbasaur.getSelectedAbility());
         assertEquals(1, bulbasaur.getEnergies().size());
         assertEquals(grassEnergy, bulbasaur.getEnergies().get(0));
         assertEquals("Bulbasaur", bulbasaur.getCardName());
@@ -74,13 +74,13 @@ public class BasicGrassPokemonTest {
 
     @Test
     public void selectAttackTest() {
-        bulbasaur.selectAttack(0);
-        assertEquals(grassAttack, bulbasaur.getSelectedAttack());
+        bulbasaur.selectAbility(0);
+        assertEquals(grassAttack, bulbasaur.getSelectedAbility());
     }
 
     @Test
     public void attackTest() {
-        bulbasaur.selectAttack(0);
+        bulbasaur.selectAbility(0);
         bulbasaur.attack(mewtwo);
         assertEquals(60, mewtwo.getHP());
         bulbasaur.attack(mewtwo);

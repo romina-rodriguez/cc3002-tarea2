@@ -1,6 +1,6 @@
 package pokemon.fire;
 
-import pokemon.IAttack;
+import pokemon.IAbility;
 import pokemon.IEnergy;
 import pokemon.IEvoPokemon;
 
@@ -22,13 +22,13 @@ public abstract class AbstractEvoFirePokemon extends AbstractFirePokemon impleme
      * @param name       Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
-     * @param attackList Pokémon's attacks.
+     * @param abilityList Pokémon's abilites.
      * @param energyList Pokémon's energies.
      * @param preEvolution Pokémo's pre-evolution.
      */
-    protected AbstractEvoFirePokemon(String name, int number, int hp, ArrayList<IAttack> attackList, ArrayList<IEnergy> energyList,
+    protected AbstractEvoFirePokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList,
                                      int preEvolution) {
-        super(name, number, hp, attackList, energyList);
+        super(name, number, hp, abilityList, energyList);
         this.preEvolution = preEvolution;
     }
 

@@ -81,5 +81,4 @@ public class ElectricAttackTest {
                 "This is an electric attack",
                 new ArrayList<>(Arrays.asList(electricEnergy))));
     }
-
 }
