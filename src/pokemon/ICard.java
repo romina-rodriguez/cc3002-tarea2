@@ -22,4 +22,16 @@ public interface ICard {
      * //@param card Card that was selected.
      */
     void useCard(Trainer trainer);
+
+    /**
+     * Setter for the trainer that wants to use the card
+     * @param trainer trainer.
+     */
+    void setTrainer(Trainer trainer);
+
+    /**
+     * Getter for the trainer that used the card.
+     * @return trainer.
+     */
+    Trainer getTrainer();
 }

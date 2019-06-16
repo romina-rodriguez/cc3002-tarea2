@@ -4,7 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
-import pokemon.abilities.ElectricShock;
+import pokemon.Trainer;
+import pokemon.requirements.ElectricShock;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.water.WaterAttack;
@@ -34,6 +35,7 @@ public class SecondEvoElectricPokemonTest {
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
     private ElectricShock electricShock;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -54,6 +56,11 @@ public class SecondEvoElectricPokemonTest {
         electivire = new SecondEvoElectricPokemon("Electivire", 466, 100,
                 new ArrayList<>(Arrays.asList(electricAttack, electricShock)),
                 new ArrayList<>(Arrays.asList(electricEnergy)), 125);
+        trainer = new Trainer("Misty", squirtle,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -83,7 +90,7 @@ public class SecondEvoElectricPokemonTest {
     @Test
     public void attackTest() {
         electivire.selectAbility(1);
-        electivire.attack(squirtle);
+        electivire.attack(trainer);
         assertTrue(squirtle.getHP() == 100 || squirtle.getHP() == 50);
     }
 

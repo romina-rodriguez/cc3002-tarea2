@@ -3,6 +3,7 @@ package pokemon.psychic;
 import org.junit.Before;
 import org.junit.Test;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.grass.BasicGrassPokemon;
@@ -33,6 +34,7 @@ public class BasicPsychicPokemonTest {
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -48,6 +50,11 @@ public class BasicPsychicPokemonTest {
         abra = new BasicPsychicPokemon("Abra", 63, 100,
                 new ArrayList<>(Arrays.asList(psychicAttack)),
                 new ArrayList<>(Arrays.asList()));
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -71,7 +78,7 @@ public class BasicPsychicPokemonTest {
     @Test
     public void attackTest() {
         abra.selectAbility(0);
-        abra.attack(bulbasaur);
+        abra.attack(trainer);
         assertEquals(100, bulbasaur.getHP());
     }
 

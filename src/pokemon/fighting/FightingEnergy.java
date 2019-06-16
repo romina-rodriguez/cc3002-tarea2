@@ -7,7 +7,7 @@ import pokemon.AbstractEnergy;
  *
  *  @author Romina Rodríguez
  */
-public class FightingEnergy extends AbstractEnergy{
+public class FightingEnergy extends AbstractEnergy {
 
     /**
      * Creates a new fighting energy type.

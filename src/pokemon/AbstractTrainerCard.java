@@ -6,32 +6,22 @@ package pokemon;
  *
  *  @author Romina Rodríguez
  */
-abstract public class AbstractTrainerCard implements ITrainerCard {
-    private String name;
+abstract public class AbstractTrainerCard extends AbstractCard implements ITrainerCard {
+
     private String description;
 
     /**
     * Creates a new Trainer Card.
     *
-    * @param name        Pokémon's name.
-    * @param description Pokémon's description.
+    * @param name        Card's name.
+    * @param description Card's description.
     */
     protected AbstractTrainerCard(String name, String description){
-        this.name = name;
+        super(name);
         this.description = description;
     }
 
     //region Properties
-    /**
-     * Getter for the Trainer Card's name.
-     *
-     * @return Card's name.
-     */
-    @Override
-    public String getCardName() {
-        return name;
-    }
-
     /**
      * Getter for the Trainer Card's description.
      *

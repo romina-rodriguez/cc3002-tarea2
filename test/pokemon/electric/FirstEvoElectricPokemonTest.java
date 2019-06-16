@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.water.BasicWaterPokemon;
@@ -33,6 +34,7 @@ public class FirstEvoElectricPokemonTest {
     private FightingAttack fightingAttack;
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -51,6 +53,11 @@ public class FirstEvoElectricPokemonTest {
         raichu = new FirstEvoElectricPokemon("Raichu", 26, 100,
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)), 25);
+        trainer = new Trainer("Misty", squirtle,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -81,9 +88,9 @@ public class FirstEvoElectricPokemonTest {
     @Test
     public void attackTest() {
         raichu.selectAbility(0);
-        raichu.attack(squirtle);
+        raichu.attack(trainer);
         assertEquals(0, squirtle.getHP());
-        raichu.attack(squirtle);
+        raichu.attack(trainer);
         assertEquals(0, squirtle.getHP());
     }
 

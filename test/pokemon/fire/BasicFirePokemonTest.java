@@ -3,6 +3,7 @@ package pokemon.fire;
 import org.junit.Before;
 import org.junit.Test;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.grass.GrassAttack;
 import pokemon.grass.BasicGrassPokemon;
 import pokemon.water.WaterAttack;
@@ -31,6 +32,7 @@ public class BasicFirePokemonTest {
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
     private GrassAttack grassAttack;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -46,6 +48,11 @@ public class BasicFirePokemonTest {
         charmander = new BasicFirePokemon("Charmander",4,100,
                 new ArrayList<>(Arrays.asList(fireAttack)),
                 new ArrayList<>(Arrays.asList(fireEnergy)));
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -70,9 +77,9 @@ public class BasicFirePokemonTest {
     @Test
     public void attackTest() {
         charmander.selectAbility(0);
-        charmander.attack(bulbasaur);
+        charmander.attack(trainer);
         assertEquals(20, bulbasaur.getHP());
-        charmander.attack(bulbasaur);
+        charmander.attack(trainer);
         assertEquals(0, bulbasaur.getHP());
     }
 

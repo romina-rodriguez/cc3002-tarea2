@@ -3,6 +3,7 @@ package pokemon.electric;
 import org.junit.Before;
 import org.junit.Test;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.water.BasicWaterPokemon;
@@ -31,6 +32,7 @@ public class BasicElectricPokemonTest {
     private FightingAttack fightingAttack;
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -46,6 +48,11 @@ public class BasicElectricPokemonTest {
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList(electricAttack)),
                 new ArrayList<>(Arrays.asList(electricEnergy)));
+        trainer = new Trainer("Misty", squirtle,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -75,9 +82,9 @@ public class BasicElectricPokemonTest {
     @Test
     public void attackTest() {
         pikachu.selectAbility(0);
-        pikachu.attack(squirtle);
+        pikachu.attack(trainer);
         assertEquals(0, squirtle.getHP());
-        pikachu.attack(squirtle);
+        pikachu.attack(trainer);
         assertEquals(0, squirtle.getHP());
     }
 

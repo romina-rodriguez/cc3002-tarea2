@@ -3,6 +3,7 @@ package pokemon.fighting;
 import org.junit.Before;
 import org.junit.Test;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.grass.GrassAttack;
 import pokemon.grass.BasicGrassPokemon;
 import pokemon.water.WaterAttack;
@@ -34,6 +35,7 @@ public class BasicFightingPokemonTest {
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
     private GrassAttack grassAttack;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -51,6 +53,11 @@ public class BasicFightingPokemonTest {
         mankey = new BasicFightingPokemon("Mankey", 56, 100,
                 new ArrayList<>(Arrays.asList(fightingAttack)),
                 new ArrayList<>(Arrays.asList(fightingEnergy, waterEnergy)));
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -76,11 +83,11 @@ public class BasicFightingPokemonTest {
     @Test
     public void attackTest() {
         mankey.selectAbility(0);
-        mankey.attack(bulbasaur);
+        mankey.attack(trainer);
         assertEquals(70, bulbasaur.getHP());
-        mankey.attack(bulbasaur);
-        mankey.attack(bulbasaur);
-        mankey.attack(bulbasaur);
+        mankey.attack(trainer);
+        mankey.attack(trainer);
+        mankey.attack(trainer);
         assertEquals(0, bulbasaur.getHP());
     }
 

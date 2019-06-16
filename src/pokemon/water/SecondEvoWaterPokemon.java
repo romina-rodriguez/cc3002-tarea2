@@ -18,11 +18,11 @@ public class SecondEvoWaterPokemon extends AbstractEvoWaterPokemon  {
      * @param name         Pokémon's name.
      * @param number       Pokémon's number.
      * @param hp           Pokémon's hit points.
-     * @param abilityList   Pokémon's abilities.
+     * @param abilityList   Pokémon's requirements.
      * @param energyList   Pokémon's energies.
      * @param preEvolution Pokémon's pre-evolution.
      */
-    protected SecondEvoWaterPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList, int preEvolution) {
+    public SecondEvoWaterPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList, int preEvolution) {
         super(name, number, hp, abilityList, energyList, preEvolution);
     }
 }

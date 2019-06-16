@@ -26,7 +26,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class pokemonTest {
 
-    private Trainer trainer;
+    private Trainer trainer, otherTrainer;
     private IPokemon
             pikachu,
             bulbasaur,
@@ -58,7 +58,12 @@ public class pokemonTest {
         trainer = new Trainer("Misty", null,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList(squirtle, waterEnergy)),
-                new ArrayList<>(),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
+        otherTrainer = new Trainer("Mina", squirtle,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
                 new ArrayList<>());
     }
 
@@ -78,27 +83,15 @@ public class pokemonTest {
         trainer.getPokemonBench().add(pikachu);
         assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getPokemonBench());
         pikachu.selectAbility(0);
-        pikachu.attack(squirtle);
+        pikachu.attack(otherTrainer);
         assertTrue(squirtle.isDead());
         assertFalse(pikachu.isDead());
     }
 
     @Test
-    public void addToBenchTest() {
-        trainer.getPokemonBench().add(pikachu);
-        assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getPokemonBench());
-    }
-
-    @Test
-    public void promoteToActiveTest(){
-        trainer.setActivePokemon(bulbasaur);
-        assertEquals(bulbasaur, trainer.getActivePokemon());
-    }
-
-    @Test
     public void isDeadTest(){
         pikachu.selectAbility(0);
-        pikachu.attack(squirtle);
+        pikachu.attack(otherTrainer);
         assertTrue(squirtle.isDead());
         assertFalse(pikachu.isDead());
     }

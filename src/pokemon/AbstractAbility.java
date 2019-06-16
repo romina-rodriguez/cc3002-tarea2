@@ -3,7 +3,7 @@ package pokemon;
 import java.util.ArrayList;
 
 /**
- * Base class for all the abilities. This contains the methods to access the ability's properties, like
+ * Base class for all the requirements. This contains the methods to access the ability's properties, like
  * it's name, description and cost.
  *
  *  @author Romina Rodríguez

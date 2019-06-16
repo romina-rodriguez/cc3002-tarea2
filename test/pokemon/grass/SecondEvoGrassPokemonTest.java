@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fire.BasicFirePokemon;
 import pokemon.fire.FireAttack;
 import pokemon.fire.FireEnergy;
@@ -37,6 +38,7 @@ public class SecondEvoGrassPokemonTest {
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
     private GrassAttack grassAttack;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -57,6 +59,11 @@ public class SecondEvoGrassPokemonTest {
         charmander = new BasicFirePokemon("Charmander",4,100,
                 new ArrayList<>(Arrays.asList(fireAttack)),
                 new ArrayList<>(Arrays.asList(fireEnergy)));
+        trainer = new Trainer("Misty", mewtwo,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
 
     }
 
@@ -83,10 +90,10 @@ public class SecondEvoGrassPokemonTest {
     @Test
     public void attackTest() {
         venusaur.selectAbility(0);
-        venusaur.attack(mewtwo);
+        venusaur.attack(trainer);
         assertEquals(60, mewtwo.getHP());
-        venusaur.attack(mewtwo);
-        venusaur.attack(mewtwo);
+        venusaur.attack(trainer);
+        venusaur.attack(trainer);
         assertEquals(0, mewtwo.getHP());
     }
 

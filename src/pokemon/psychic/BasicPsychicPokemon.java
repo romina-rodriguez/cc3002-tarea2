@@ -19,7 +19,7 @@ public class BasicPsychicPokemon extends AbstractPsychicPokemon implements IBasi
      * @param name Pokémon's name.
      * @param number  Pokémon's number.
      * @param hp  Pokémon's hit points.
-     * @param abilityList  Pokémon's abilities.
+     * @param abilityList  Pokémon's requirements.
      * @param energyList Pokémon's energies.
      */
     public BasicPsychicPokemon(String name, int number, int hp, ArrayList<IAbility> abilityList,

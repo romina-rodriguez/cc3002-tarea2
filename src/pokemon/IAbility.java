@@ -3,7 +3,7 @@ package pokemon;
 import java.util.ArrayList;
 
 /**
- * Common interface for all the abilities. Every ability has a name, a description
+ * Common interface for all the requirements. Every ability has a name, a description
  * and a cost.
  *
  *  @author Romina Rodríguez
@@ -14,9 +14,9 @@ public interface IAbility {
      * Performs an ability.
      * {@inheritDoc}
      *
-     * @param pokemon Pokémon that receives the ability.
+     * @param trainer Trainer that receives the ability.
      */
-    void useAbility(IPokemon pokemon);
+    void useAbility(Trainer trainer);
 
     //region Properties
     /**

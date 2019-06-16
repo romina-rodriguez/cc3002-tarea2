@@ -3,6 +3,7 @@ package pokemon.water;
 import org.junit.Before;
 import org.junit.Test;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.grass.GrassAttack;
@@ -35,6 +36,7 @@ public class BasicWaterPokemonTest {
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
     private GrassAttack grassAttack;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -52,6 +54,11 @@ public class BasicWaterPokemonTest {
         squirtle = new BasicWaterPokemon("Squirtle", 7, 100,
                 new ArrayList<>(Arrays.asList(waterAttack)),
                 new ArrayList<>(Arrays.asList(waterEnergy)));
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -77,7 +84,7 @@ public class BasicWaterPokemonTest {
     @Test
     public void attackTest() {
         squirtle.selectAbility(0);
-        squirtle.attack(bulbasaur);
+        squirtle.attack(trainer);
         assertEquals(90, bulbasaur.getHP());
     }
 

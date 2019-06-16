@@ -2,77 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c402428-e73b-45b7-a943-cd1227fd7e5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pokemon/requirements/Potion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IBasicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IEvoPokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractEnergy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractEnergy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/AbstractTrainerCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/AbstractTrainerCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/IAbility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/IAbility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/ICard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/ICard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pokemon/IPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/IPokemon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/pokemon/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/Trainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/AbstractElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/AbstractEvoElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/BasicElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/ElectricAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/FirstEvoElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/IElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/electric/SecondEvoElectricPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/AbstractEvoFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/AbstractFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/BasicFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/FightingAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/FirstEvoFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/IFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fighting/SecondEvoFightingPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/AbstractEvoFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/AbstractFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/BasicFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/FireAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/FirstEvoFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/IFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/SecondEvoFirePokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/AbstractEvoGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/AbstractGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/BasicGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/FirstEvoGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/GrassAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/IGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/SecondEvoGrassPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/AbstractEvoPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/AbstractPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/BasicPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/FirstEvoPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/IPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/PsychicAttack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/SecondEvoPsychicPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/AbstractEvoWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/AbstractWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/BasicWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/FirstEvoWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/IWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/SecondEvoWaterPokemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/WaterAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/abilities/ElectricShock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/abilities/EnergyBurn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/abilities/Potion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/controller/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/controller/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/FirstEvoFirePokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/fire/FirstEvoFirePokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/fire/SecondEvoFirePokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/fire/SecondEvoFirePokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/FirstEvoGrassPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/grass/FirstEvoGrassPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/grass/SecondEvoGrassPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/grass/SecondEvoGrassPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/FirstEvoPsychicPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/psychic/FirstEvoPsychicPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/psychic/SecondEvoPsychicPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/psychic/SecondEvoPsychicPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/trainercards/ItemCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/trainercards/StadiumCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/trainercards/SupporterCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/FirstEvoWaterPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/water/FirstEvoWaterPokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pokemon/water/SecondEvoWaterPokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pokemon/water/SecondEvoWaterPokemon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/pokemon/TrainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/TrainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/abilities/ElectricShockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/abilities/EnergyBurnTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/abilities/PotionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/BasicElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/BasicElectricPokemonTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/FirstEvoElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/FirstEvoElectricPokemonTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/pokemon/electric/SecondEvoElectricPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/electric/SecondEvoElectricPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fighting/BasicFightingPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fighting/BasicFightingPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fighting/FirstEvoFightingPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fighting/FirstEvoFightingPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fighting/SecondEvoFightingPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fighting/SecondEvoFightingPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fire/BasicFirePokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fire/BasicFirePokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fire/FirstEvoFirePokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fire/FirstEvoFirePokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/fire/SecondEvoFirePokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/fire/SecondEvoFirePokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/grass/BasicGrassPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/grass/BasicGrassPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/grass/FirstEvoGrassPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/grass/FirstEvoGrassPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/grass/SecondEvoGrassPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/grass/SecondEvoGrassPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/pokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/pokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/psychic/BasicPsychicPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/psychic/BasicPsychicPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/psychic/FirstEvoPsychicPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/psychic/FirstEvoPsychicPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/psychic/SecondEvoPsychicPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/psychic/SecondEvoPsychicPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/trainercards/ItemCardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/trainercards/StadiumCardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/trainercards/SupporterCardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/water/BasicWaterPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/water/BasicWaterPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/water/FirstEvoWaterPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/water/FirstEvoWaterPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/pokemon/water/SecondEvoWaterPokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/pokemon/water/SecondEvoWaterPokemonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractAbility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractEnergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractEnergy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/AbstractTrainerCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/AbstractTrainerCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/IAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IAbility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/ICard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/ICard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/IPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/IPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/abilities/ElectricShock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/requirements/ElectricShock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/abilities/EnergyBurn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/abilities/Potion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/controller/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/BasicFightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/BasicFightingPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/FirstEvoFightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/FirstEvoFightingPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/fighting/FightingEnergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fighting/FightingEnergy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java" afterDir="false" />
@@ -85,16 +82,19 @@
       <change beforePath="$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/trainercards/SupporterCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/trainercards/SupporterCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/trainercards/ItemCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/trainercards/AbstractItemCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/trainercards/StadiumCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/trainercards/AbstractStadiumCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokemon/trainercards/SupporterCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/trainercards/AbstractSupporterCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pokemon/water/WaterEnergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokemon/water/WaterEnergy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/TrainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/TrainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/abilities/ElectricShockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/requirements/ElectricShockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/abilities/EnergyBurnTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/abilities/PotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/requirements/PotionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/fighting/BasicFightingPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/fighting/BasicFightingPokemonTest.java" afterDir="false" />
@@ -110,6 +110,9 @@
       <change beforePath="$PROJECT_DIR$/test/pokemon/psychic/BasicPsychicPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/psychic/BasicPsychicPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/psychic/FirstEvoPsychicPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/psychic/FirstEvoPsychicPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/psychic/SecondEvoPsychicPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/psychic/SecondEvoPsychicPokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/trainercards/ItemCardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/trainercards/StadiumCardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pokemon/trainercards/SupporterCardTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/water/BasicWaterPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/water/BasicWaterPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/water/FirstEvoWaterPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/water/FirstEvoWaterPokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pokemon/water/SecondEvoWaterPokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/pokemon/water/SecondEvoWaterPokemonTest.java" afterDir="false" />
@@ -130,16 +133,447 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JavaScript-modules-diagram/C:/Users/Romina Rodríguez/Documents/GitHub/cc3002-tarea2">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JavaScript-modules-diagram</ID>
+              <OriginalElement>$PROJECT_DIR$</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>All</Category>
+              </Categories>
+              <VISIBILITY>Details</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/pokemon">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>pokemon</OriginalElement>
+              <nodes>
+                <node x="595.6962365591398" y="1665.0">pokemon.fire</node>
+                <node x="0.0" y="1814.0">pokemon.Trainer</node>
+                <node x="1280.972670250896" y="1665.0">pokemon.fighting</node>
+                <node x="1558.556899641577" y="352.0">pokemon.IAttack</node>
+                <node x="555.5555555555557" y="964.5">pokemon.AbstractEnergy</node>
+                <node x="1943.2638888888887" y="1665.0">pokemon.psychic</node>
+                <node x="585.320788530466" y="0.0">pokemon.ICard</node>
+                <node x="748.5555555555557" y="700.0">pokemon.AbstractPokemon</node>
+                <node x="108.83333333333348" y="975.0">pokemon.AbstractTrainerCard</node>
+                <node x="1452.570788530466" y="953.0">pokemon.AbstractAttack</node>
+                <node x="1781.2638888888887" y="1665.0">pokemon.electric</node>
+                <node x="1163.320788530466" y="165.0">pokemon.IPokemon</node>
+                <node x="1212.0143369175626" y="998.0">pokemon.IEvoPokemon</node>
+                <node x="1795.570788530466" y="1009.0">pokemon.IBasicPokemon</node>
+                <node x="1140.972670250896" y="1665.0">pokemon.grass</node>
+                <node x="1932.1541218637992" y="285.0">pokemon.AbstractAbility</node>
+                <node x="455.69623655913983" y="1665.0">pokemon.water</node>
+                <node x="686.820788530466" y="363.0">pokemon.IEnergy</node>
+                <node x="449.23655913978496" y="307.0">pokemon.AbstractCard</node>
+                <node x="91.06989247311822" y="1665.0">pokemon.trainercards</node>
+                <node x="0.0" y="363.0">pokemon.ITrainerCard</node>
+                <node x="724.0" y="1814.0">pokemon.controller</node>
+                <node x="1720.1805555555557" y="0.0">pokemon.IAbility</node>
+                <node x="1204.222670250896" y="1742.0">pokemon.requirements</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="pokemon.requirements" target="pokemon.electric">
+                  <point x="21.25" y="-13.5" />
+                  <point x="1310.472670250896" y="1712.0" />
+                  <point x="1852.2638888888887" y="1712.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="pokemon.IEvoPokemon" target="pokemon.IPokemon">
+                  <point x="0.0" y="-24.5" />
+                  <point x="1288.0143369175626" y="680.0" />
+                  <point x="1297.820788530466" y="680.0" />
+                  <point x="0.0" y="222.5" />
+                </edge>
+                <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
+                  <point x="-80.75" y="-69.5" />
+                  <point x="1533.320788530466" y="680.0" />
+                  <point x="1639.556899641577" y="680.0" />
+                  <point x="0.0" y="35.5" />
+                </edge>
+                <edge source="pokemon.AbstractTrainerCard" target="pokemon.AbstractCard">
+                  <point x="56.25" y="-47.5" />
+                  <point x="277.5833333333335" y="640.0" />
+                  <point x="476.4032258064517" y="640.0" />
+                  <point x="-54.33333333333326" y="80.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractAttack">
+                  <point x="30.0" y="-13.5" />
+                  <point x="1230.972670250896" y="1605.0" />
+                  <point x="1587.1541218637994" y="1605.0" />
+                  <point x="-26.91666666666663" y="69.5" />
+                </edge>
+                <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
+                  <point x="43.25" y="-58.0" />
+                  <point x="685.3055555555557" y="640.0" />
+                  <point x="751.320788530466" y="640.0" />
+                  <point x="0.0" y="24.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.IEvoPokemon">
+                  <point x="-11.833333333333371" y="-13.5" />
+                  <point x="1340.1393369175626" y="1455.0" />
+                  <point x="1300.6810035842293" y="1455.0" />
+                  <point x="12.666666666666629" y="24.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.IPokemon">
+                  <point x="11.833333333333258" y="-13.5" />
+                  <point x="1363.8060035842293" y="1575.0" />
+                  <point x="1413.195788530466" y="1575.0" />
+                  <point x="1413.195788530466" y="680.0" />
+                  <point x="1327.7096774193549" y="680.0" />
+                  <point x="29.888888888888914" y="222.5" />
+                </edge>
+                <edge source="pokemon.trainercards" target="pokemon.ITrainerCard">
+                  <point x="-42.5" y="-13.5" />
+                  <point x="133.56989247311822" y="1645.0" />
+                  <point x="95.56989247311822" y="1645.0" />
+                  <point x="95.56989247311822" y="680.0" />
+                  <point x="56.5" y="680.0" />
+                  <point x="-56.5" y="24.5" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.IBasicPokemon">
+                  <point x="33.5" y="-13.5" />
+                  <point x="2043.7638888888887" y="1365.0" />
+                  <point x="1917.970788530466" y="1365.0" />
+                  <point x="54.39999999999998" y="13.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
+                  <point x="-59.16666666666674" y="-13.5" />
+                  <point x="1292.8060035842293" y="1475.0" />
+                  <point x="656.4722222222224" y="1475.0" />
+                  <point x="14.416666666666742" y="58.0" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
+                  <point x="-55.83333333333326" y="-13.5" />
+                  <point x="1954.4305555555557" y="1405.0" />
+                  <point x="714.1388888888889" y="1405.0" />
+                  <point x="72.08333333333326" y="58.0" />
+                </edge>
+                <edge source="pokemon.AbstractTrainerCard" target="pokemon.ITrainerCard">
+                  <point x="-56.25" y="-47.5" />
+                  <point x="165.08333333333348" y="680.0" />
+                  <point x="169.5" y="680.0" />
+                  <point x="56.5" y="24.5" />
+                </edge>
+                <edge source="pokemon.trainercards" target="pokemon.AbstractTrainerCard">
+                  <point x="42.5" y="-13.5" />
+                  <point x="218.56989247311822" y="1645.0" />
+                  <point x="221.33333333333348" y="1645.0" />
+                  <point x="0.0" y="47.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.IPokemon">
+                  <point x="59.16666666666663" y="-13.5" />
+                  <point x="1911.4305555555554" y="1645.0" />
+                  <point x="1983.820788530466" y="1645.0" />
+                  <point x="1983.820788530466" y="660.0" />
+                  <point x="1387.4874551971327" y="660.0" />
+                  <point x="89.66666666666663" y="222.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.AbstractAttack">
+                  <point x="11.833333333333371" y="-13.5" />
+                  <point x="1864.0972222222222" y="1415.0" />
+                  <point x="1694.820788530466" y="1415.0" />
+                  <point x="80.75" y="69.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.IPokemon">
+                  <point x="-47.08333333333326" y="-13.5" />
+                  <point x="605.1129032258066" y="1515.0" />
+                  <point x="545.0555555555557" y="1515.0" />
+                  <point x="545.0555555555557" y="660.0" />
+                  <point x="1208.1541218637994" y="660.0" />
+                  <point x="-89.66666666666663" y="222.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.IBasicPokemon">
+                  <point x="35.5" y="-13.5" />
+                  <point x="1887.7638888888887" y="1645.0" />
+                  <point x="1890.770788530466" y="1645.0" />
+                  <point x="27.19999999999999" y="13.5" />
+                </edge>
+                <edge source="pokemon.requirements" target="pokemon.trainercards">
+                  <point x="-63.75" y="-13.5" />
+                  <point x="1225.472670250896" y="1722.0" />
+                  <point x="176.06989247311822" y="1722.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="pokemon.requirements" target="pokemon.fire">
+                  <point x="-21.25" y="-13.5" />
+                  <point x="1267.972670250896" y="1712.0" />
+                  <point x="652.1962365591398" y="1712.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="pokemon.AbstractCard" target="pokemon.ICard">
+                  <point x="0.0" y="-80.5" />
+                  <point x="530.736559139785" y="145.0" />
+                  <point x="647.570788530466" y="145.0" />
+                  <point x="-20.75" y="57.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.IEvoPokemon">
+                  <point x="24.0" y="-13.5" />
+                  <point x="539.6962365591398" y="1555.0" />
+                  <point x="1224.6810035842293" y="1555.0" />
+                  <point x="-63.33333333333337" y="24.5" />
+                </edge>
+                <edge source="pokemon.AbstractAbility" target="pokemon.IAbility">
+                  <point x="0.0" y="-102.5" />
+                  <point x="2084.1541218637994" y="145.0" />
+                  <point x="1925.6805555555557" y="145.0" />
+                  <point x="68.5" y="57.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
+                  <point x="-9.416666666666686" y="-13.5" />
+                  <point x="642.7795698924731" y="1545.0" />
+                  <point x="855.0555555555557" y="1545.0" />
+                  <point x="-106.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.IEnergy" target="pokemon.ICard">
+                  <point x="0.0" y="-24.5" />
+                  <point x="751.320788530466" y="145.0" />
+                  <point x="689.070788530466" y="145.0" />
+                  <point x="20.75" y="57.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.IBasicPokemon">
+                  <point x="59.16666666666674" y="-13.5" />
+                  <point x="1411.1393369175628" y="1645.0" />
+                  <point x="1863.570788530466" y="1645.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="pokemon.requirements" target="pokemon.AbstractAbility">
+                  <point x="63.75" y="-13.5" />
+                  <point x="1352.972670250896" y="1722.0" />
+                  <point x="2160.1541218637994" y="1722.0" />
+                  <point x="76.0" y="102.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.AbstractAttack">
+                  <point x="28.25" y="-13.5" />
+                  <point x="680.4462365591398" y="1595.0" />
+                  <point x="1533.320788530466" y="1595.0" />
+                  <point x="-80.75" y="69.5" />
+                </edge>
+                <edge source="pokemon.AbstractAttack" target="pokemon.AbstractAbility">
+                  <point x="80.75" y="-69.5" />
+                  <point x="1694.820788530466" y="680.0" />
+                  <point x="2008.1541218637992" y="680.0" />
+                  <point x="-76.0" y="102.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
+                  <point x="-30.0" y="-13.5" />
+                  <point x="1170.972670250896" y="1485.0" />
+                  <point x="926.0555555555557" y="1485.0" />
+                  <point x="-35.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.IEvoPokemon">
+                  <point x="-11.166666666666742" y="-13.5" />
+                  <point x="1999.0972222222222" y="1385.0" />
+                  <point x="1351.347670250896" y="1385.0" />
+                  <point x="63.33333333333326" y="24.5" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
+                  <point x="-33.5" y="-13.5" />
+                  <point x="1976.7638888888887" y="1395.0" />
+                  <point x="1139.0555555555557" y="1395.0" />
+                  <point x="177.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.IAttack" target="pokemon.IAbility">
+                  <point x="0.0" y="-35.5" />
+                  <point x="1639.556899641577" y="145.0" />
+                  <point x="1788.6805555555557" y="145.0" />
+                  <point x="-68.5" y="57.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.IBasicPokemon">
+                  <point x="50.0" y="-13.5" />
+                  <point x="1250.972670250896" y="1635.0" />
+                  <point x="1836.370788530466" y="1635.0" />
+                  <point x="-27.19999999999999" y="13.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.IEvoPokemon">
+                  <point x="10.0" y="-13.5" />
+                  <point x="1210.972670250896" y="1575.0" />
+                  <point x="1275.347670250896" y="1575.0" />
+                  <point x="-12.666666666666629" y="24.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.IPokemon">
+                  <point x="-10.0" y="-13.5" />
+                  <point x="1190.972670250896" y="1545.0" />
+                  <point x="1185.0555555555557" y="1545.0" />
+                  <point x="1185.0555555555557" y="680.0" />
+                  <point x="1267.931899641577" y="680.0" />
+                  <point x="-29.888888888888914" y="222.5" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+                  <point x="-35.5" y="-13.5" />
+                  <point x="1316.472670250896" y="1465.0" />
+                  <point x="997.0555555555557" y="1465.0" />
+                  <point x="35.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
+                  <point x="-35.5" y="-13.5" />
+                  <point x="1816.7638888888887" y="1435.0" />
+                  <point x="1068.0555555555557" y="1435.0" />
+                  <point x="106.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+                  <point x="0.0" y="-13.5" />
+                  <point x="515.6962365591398" y="1535.0" />
+                  <point x="784.0555555555557" y="1535.0" />
+                  <point x="-177.5" y="322.5" />
+                </edge>
+                <edge source="pokemon.ITrainerCard" target="pokemon.ICard">
+                  <point x="0.0" y="-24.5" />
+                  <point x="113.0" y="135.0" />
+                  <point x="606.070788530466" y="135.0" />
+                  <point x="-62.25" y="57.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractEnergy">
+                  <point x="-24.0" y="-13.5" />
+                  <point x="491.69623655913983" y="1525.0" />
+                  <point x="569.9722222222224" y="1525.0" />
+                  <point x="-72.08333333333326" y="58.0" />
+                </edge>
+                <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+                  <point x="35.5" y="-13.5" />
+                  <point x="1387.472670250896" y="1615.0" />
+                  <point x="1640.9874551971327" y="1615.0" />
+                  <point x="26.916666666666742" y="69.5" />
+                </edge>
+                <edge source="pokemon.AbstractPokemon" target="pokemon.AbstractCard">
+                  <point x="-106.5" y="-322.5" />
+                  <point x="855.0555555555557" y="630.0" />
+                  <point x="585.0698924731182" y="630.0" />
+                  <point x="54.33333333333326" y="80.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.IEvoPokemon">
+                  <point x="9.416666666666686" y="-13.5" />
+                  <point x="661.6129032258066" y="1565.0" />
+                  <point x="1250.0143369175626" y="1565.0" />
+                  <point x="-38.0" y="24.5" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.IBasicPokemon">
+                  <point x="47.083333333333314" y="-13.5" />
+                  <point x="699.2795698924731" y="1625.0" />
+                  <point x="1809.1707885304659" y="1625.0" />
+                  <point x="-54.39999999999998" y="13.5" />
+                </edge>
+                <edge source="pokemon.IPokemon" target="pokemon.ICard">
+                  <point x="0.0" y="-222.5" />
+                  <point x="1297.820788530466" y="135.0" />
+                  <point x="730.570788530466" y="135.0" />
+                  <point x="62.25" y="57.5" />
+                </edge>
+                <edge source="pokemon.AbstractEnergy" target="pokemon.AbstractCard">
+                  <point x="-43.25" y="-58.0" />
+                  <point x="598.8055555555557" y="640.0" />
+                  <point x="530.736559139785" y="640.0" />
+                  <point x="0.0" y="80.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
+                  <point x="-59.16666666666674" y="-13.5" />
+                  <point x="1793.0972222222222" y="1445.0" />
+                  <point x="685.3055555555557" y="1445.0" />
+                  <point x="43.25" y="58.0" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.IPokemon">
+                  <point x="-48.0" y="-13.5" />
+                  <point x="467.69623655913983" y="1645.0" />
+                  <point x="408.4041218637992" y="1645.0" />
+                  <point x="408.4041218637992" y="650.0" />
+                  <point x="1178.2652329749105" y="650.0" />
+                  <point x="-119.55555555555554" y="222.5" />
+                </edge>
+                <edge source="pokemon.water" target="pokemon.AbstractAttack">
+                  <point x="48.0" y="-13.5" />
+                  <point x="563.6962365591398" y="1585.0" />
+                  <point x="1479.4874551971327" y="1585.0" />
+                  <point x="-134.58333333333337" y="69.5" />
+                </edge>
+                <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
+                  <point x="-50.0" y="-13.5" />
+                  <point x="1150.972670250896" y="1495.0" />
+                  <point x="627.6388888888889" y="1495.0" />
+                  <point x="-14.416666666666742" y="58.0" />
+                </edge>
+                <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
+                  <point x="-28.25" y="-13.5" />
+                  <point x="623.9462365591398" y="1505.0" />
+                  <point x="598.8055555555557" y="1505.0" />
+                  <point x="-43.25" y="58.0" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
+                  <point x="11.166666666666742" y="-13.5" />
+                  <point x="2021.4305555555557" y="1375.0" />
+                  <point x="1748.6541218637994" y="1375.0" />
+                  <point x="134.58333333333337" y="69.5" />
+                </edge>
+                <edge source="pokemon.electric" target="pokemon.IEvoPokemon">
+                  <point x="-11.833333333333371" y="-13.5" />
+                  <point x="1840.4305555555554" y="1425.0" />
+                  <point x="1326.0143369175626" y="1425.0" />
+                  <point x="38.0" y="24.5" />
+                </edge>
+                <edge source="pokemon.IBasicPokemon" target="pokemon.IPokemon">
+                  <point x="0.0" y="-13.5" />
+                  <point x="1863.570788530466" y="670.0" />
+                  <point x="1357.5985663082438" y="670.0" />
+                  <point x="59.77777777777783" y="222.5" />
+                </edge>
+                <edge source="pokemon.psychic" target="pokemon.IPokemon">
+                  <point x="55.83333333333326" y="-13.5" />
+                  <point x="2066.097222222222" y="1645.0" />
+                  <point x="2094.222222222222" y="1645.0" />
+                  <point x="2094.222222222222" y="650.0" />
+                  <point x="1417.3763440860216" y="650.0" />
+                  <point x="119.55555555555566" y="222.5" />
+                </edge>
+                <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
+                  <point x="106.5" y="-322.5" />
+                  <point x="1068.0555555555557" y="670.0" />
+                  <point x="1238.0430107526881" y="670.0" />
+                  <point x="-59.77777777777783" y="222.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6448298008991651" x="758.5" y="1577.8859561752988" />
+              <SelectedNodes>
+                <node>pokemon.controller</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>con</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,64 +581,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/pokemon/fire/SecondEvoFirePokemonTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/water/WaterEnergy.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IAttack.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/trainercards/ItemCard.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/trainercards/SupporterCard.java" />
         <option value="$PROJECT_DIR$/test/pokemon/TrainerTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/abilities/ElectricShockTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/abilities/ElectricShock.java" />
-        <option value="$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/water/SecondEvoWaterPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/IStadiumCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/ISupporterCard.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/trainercards/AbstractSupporterCardTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/trainercards/AbstractStadiumCardTest.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/trainercards/AbstractItemCardTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/visitor/FireSpin.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/visitor/abilityVisitor.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/AbstractTrainerCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/AbstractItemCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/AbstractStadiumCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/AbstractSupporterCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/trainercards/IItemCard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/ICard.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/AbstractCard.java" />
         <option value="$PROJECT_DIR$/test/pokemon/abilities/EnergyBurnTest.java" />
         <option value="$PROJECT_DIR$/test/pokemon/abilities/PotionTest.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/Trainer.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/abilities/Potion.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/AbstractAbility.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/IAbility.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/AbstractAttack.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/abilities/EnergyBurn.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/visitor/visitPotion.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/visitor/visitDamageSwap.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/abilities/DamageSwapTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/ElectricShock.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/abilities/DamageSwap.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/DamageSwapTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/DamageSwap.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/visitor/ProffesorJuniper.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/PotionTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/Potion.java" />
         <option value="$PROJECT_DIR$/src/pokemon/AbstractPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fighting/BasicFightingPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fighting/FirstEvoFightingPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/grass/AbstractGrassPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/IPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/FireSpin.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/FireSpinTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/ProffesorJuniper.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/ProffesorJuniperTest.java" />
         <option value="$PROJECT_DIR$/src/pokemon/grass/SecondEvoGrassPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/grass/FirstEvoGrassPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/grass/BasicGrassPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/psychic/AbstractPsychicPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/psychic/AbstractEvoPsychicPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java" />
-        <option value="$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java" />
         <option value="$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/TrainingCenter.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/TrainingCenterTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/Trainer.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/requirements/ProfessorJuniper.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/requirements/ProfessorJuniperTest.java" />
+        <option value="$PROJECT_DIR$/src/pokemon/controller/Game.java" />
+        <option value="$PROJECT_DIR$/test/pokemon/controller/GameTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1460" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-35" />
+    <option name="y" value="50" />
+    <option name="width" value="1120" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -221,6 +655,17 @@
             <path>
               <item name="cc3002-tarea2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cc3002-tarea2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cc3002-tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-tarea2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cc3002-tarea2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-tarea2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pokemon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +685,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="D:/University/UCH/(6.2) Otoño '19/vm-test-jdbc" />
+    <property name="last_opened_file_path" value="D:/University/UCH/(6.2) Otoño '19/Codigo Base" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -250,16 +695,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pokemon.requirements" />
       <recent name="pokemon.abilities" />
+      <recent name="pokemon.controller" />
       <recent name="pokemon.water" />
       <recent name="pokemon.psychic" />
-      <recent name="pokemon.grass" />
-      <recent name="pokemon.fire" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pokemon.trainercards" />
       <recent name="pokemon.water" />
       <recent name="pokemon.psychic" />
       <recent name="pokemon.grass" />
@@ -287,63 +733,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnergyBurnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.gameLogic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc3002-tarea2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokemon.abilities.*" />
+          <option name="PATTERN" value="pokemon.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokemon.abilities" />
-      <option name="MAIN_CLASS_NAME" value="pokemon.abilities.EnergyBurnTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnergyBurnTest.equalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cc3002-tarea2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pokemon.abilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pokemon.abilities" />
-      <option name="MAIN_CLASS_NAME" value="pokemon.abilities.EnergyBurnTest" />
-      <option name="METHOD_NAME" value="equalsTest" />
+      <option name="PACKAGE_NAME" value="pokemon.controller" />
+      <option name="MAIN_CLASS_NAME" value="pokemon.controller.GameTest" />
+      <option name="METHOD_NAME" value="gameLogic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PotionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc3002-tarea2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokemon.abilities.*" />
+          <option name="PATTERN" value="pokemon.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokemon.abilities" />
-      <option name="MAIN_CLASS_NAME" value="pokemon.abilities.PotionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="pokemon.controller" />
+      <option name="MAIN_CLASS_NAME" value="pokemon.controller.GameTest" />
+      <option name="METHOD_NAME" value="updateTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PotionTest.abilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfessorJuniperTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc3002-tarea2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pokemon.abilities.*" />
+          <option name="PATTERN" value="pokemon.requirements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pokemon.abilities" />
-      <option name="MAIN_CLASS_NAME" value="pokemon.abilities.PotionTest" />
-      <option name="METHOD_NAME" value="abilityTest" />
+      <option name="PACKAGE_NAME" value="pokemon.requirements" />
+      <option name="MAIN_CLASS_NAME" value="pokemon.requirements.ProfessorJuniperTest" />
+      <option name="METHOD_NAME" value="constructorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfessorJuniperTest.useCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cc3002-tarea2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokemon.requirements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokemon.requirements" />
+      <option name="MAIN_CLASS_NAME" value="pokemon.requirements.ProfessorJuniperTest" />
+      <option name="METHOD_NAME" value="useCardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -352,10 +800,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in cc3002-tarea2" />
-        <item itemvalue="JUnit.PotionTest.abilityTest" />
-        <item itemvalue="JUnit.PotionTest" />
-        <item itemvalue="JUnit.EnergyBurnTest.equalsTest" />
-        <item itemvalue="JUnit.EnergyBurnTest" />
+        <item itemvalue="JUnit.GameTest.gameLogic" />
+        <item itemvalue="JUnit.GameTest.updateTest" />
+        <item itemvalue="JUnit.ProfessorJuniperTest.useCardTest" />
+        <item itemvalue="JUnit.ProfessorJuniperTest.constructorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -381,49 +829,61 @@
       <workItem from="1560447006929" duration="8854000" />
       <workItem from="1560471875740" duration="7636000" />
       <workItem from="1560528226469" duration="1003000" />
-      <workItem from="1560557447835" duration="8615000" />
+      <workItem from="1560557447835" duration="16480000" />
+      <workItem from="1560621553698" duration="18424000" />
+      <workItem from="1560652582481" duration="22732000" />
+      <workItem from="1560675501172" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondEvoElectricPokemonTest_attackTest - 2019.06.13 at 22h 36m 27s.xml">
-      <configuration name="SecondEvoElectricPokemonTest.attackTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 50m 10s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElectricShockTest - 2019.06.13 at 22h 43m 16s.xml">
-      <configuration name="ElectricShockTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 50m 50s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElectricShockTest_equalsTest - 2019.06.13 at 22h 44m 23s.xml">
-      <configuration name="ElectricShockTest.equalsTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 53m 58s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.14 at 14h 39m 13s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 54m 12s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.14 at 14h 39m 50s.xml">
-      <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 55m 27s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnergyBurnTest - 2019.06.14 at 20h 38m 23s.xml">
-      <configuration name="EnergyBurnTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 55m 43s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnergyBurnTest_equalsTest - 2019.06.14 at 20h 46m 39s.xml">
-      <configuration name="EnergyBurnTest.equalsTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 55m 49s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PotionTest - 2019.06.14 at 20h 47m 45s.xml">
-      <configuration name="PotionTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 56m 21s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PotionTest_abilityTest - 2019.06.14 at 21h 09m 30s.xml">
-      <configuration name="PotionTest.abilityTest" configurationId="JUnit" />
+    <history-entry file="GameTest_gameLogic - 2019.06.16 at 04h 57m 19s.xml">
+      <configuration name="GameTest.gameLogic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_cc3002-tarea2 - 2019.06.14 at 21h 18m 38s.xml">
+    <history-entry file="All_in_cc3002-tarea2 - 2019.06.16 at 04h 57m 31s.xml">
       <configuration name="All in cc3002-tarea2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43255000" />
+    <option name="totallyTimeSpent" value="93464000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27046978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,15 +892,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
@@ -455,39 +915,6 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3295302" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -500,402 +927,809 @@
     <SUITE FILE_PATH="coverage/cc3002_tarea2$pokemon_in_cc3002_tarea2.ic" NAME="pokemon in cc3002-tarea2 Coverage Results" MODIFIED="1560233590577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pokemon.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/cc3002_tarea2$All_in_cc3002_tarea2.ic" NAME="All in cc3002-tarea2 Coverage Results" MODIFIED="1560561515769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cc3002_tarea2$All_in_cc3002_tarea2.ic" NAME="All in cc3002-tarea2 Coverage Results" MODIFIED="1560675449329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/FirstEvoElectricPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/SecondEvoElectricPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="56" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/BasicElectricPokemonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/trainercards/AbstractItemCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/electric/ElectricAttackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/abilities/EnergyBurnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/abilities/ElectricShockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="51" lean-forward="true" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/controller/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractEnergy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pokemon/abilities/PotionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/trainercards/IItemCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding>
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IAttack.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/ITrainerCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/ICard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/abilities/visitor/visitDamageSwap.java" />
     <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractAbility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="884">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/abilities/ElectricShock.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/DamageSwap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/abilities/Potion.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/visitor/visitPotion.java" />
+    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/IAbility.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/EnergyBurn.java" />
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/visitor/ProffesorJuniper.java" />
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/visitor/Visitor.java" />
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/EnergyBurnTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/Potion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/abilities/EnergyBurn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/ElectricShock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        <state relative-caret-position="335">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
-            <element signature="e#5949#5950#0" expanded="true" />
-            <element signature="e#5982#5983#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/IPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="522">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/AbstractElectricPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/AbstractPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        <state relative-caret-position="2106">
+          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/AbstractEvoElectricPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/FireSpin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/ElectricShockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/DamageSwapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/FireSpinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/SecondEvoGrassPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="57" column="64" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/grass/FirstEvoGrassPokemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/BasicElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/ElectricAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/FirstEvoElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/electric/SecondEvoElectricPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/AbstractFightingPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/AbstractEvoFightingPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/BasicFightingPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/FirstEvoFightingPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fighting/SecondEvoFightingPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/BasicFirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="49" column="61" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/grass/SecondEvoGrassPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/grass/FirstEvoGrassPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/AbstractEvoGrassPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/AbstractPsychicPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/AbstractEvoPsychicPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/grass/BasicGrassPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/SecondEvoPsychicPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/grass/AbstractGrassPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/FirstEvoPsychicPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/FirstEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/SecondEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractEvoFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/fire/AbstractFirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/TrainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/psychic/BasicPsychicPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/FirstEvoPsychicPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="54" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/psychic/BasicPsychicPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/fighting/BasicFightingPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/PotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/water/AbstractWaterPokemon.java">
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/ProfessorJuniperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/water/AbstractEvoWaterPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/ProfessorJuniper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/water/BasicWaterPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/requirements/TrainingCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/water/SecondEvoWaterPokemon.java">
+    <entry file="file://$PROJECT_DIR$/test/pokemon/controller/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="726">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pokemon/water/FirstEvoWaterPokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/pokemon/controller/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="-315">
+          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2356#2357#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pokemon/requirements/TrainingCenterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="92" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">pokemon</node>
+            <node x="" y="">org</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="226.0" y="265.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Romina Rodríguez/Documents/GitHub/cc3002-tarea2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pokemon/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pokemon">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pokemon</OriginalElement>
+          <nodes>
+            <node x="595.6962365591398" y="1665.0">pokemon.fire</node>
+            <node x="0.0" y="1814.0">pokemon.Trainer</node>
+            <node x="1280.972670250896" y="1665.0">pokemon.fighting</node>
+            <node x="1558.556899641577" y="352.0">pokemon.IAttack</node>
+            <node x="555.5555555555557" y="964.5">pokemon.AbstractEnergy</node>
+            <node x="1943.2638888888887" y="1665.0">pokemon.psychic</node>
+            <node x="585.320788530466" y="0.0">pokemon.ICard</node>
+            <node x="748.5555555555557" y="700.0">pokemon.AbstractPokemon</node>
+            <node x="108.83333333333348" y="975.0">pokemon.AbstractTrainerCard</node>
+            <node x="1452.570788530466" y="953.0">pokemon.AbstractAttack</node>
+            <node x="1781.2638888888887" y="1665.0">pokemon.electric</node>
+            <node x="1163.320788530466" y="165.0">pokemon.IPokemon</node>
+            <node x="1212.0143369175626" y="998.0">pokemon.IEvoPokemon</node>
+            <node x="1795.570788530466" y="1009.0">pokemon.IBasicPokemon</node>
+            <node x="1140.972670250896" y="1665.0">pokemon.grass</node>
+            <node x="1932.1541218637992" y="285.0">pokemon.AbstractAbility</node>
+            <node x="455.69623655913983" y="1665.0">pokemon.water</node>
+            <node x="686.820788530466" y="363.0">pokemon.IEnergy</node>
+            <node x="449.23655913978496" y="307.0">pokemon.AbstractCard</node>
+            <node x="91.06989247311822" y="1665.0">pokemon.trainercards</node>
+            <node x="0.0" y="363.0">pokemon.ITrainerCard</node>
+            <node x="724.0" y="1814.0">pokemon.controller</node>
+            <node x="1720.1805555555557" y="0.0">pokemon.IAbility</node>
+            <node x="1204.222670250896" y="1742.0">pokemon.requirements</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pokemon.requirements" target="pokemon.electric">
+              <point x="21.25" y="-13.5" />
+              <point x="1310.472670250896" y="1712.0" />
+              <point x="1852.2638888888887" y="1712.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="pokemon.IEvoPokemon" target="pokemon.IPokemon">
+              <point x="0.0" y="-24.5" />
+              <point x="1288.0143369175626" y="680.0" />
+              <point x="1297.820788530466" y="680.0" />
+              <point x="0.0" y="222.5" />
+            </edge>
+            <edge source="pokemon.AbstractAttack" target="pokemon.IAttack">
+              <point x="-80.75" y="-69.5" />
+              <point x="1533.320788530466" y="680.0" />
+              <point x="1639.556899641577" y="680.0" />
+              <point x="0.0" y="35.5" />
+            </edge>
+            <edge source="pokemon.AbstractTrainerCard" target="pokemon.AbstractCard">
+              <point x="56.25" y="-47.5" />
+              <point x="277.5833333333335" y="640.0" />
+              <point x="476.4032258064517" y="640.0" />
+              <point x="-54.33333333333326" y="80.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractAttack">
+              <point x="30.0" y="-13.5" />
+              <point x="1230.972670250896" y="1605.0" />
+              <point x="1587.1541218637994" y="1605.0" />
+              <point x="-26.91666666666663" y="69.5" />
+            </edge>
+            <edge source="pokemon.AbstractEnergy" target="pokemon.IEnergy">
+              <point x="43.25" y="-58.0" />
+              <point x="685.3055555555557" y="640.0" />
+              <point x="751.320788530466" y="640.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.IEvoPokemon">
+              <point x="-11.833333333333371" y="-13.5" />
+              <point x="1340.1393369175626" y="1455.0" />
+              <point x="1300.6810035842293" y="1455.0" />
+              <point x="12.666666666666629" y="24.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.IPokemon">
+              <point x="11.833333333333258" y="-13.5" />
+              <point x="1363.8060035842293" y="1575.0" />
+              <point x="1413.195788530466" y="1575.0" />
+              <point x="1413.195788530466" y="680.0" />
+              <point x="1327.7096774193549" y="680.0" />
+              <point x="29.888888888888914" y="222.5" />
+            </edge>
+            <edge source="pokemon.trainercards" target="pokemon.ITrainerCard">
+              <point x="-42.5" y="-13.5" />
+              <point x="133.56989247311822" y="1645.0" />
+              <point x="95.56989247311822" y="1645.0" />
+              <point x="95.56989247311822" y="680.0" />
+              <point x="56.5" y="680.0" />
+              <point x="-56.5" y="24.5" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.IBasicPokemon">
+              <point x="33.5" y="-13.5" />
+              <point x="2043.7638888888887" y="1365.0" />
+              <point x="1917.970788530466" y="1365.0" />
+              <point x="54.39999999999998" y="13.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractEnergy">
+              <point x="-59.16666666666674" y="-13.5" />
+              <point x="1292.8060035842293" y="1475.0" />
+              <point x="656.4722222222224" y="1475.0" />
+              <point x="14.416666666666742" y="58.0" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.AbstractEnergy">
+              <point x="-55.83333333333326" y="-13.5" />
+              <point x="1954.4305555555557" y="1405.0" />
+              <point x="714.1388888888889" y="1405.0" />
+              <point x="72.08333333333326" y="58.0" />
+            </edge>
+            <edge source="pokemon.AbstractTrainerCard" target="pokemon.ITrainerCard">
+              <point x="-56.25" y="-47.5" />
+              <point x="165.08333333333348" y="680.0" />
+              <point x="169.5" y="680.0" />
+              <point x="56.5" y="24.5" />
+            </edge>
+            <edge source="pokemon.trainercards" target="pokemon.AbstractTrainerCard">
+              <point x="42.5" y="-13.5" />
+              <point x="218.56989247311822" y="1645.0" />
+              <point x="221.33333333333348" y="1645.0" />
+              <point x="0.0" y="47.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.IPokemon">
+              <point x="59.16666666666663" y="-13.5" />
+              <point x="1911.4305555555554" y="1645.0" />
+              <point x="1983.820788530466" y="1645.0" />
+              <point x="1983.820788530466" y="660.0" />
+              <point x="1387.4874551971327" y="660.0" />
+              <point x="89.66666666666663" y="222.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.AbstractAttack">
+              <point x="11.833333333333371" y="-13.5" />
+              <point x="1864.0972222222222" y="1415.0" />
+              <point x="1694.820788530466" y="1415.0" />
+              <point x="80.75" y="69.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.IPokemon">
+              <point x="-47.08333333333326" y="-13.5" />
+              <point x="605.1129032258066" y="1515.0" />
+              <point x="545.0555555555557" y="1515.0" />
+              <point x="545.0555555555557" y="660.0" />
+              <point x="1208.1541218637994" y="660.0" />
+              <point x="-89.66666666666663" y="222.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.IBasicPokemon">
+              <point x="35.5" y="-13.5" />
+              <point x="1887.7638888888887" y="1645.0" />
+              <point x="1890.770788530466" y="1645.0" />
+              <point x="27.19999999999999" y="13.5" />
+            </edge>
+            <edge source="pokemon.requirements" target="pokemon.trainercards">
+              <point x="-63.75" y="-13.5" />
+              <point x="1225.472670250896" y="1722.0" />
+              <point x="176.06989247311822" y="1722.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="pokemon.requirements" target="pokemon.fire">
+              <point x="-21.25" y="-13.5" />
+              <point x="1267.972670250896" y="1712.0" />
+              <point x="652.1962365591398" y="1712.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="pokemon.AbstractCard" target="pokemon.ICard">
+              <point x="0.0" y="-80.5" />
+              <point x="530.736559139785" y="145.0" />
+              <point x="647.570788530466" y="145.0" />
+              <point x="-20.75" y="57.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.IEvoPokemon">
+              <point x="24.0" y="-13.5" />
+              <point x="539.6962365591398" y="1555.0" />
+              <point x="1224.6810035842293" y="1555.0" />
+              <point x="-63.33333333333337" y="24.5" />
+            </edge>
+            <edge source="pokemon.AbstractAbility" target="pokemon.IAbility">
+              <point x="0.0" y="-102.5" />
+              <point x="2084.1541218637994" y="145.0" />
+              <point x="1925.6805555555557" y="145.0" />
+              <point x="68.5" y="57.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.AbstractPokemon">
+              <point x="-9.416666666666686" y="-13.5" />
+              <point x="642.7795698924731" y="1545.0" />
+              <point x="855.0555555555557" y="1545.0" />
+              <point x="-106.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.IEnergy" target="pokemon.ICard">
+              <point x="0.0" y="-24.5" />
+              <point x="751.320788530466" y="145.0" />
+              <point x="689.070788530466" y="145.0" />
+              <point x="20.75" y="57.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.IBasicPokemon">
+              <point x="59.16666666666674" y="-13.5" />
+              <point x="1411.1393369175628" y="1645.0" />
+              <point x="1863.570788530466" y="1645.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="pokemon.requirements" target="pokemon.AbstractAbility">
+              <point x="63.75" y="-13.5" />
+              <point x="1352.972670250896" y="1722.0" />
+              <point x="2160.1541218637994" y="1722.0" />
+              <point x="76.0" y="102.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.AbstractAttack">
+              <point x="28.25" y="-13.5" />
+              <point x="680.4462365591398" y="1595.0" />
+              <point x="1533.320788530466" y="1595.0" />
+              <point x="-80.75" y="69.5" />
+            </edge>
+            <edge source="pokemon.AbstractAttack" target="pokemon.AbstractAbility">
+              <point x="80.75" y="-69.5" />
+              <point x="1694.820788530466" y="680.0" />
+              <point x="2008.1541218637992" y="680.0" />
+              <point x="-76.0" y="102.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractPokemon">
+              <point x="-30.0" y="-13.5" />
+              <point x="1170.972670250896" y="1485.0" />
+              <point x="926.0555555555557" y="1485.0" />
+              <point x="-35.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.IEvoPokemon">
+              <point x="-11.166666666666742" y="-13.5" />
+              <point x="1999.0972222222222" y="1385.0" />
+              <point x="1351.347670250896" y="1385.0" />
+              <point x="63.33333333333326" y="24.5" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.AbstractPokemon">
+              <point x="-33.5" y="-13.5" />
+              <point x="1976.7638888888887" y="1395.0" />
+              <point x="1139.0555555555557" y="1395.0" />
+              <point x="177.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.IAttack" target="pokemon.IAbility">
+              <point x="0.0" y="-35.5" />
+              <point x="1639.556899641577" y="145.0" />
+              <point x="1788.6805555555557" y="145.0" />
+              <point x="-68.5" y="57.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.IBasicPokemon">
+              <point x="50.0" y="-13.5" />
+              <point x="1250.972670250896" y="1635.0" />
+              <point x="1836.370788530466" y="1635.0" />
+              <point x="-27.19999999999999" y="13.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.IEvoPokemon">
+              <point x="10.0" y="-13.5" />
+              <point x="1210.972670250896" y="1575.0" />
+              <point x="1275.347670250896" y="1575.0" />
+              <point x="-12.666666666666629" y="24.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.IPokemon">
+              <point x="-10.0" y="-13.5" />
+              <point x="1190.972670250896" y="1545.0" />
+              <point x="1185.0555555555557" y="1545.0" />
+              <point x="1185.0555555555557" y="680.0" />
+              <point x="1267.931899641577" y="680.0" />
+              <point x="-29.888888888888914" y="222.5" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractPokemon">
+              <point x="-35.5" y="-13.5" />
+              <point x="1316.472670250896" y="1465.0" />
+              <point x="997.0555555555557" y="1465.0" />
+              <point x="35.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.AbstractPokemon">
+              <point x="-35.5" y="-13.5" />
+              <point x="1816.7638888888887" y="1435.0" />
+              <point x="1068.0555555555557" y="1435.0" />
+              <point x="106.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractPokemon">
+              <point x="0.0" y="-13.5" />
+              <point x="515.6962365591398" y="1535.0" />
+              <point x="784.0555555555557" y="1535.0" />
+              <point x="-177.5" y="322.5" />
+            </edge>
+            <edge source="pokemon.ITrainerCard" target="pokemon.ICard">
+              <point x="0.0" y="-24.5" />
+              <point x="113.0" y="135.0" />
+              <point x="606.070788530466" y="135.0" />
+              <point x="-62.25" y="57.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractEnergy">
+              <point x="-24.0" y="-13.5" />
+              <point x="491.69623655913983" y="1525.0" />
+              <point x="569.9722222222224" y="1525.0" />
+              <point x="-72.08333333333326" y="58.0" />
+            </edge>
+            <edge source="pokemon.fighting" target="pokemon.AbstractAttack">
+              <point x="35.5" y="-13.5" />
+              <point x="1387.472670250896" y="1615.0" />
+              <point x="1640.9874551971327" y="1615.0" />
+              <point x="26.916666666666742" y="69.5" />
+            </edge>
+            <edge source="pokemon.AbstractPokemon" target="pokemon.AbstractCard">
+              <point x="-106.5" y="-322.5" />
+              <point x="855.0555555555557" y="630.0" />
+              <point x="585.0698924731182" y="630.0" />
+              <point x="54.33333333333326" y="80.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.IEvoPokemon">
+              <point x="9.416666666666686" y="-13.5" />
+              <point x="661.6129032258066" y="1565.0" />
+              <point x="1250.0143369175626" y="1565.0" />
+              <point x="-38.0" y="24.5" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.IBasicPokemon">
+              <point x="47.083333333333314" y="-13.5" />
+              <point x="699.2795698924731" y="1625.0" />
+              <point x="1809.1707885304659" y="1625.0" />
+              <point x="-54.39999999999998" y="13.5" />
+            </edge>
+            <edge source="pokemon.IPokemon" target="pokemon.ICard">
+              <point x="0.0" y="-222.5" />
+              <point x="1297.820788530466" y="135.0" />
+              <point x="730.570788530466" y="135.0" />
+              <point x="62.25" y="57.5" />
+            </edge>
+            <edge source="pokemon.AbstractEnergy" target="pokemon.AbstractCard">
+              <point x="-43.25" y="-58.0" />
+              <point x="598.8055555555557" y="640.0" />
+              <point x="530.736559139785" y="640.0" />
+              <point x="0.0" y="80.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.AbstractEnergy">
+              <point x="-59.16666666666674" y="-13.5" />
+              <point x="1793.0972222222222" y="1445.0" />
+              <point x="685.3055555555557" y="1445.0" />
+              <point x="43.25" y="58.0" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.IPokemon">
+              <point x="-48.0" y="-13.5" />
+              <point x="467.69623655913983" y="1645.0" />
+              <point x="408.4041218637992" y="1645.0" />
+              <point x="408.4041218637992" y="650.0" />
+              <point x="1178.2652329749105" y="650.0" />
+              <point x="-119.55555555555554" y="222.5" />
+            </edge>
+            <edge source="pokemon.water" target="pokemon.AbstractAttack">
+              <point x="48.0" y="-13.5" />
+              <point x="563.6962365591398" y="1585.0" />
+              <point x="1479.4874551971327" y="1585.0" />
+              <point x="-134.58333333333337" y="69.5" />
+            </edge>
+            <edge source="pokemon.grass" target="pokemon.AbstractEnergy">
+              <point x="-50.0" y="-13.5" />
+              <point x="1150.972670250896" y="1495.0" />
+              <point x="627.6388888888889" y="1495.0" />
+              <point x="-14.416666666666742" y="58.0" />
+            </edge>
+            <edge source="pokemon.fire" target="pokemon.AbstractEnergy">
+              <point x="-28.25" y="-13.5" />
+              <point x="623.9462365591398" y="1505.0" />
+              <point x="598.8055555555557" y="1505.0" />
+              <point x="-43.25" y="58.0" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.AbstractAttack">
+              <point x="11.166666666666742" y="-13.5" />
+              <point x="2021.4305555555557" y="1375.0" />
+              <point x="1748.6541218637994" y="1375.0" />
+              <point x="134.58333333333337" y="69.5" />
+            </edge>
+            <edge source="pokemon.electric" target="pokemon.IEvoPokemon">
+              <point x="-11.833333333333371" y="-13.5" />
+              <point x="1840.4305555555554" y="1425.0" />
+              <point x="1326.0143369175626" y="1425.0" />
+              <point x="38.0" y="24.5" />
+            </edge>
+            <edge source="pokemon.IBasicPokemon" target="pokemon.IPokemon">
+              <point x="0.0" y="-13.5" />
+              <point x="1863.570788530466" y="670.0" />
+              <point x="1357.5985663082438" y="670.0" />
+              <point x="59.77777777777783" y="222.5" />
+            </edge>
+            <edge source="pokemon.psychic" target="pokemon.IPokemon">
+              <point x="55.83333333333326" y="-13.5" />
+              <point x="2066.097222222222" y="1645.0" />
+              <point x="2094.222222222222" y="1645.0" />
+              <point x="2094.222222222222" y="650.0" />
+              <point x="1417.3763440860216" y="650.0" />
+              <point x="119.55555555555566" y="222.5" />
+            </edge>
+            <edge source="pokemon.AbstractPokemon" target="pokemon.IPokemon">
+              <point x="106.5" y="-322.5" />
+              <point x="1068.0555555555557" y="670.0" />
+              <point x="1238.0430107526881" y="670.0" />
+              <point x="-59.77777777777783" y="222.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6448298008991651" x="758.5" y="1577.8859561752988" />
+          <SelectedNodes>
+            <node>pokemon.controller</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

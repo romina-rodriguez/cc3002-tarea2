@@ -27,8 +27,8 @@ public abstract class AbstractAttack extends AbstractAbility implements IAttack 
     }
 
     @Override
-    public void useAbility(IPokemon pokemon){
-        attack(pokemon);
+    public void useAbility(Trainer trainer){
+        attack(trainer.getActivePokemon());
     }
 
     //region Properties

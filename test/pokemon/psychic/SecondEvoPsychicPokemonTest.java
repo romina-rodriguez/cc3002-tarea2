@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.fighting.FightingAttack;
 import pokemon.fighting.FightingEnergy;
 import pokemon.grass.BasicGrassPokemon;
@@ -33,6 +34,7 @@ public class SecondEvoPsychicPokemonTest {
     private FightingEnergy fightingEnergy;
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -48,6 +50,11 @@ public class SecondEvoPsychicPokemonTest {
         alakazam = new SecondEvoPsychicPokemon("Alakazam", 65, 100,
                 new ArrayList<>(Arrays.asList(psychicAttack)),
                 new ArrayList<>(Arrays.asList()), 64);
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -72,7 +79,7 @@ public class SecondEvoPsychicPokemonTest {
     @Test
     public void attackTest() {
         alakazam.selectAbility(0);
-        alakazam.attack(bulbasaur);
+        alakazam.attack(trainer);
         assertEquals(100, bulbasaur.getHP());
     }
 

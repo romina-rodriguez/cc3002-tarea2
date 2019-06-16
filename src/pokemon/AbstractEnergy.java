@@ -8,9 +8,7 @@ import java.util.ArrayList;
  *
  * @author Romina Rodríguez
  */
-public abstract class AbstractEnergy implements IEnergy {
-
-    private String type; //doubles as energy name.
+public abstract class AbstractEnergy extends AbstractCard implements IEnergy {
 
     /**
      * Creates a new energy.
@@ -18,14 +16,18 @@ public abstract class AbstractEnergy implements IEnergy {
      * @param type Energy type
      */
     public AbstractEnergy(String type){
-        this.type = type;
+        super(type);
+    }
+
+    public void useCard(Trainer trainer, int index){
+        IPokemon pokemon = trainer.selectPokemon(index);
+        ArrayList<IEnergy> pokemonEnergyList = pokemon.getEnergies();
+        pokemonEnergyList.add(this);
     }
 
     @Override
-    public void useCard(Trainer trainer){
-        IPokemon activePokemon = trainer.getActivePokemon();
-        ArrayList<IEnergy> activePokemonEnergyList = activePokemon.getEnergies();
-        activePokemonEnergyList.add(this);
+    public void useCard(Trainer trainer) {
+        useCard(trainer, -1);
     }
 
     //region Properties
@@ -35,18 +37,8 @@ public abstract class AbstractEnergy implements IEnergy {
      * @return Energy type.
      */
     @Override
-    public String getType(){
-        return type;
-    }
-
-    /**
-     * Getter for the Energy Card's name.
-     *
-     * @return Card's name.
-     */
-    @Override
-    public String getCardName() {
-        return type;
+    public String getType() {
+        return this.getCardName();
     }
     //endregion
 }

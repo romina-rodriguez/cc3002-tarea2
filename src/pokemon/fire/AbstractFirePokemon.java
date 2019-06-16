@@ -20,7 +20,7 @@ public abstract class AbstractFirePokemon extends AbstractPokemon implements IFi
      * @param name       Pokémon's name.
      * @param number     Pokémon's number.
      * @param hp         Pokémon's hit points.
-     * @param abilityList Pokémon's abilities.
+     * @param abilityList Pokémon's requirements.
      * @param energyList Pokémon's energies.
      */
     protected AbstractFirePokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList) {

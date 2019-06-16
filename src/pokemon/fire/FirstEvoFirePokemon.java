@@ -18,11 +18,11 @@ public class FirstEvoFirePokemon extends AbstractEvoFirePokemon {
      * @param name         Pokémon's name.
      * @param number       Pokémon's number.
      * @param hp           Pokémon's hit points.
-     * @param abilityList   Pokémon's abilities.
+     * @param abilityList   Pokémon's requirements.
      * @param energyList   Pokémon's energies.
      * @param preEvolution Pokémo's pre-evolution.
      */
-    protected FirstEvoFirePokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList, int preEvolution) {
+    public FirstEvoFirePokemon(String name, int number, int hp, ArrayList<IAbility> abilityList, ArrayList<IEnergy> energyList, int preEvolution) {
         super(name, number, hp, abilityList, energyList, preEvolution);
     }
 }

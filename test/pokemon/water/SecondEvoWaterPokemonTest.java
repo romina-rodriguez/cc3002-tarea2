@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pokemon.IEvoPokemon;
 import pokemon.IPokemon;
+import pokemon.Trainer;
 import pokemon.electric.ElectricAttack;
 import pokemon.electric.ElectricEnergy;
 import pokemon.fighting.FightingAttack;
@@ -35,6 +36,7 @@ public class SecondEvoWaterPokemonTest {
     private WaterEnergy waterEnergy;
     private GrassEnergy grassEnergy;
     private GrassAttack grassAttack;
+    private Trainer trainer;
 
     @Before
     public void setUp() {
@@ -49,9 +51,14 @@ public class SecondEvoWaterPokemonTest {
         bulbasaur = new BasicGrassPokemon("Bulbasaur", 1, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList(grassEnergy)));
-        blastoise = new FirstEvoWaterPokemon("Blastoise", 9, 100,
+        blastoise = new SecondEvoWaterPokemon("Blastoise", 9, 100,
                 new ArrayList<>(Arrays.asList(waterAttack)),
                 new ArrayList<>(Arrays.asList(waterEnergy)), 8);
+        trainer = new Trainer("Misty", bulbasaur,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()), new ArrayList<>(),
+                new ArrayList<>(),
+                new ArrayList<>());
     }
 
     @Test
@@ -78,7 +85,7 @@ public class SecondEvoWaterPokemonTest {
     @Test
     public void attackTest() {
         blastoise.selectAbility(0);
-        blastoise.attack(bulbasaur);
+        blastoise.attack(trainer);
         assertEquals(90, bulbasaur.getHP());
     }
 

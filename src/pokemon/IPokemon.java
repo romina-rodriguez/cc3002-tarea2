@@ -1,13 +1,12 @@
 package pokemon;
 
-import pokemon.abilities.ElectricShock;
-import pokemon.abilities.EnergyBurn;
-import pokemon.abilities.Potion;
+import pokemon.requirements.ElectricShock;
 import pokemon.fighting.FightingAttack;
 import pokemon.fire.FireAttack;
 import pokemon.grass.GrassAttack;
 import pokemon.psychic.PsychicAttack;
 import pokemon.electric.ElectricAttack;
+import pokemon.requirements.FireSpin;
 import pokemon.water.WaterAttack;
 import java.util.ArrayList;
 
@@ -36,7 +35,7 @@ public interface IPokemon extends ICard {
     int getHP();
 
     /**
-     * @return List with all the Pokémon abilities.
+     * @return List with all the Pokémon requirements.
      */
     ArrayList<IAbility> getAbilities();
 
@@ -52,21 +51,6 @@ public interface IPokemon extends ICard {
     //endregion
 
     /**
-     * Adds a Pokémon to the trainer's bench if a spot is available.
-     *
-     * @param trainer trainer that chose the card.
-     * @param pokemonCard Pokémon card selected.
-     */
-    void addToBench(Trainer trainer, IPokemon pokemonCard);
-
-    /**
-     * Once the current active Pokémon dies, another one must be promoted from the bench if available.
-     *
-     * @param trainer trainer that chose the card.
-     */
-    void promoteToActive(Trainer trainer);
-
-    /**
      * Checks whether the Pokémon is dead or not.
      *
      * @return true if the pokemon is dead, false if not.
@@ -74,16 +58,16 @@ public interface IPokemon extends ICard {
     boolean isDead();
 
     /**
-     * Attacks another Pokémon.
+     * Performs an attack.
      *
      * @param other Target of the attack.
      */
-    void attack(IPokemon other);
+    void attack(Trainer other);
 
     /**
-     * Selects an attack.
+     * Selects an ability.
      *
-     * @param index Index of the attack to be selected.
+     * @param index Index of the ability to be selected.
      */
     void selectAbility(int index);
 
@@ -137,23 +121,23 @@ public interface IPokemon extends ICard {
     void receiveElectricShock(ElectricShock attack);
 
     /**
-     * Receives effect from an energy burn.
-     *
-     * @param ability Received ability.
-     */
-    void receiveEnergyBurn(EnergyBurn ability);
-
-    /**
-     * Receives effect from a potion.
-     *
-     * @param ability Received ability.
-     */
-    void receivePotion(Potion ability);
-
-    /**
      * Sets a Pokémon's hp
      *
      * @param newHP Pokémon's new hit points
      */
     void setHP(int newHP);
+
+    /**
+     * Receives effect from an attack.
+     *
+     * @param attack Received attack.
+     */
+    void receiveAttack(IAttack attack);
+
+    /**
+     * Receives effect from a fire spin.
+     *
+     * @param fireSpin Received attack.
+     */
+    void receiveFireSpin(FireSpin fireSpin);
 }

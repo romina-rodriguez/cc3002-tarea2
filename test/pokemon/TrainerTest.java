@@ -12,7 +12,8 @@ import pokemon.water.WaterEnergy;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
+
 /**
  * Tests set for the Trainer class.
  *
@@ -20,7 +21,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class TrainerTest {
 
-    private Trainer trainer;
+    private Trainer trainer, otherTrainer;
     private IPokemon
             bulbasaur,
             pikachu,
@@ -42,27 +43,26 @@ public class TrainerTest {
         pikachu = new BasicElectricPokemon("Pikachu", 25, 100,
                 new ArrayList<>(Arrays.asList()),
                 new ArrayList<>(Arrays.asList()));
-        trainer = new Trainer("Misty", bulbasaur,
-                new ArrayList<>(Arrays.asList()),
+        trainer = new Trainer("Misty", null,
+                new ArrayList<>(Arrays.asList()), new ArrayList<>(),
                 new ArrayList<>(Arrays.asList(squirtle, waterEnergy)),
                 new ArrayList<>(),
+                new ArrayList<>(Arrays.asList(squirtle)));
+        otherTrainer = new Trainer("Mina", squirtle,
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(Arrays.asList()),
+                new ArrayList<>(), new ArrayList<>(),
                 new ArrayList<>());
     }
 
     @Test
     public void constructorTest() {
         assertEquals("Misty", trainer.getTrainersName());
+        trainer.setActivePokemon(bulbasaur);
         assertEquals(bulbasaur, trainer.getActivePokemon());
         assertEquals(new ArrayList<>(Arrays.asList()), trainer.getPokemonBench());
+        assertEquals(new ArrayList<>(Arrays.asList()), trainer.getHand());
         assertEquals(new ArrayList<>(Arrays.asList()), trainer.getDiscardPile());
-    }
-
-    @Test
-    public void selectAttackAndAttackOpponentTest() {
-        trainer.getActivePokemon().selectAbility(0);
-        assertEquals(grassAttack, trainer.getActivePokemon().getSelectedAbility());
-        trainer.getActivePokemon().attack(pikachu); //attacks enemy's active Pokémon
-        assertEquals(60, pikachu.getHP());
     }
 
     @Test
@@ -70,14 +70,38 @@ public class TrainerTest {
         trainer.discard(pikachu);
         assertEquals(new ArrayList<>(Arrays.asList(pikachu)), trainer.getDiscardPile());
     }
-    /*@Test
-    public void useCardFromDeckTest() {
-        assertEquals(new ArrayList<>(Arrays.asList(squirtle, waterEnergy)), trainer.getDeck());
-        assertEquals(squirtle, trainer.getDeck().get(0));
-        squirtle.useCard(trainer);
-        trainer.getDeck().remove(squirtle);
-        assertEquals(new ArrayList<>(Arrays.asList(waterEnergy)), trainer.getDeck());
-        assertEquals(waterEnergy, trainer.getDeck().get(0));
-    }*/
 
+    @Test
+    public void addToBenchTest() {
+        trainer.addToBench(pikachu);
+        assertTrue(trainer.getPokemonBench().size() < 5);
+        assertEquals(pikachu, trainer.getPokemonBench().get(0));
+    }
+
+    @Test
+    public void setActivePokemonTest(){
+        trainer.setActivePokemon(bulbasaur);
+        assertEquals(bulbasaur, trainer.getActivePokemon());
+    }
+
+    @Test
+    public void selectPokemonTest() {
+        trainer.addToBench(pikachu);
+        trainer.setActivePokemon(bulbasaur);
+        assertEquals(trainer.selectPokemon(0), pikachu);
+        assertEquals(trainer.selectPokemon(-1), bulbasaur);
+    }
+
+    @Test
+    public void playTest() {
+        trainer.play(bulbasaur);
+        assertEquals(bulbasaur, trainer.getActivePokemon());
+    }
+
+    @Test
+    public void attackOpponentTest() {
+        trainer.setActivePokemon(bulbasaur);
+        trainer.attackOpponent(0, otherTrainer);
+        assertEquals(otherTrainer.getActivePokemon().getHP(), 20);
+    }
 }
